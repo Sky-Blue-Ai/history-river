@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "id": "cn-confucius",
+      "track": "cn",
+      "epochId": "e2",
+      "start": -551,
+      "end": -479,
+      "title": "孔子设教与仁礼之学",
+      "subtitle": "从王官之学走向有教无类",
+      "era": "春秋 · 鲁国",
+      "region": "黄河下游",
+      "themes": ["哲学", "教育"],
+      "summary": "孔子在鲁国开馆授徒，不问出身只收束脩，把贵族垄断的礼乐知识向平民开放。他不著书，靠问答与删述六经传学，身后弟子辑成《论语》，成为此后两千年东亚政治伦理的底层语汇。",
+      "background": "春秋末期，周王室衰微，礼乐秩序崩坏。诸侯争霸带来的社会流动，使「士」这一介于贵族与庶民之间的阶层迅速扩大，为私人讲学提供了需求与市场。",
+      "course": "孔子曾短暂出任鲁国司寇，后率弟子周游列国十四年求行道，终不见用，晚年归鲁整理《诗》《书》，授徒至终。他的核心主张是「仁」为内在根据、「礼」为外在秩序，并以「正名」回应秩序崩解。",
+      "impact": "孔子身后，儒学经孟子、荀子分化，至汉武帝时被立为官学。科举制建立后，《论语》成为所有读书人的共同起点，儒家伦理也深刻塑造了朝鲜、日本、越南的政治文化。",
+      "figures": [{ "name": "孔丘", "role": "思想家、教育家" }, { "name": "颜回", "role": "弟子" }],
+      "counterparts": ["world-athens"],
+      "sources": [
+        { "title": "孔子", "url": "https://zh.wikipedia.org/wiki/孔子", "publisher": "维基百科" },
+        { "title": "史记·孔子世家", "url": "https://zh.wikisource.org/wiki/史記/卷047", "publisher": "维基文库" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-athens",
+      "track": "world",
+      "epochId": "e2",
+      "start": -508,
+      "end": -507,
+      "title": "雅典民主改革",
+      "subtitle": "公民大会与抽签政治",
+      "era": "古希腊 · 雅典",
+      "region": "爱琴海",
+      "themes": ["制度", "哲学"],
+      "summary": "克里斯提尼重组雅典部落，把政治单位从血缘改成地域，设立五百人议事会与公民大会。此后雅典的重大决策由抽签产生的普通公民投票决定，这是人类第一次把「轮流统治」制度化。",
+      "background": "此前的梭伦改革以财产划分等级、废除债务奴役，缓和了贵族与平民的冲突。僭主政治结束后，雅典需要一个防止权力再度集中的新秩序。",
+      "course": "新制度以十个地域部落为基础，每个部落轮流执掌议事会一整个月；公民大会法定人数约六千人，陶片放逐法允许公民投票流放被认为威胁城邦的人。伯里克利时期，公职津贴使贫民也能实际参政。",
+      "impact": "雅典民主的边界同样明显：妇女、外邦人与奴隶都不在公民之内，真正有政治权的人口不足十分之一。但它确立的「公开辩论—投票—问责」程序，成为后世代议制的思想源头。",
+      "figures": [{ "name": "克里斯提尼", "role": "改革者" }, { "name": "伯里克利", "role": "民主鼎盛期领袖" }],
+      "counterparts": ["cn-confucius"],
+      "sources": [
+        { "title": "雅典式民主", "url": "https://zh.wikipedia.org/wiki/雅典式民主", "publisher": "维基百科" },
+        { "title": " Athenian democracy", "url": "https://en.wikipedia.org/wiki/Athenian_democracy", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "cn-qin-unify",
+      "track": "cn",
+      "epochId": "e2",
+      "start": -221,
+      "end": -206,
+      "title": "秦统一六国",
+      "subtitle": "郡县、书同文与中央集权",
+      "era": "秦",
+      "region": "东亚",
+      "themes": ["政略", "制度"],
+      "summary": "秦王政十年之内灭韩赵魏楚燕齐，自称始皇帝，废分封行郡县，统一文字、度量衡与货币，修驰道、筑长城。秦祚仅十五年，却把「大一统」写成了此后中国政治的默认设定。",
+      "background": "商鞅变法后，秦国以军功爵、编户齐民与重农抑商把国家改造成高效的战争机器。关中与巴蜀的粮食基础，使其能支撑长期远征。",
+      "course": "统一后推行三十六郡、郡守县令由中央任免；以小篆为标准字体，车同轨、统一货币为半两钱；迁徙豪强、收天下兵器铸十二金人；北击匈奴、南定百越，并修万里长城与灵渠。",
+      "impact": "秦制被汉朝继承并柔化，「百代都行秦政法」由此而来。焚书坑儒与严刑峻法也让秦成为后世反复引用的反面教材，构成中国政治思想中「治乱兴亡」的核心案例。",
+      "figures": [{ "name": "嬴政", "role": "秦始皇" }, { "name": "李斯", "role": "丞相" }],
+      "counterparts": ["world-alexander"],
+      "sources": [
+        { "title": "秦朝", "url": "https://zh.wikipedia.org/wiki/秦朝", "publisher": "维基百科" },
+        { "title": "史记·秦始皇本纪", "url": "https://zh.wikisource.org/wiki/史記/卷006", "publisher": "维基文库" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-alexander",
+      "track": "world",
+      "epochId": "e2",
+      "start": -334,
+      "end": -323,
+      "title": "亚历山大东征",
+      "subtitle": "希腊化世界的诞生",
+      "era": "马其顿",
+      "region": "地中海至中亚",
+      "themes": ["征伐", "文化"],
+      "summary": "亚历山大在十余年间从希腊打到印度河，灭掉阿契美尼德波斯帝国，建立起横跨欧亚非的短命帝国。他沿途建立以自己命名的城市，把希腊语、希腊雕塑与城邦制度带到中亚。",
+      "background": "马其顿的腓力二世以萨里沙长矛方阵与骑兵协同改造军队，统一希腊诸邦。其遇刺后，二十岁的亚历山大继位，随即以「报复波斯」为名东征。",
+      "course": "前334 年渡赫勒斯滂，伊苏斯之战击溃大流士三世；前331 年高加米拉之战后进入巴比伦与波斯波利斯；随后东进至巴克特里亚与印度河，因士卒哗变于前324 年回师巴比伦，次年病逝。",
+      "impact": "帝国随即分裂为托勒密、塞琉古、安提柯诸王国，但「希腊化」延续了近三百年，亚历山大里亚的缪斯宫成为古代学术中心。犍陀罗佛像艺术正是希腊造型与佛教信仰相遇的产物。",
+      "figures": [{ "name": "亚历山大", "role": "马其顿国王" }, { "name": "大流士三世", "role": "波斯末代君主" }],
+      "counterparts": ["cn-qin-unify"],
+      "sources": [
+        { "title": "亚历山大大帝", "url": "https://zh.wikipedia.org/wiki/亚历山大大帝", "publisher": "维基百科" },
+        { "title": "Hellenistic period", "url": "https://en.wikipedia.org/wiki/Hellenistic_period", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    }
+  ]
+}

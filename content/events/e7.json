@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "id": "cn-opium-war",
+      "track": "cn",
+      "epochId": "e7",
+      "start": 1840,
+      "end": 1842,
+      "title": "鸦片战争与《南京条约》",
+      "subtitle": "朝贡体系撞上条约体系",
+      "era": "清 · 道光",
+      "region": "东南沿海",
+      "themes": ["征伐", "政略"],
+      "summary": "林则徐在虎门销烟后，英国以武力回应，清军连败，1842 年签订《南京条约》：割香港岛、开五口、赔款两千一百万银元、协定关税。中国被迫进入以条约为框架的对外关系，史称「三千年未有之变局」的开端。",
+      "background": "18 世纪起，中国茶叶与生丝大量输英，英国以鸦片平衡贸易逆差，白银外流与吸食泛滥促使清廷禁烟。英国国内则把自由贸易与炮舰绑成一套政策。",
+      "course": "1839 年虎门销烟；1840 年英军北上定海、天津；1842 年 8 月《南京条约》签订，随后《虎门条约》《望厦条约》《黄埔条约》补充领事裁判权与最惠国待遇，构成此后百年的条约体系骨架。",
+      "impact": "协定关税使中国失去关税自主权，五口通商重塑沿海经济，上海取代广州成为外贸中心。更深远的是认知冲击：此后七十年中国的改革议题——自强、变法、革命——都从这场失败开始。",
+      "figures": [{ "name": "林则徐", "role": "钦差大臣" }, { "name": "查理·义律", "role": "英国驻华商务监督" }],
+      "counterparts": ["world-meiji"],
+      "sources": [
+        { "title": "第一次鸦片战争", "url": "https://zh.wikipedia.org/wiki/第一次鸦片战争", "publisher": "维基百科" },
+        { "title": "南京条约", "url": "https://zh.wikipedia.org/wiki/南京条约", "publisher": "维基百科" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-meiji",
+      "track": "world",
+      "epochId": "e7",
+      "start": 1868,
+      "end": 1889,
+      "title": "明治维新",
+      "subtitle": "同样被叩关，不同的答案",
+      "era": "日本 · 明治",
+      "region": "东亚",
+      "themes": ["政略", "制度"],
+      "summary": "1853 年美国黑船叩关后，日本用十五年完成倒幕、废藩置县、殖产兴业与征兵制，1889 年颁布《大日本帝国宪法》。同样是面对西方压力，日本把「学习对方」变成了国家工程。",
+      "background": "佩里来航后签订《日美亲善条约》，通商与领事裁判权条款激起「尊王攘夷」运动。西南诸藩的下级武士联合宫廷发动倒幕，1868 年王政复古。",
+      "course": "1869 年版籍奉还、1871 年废藩置县，1872 年学制与 1873 年征兵令打破身份壁垒；岩仓使节团赴欧美考察一年十个月；1880 年代以官营工厂示范后低价转让给私人，形成财阀。",
+      "impact": "明治维新使日本在三十年内成为东亚唯一的工业化强国，也使它在 1894 年甲午战争与 1904 年日俄战争中击败大国。它是中国改革派最常引用的「成功样本」，但征兵与税负的代价由农民承担。",
+      "figures": [{ "name": "明治天皇", "role": "天皇" }, { "name": "大久保利通", "role": "内务卿" }, { "name": "伊藤博文", "role": "首任内阁总理大臣" }],
+      "counterparts": ["cn-opium-war", "cn-xinhai"],
+      "sources": [
+        { "title": "明治维新", "url": "https://zh.wikipedia.org/wiki/明治维新", "publisher": "维基百科" },
+        { "title": "Meiji Restoration", "url": "https://en.wikipedia.org/wiki/Meiji_Restoration", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "cn-xinhai",
+      "track": "cn",
+      "epochId": "e7",
+      "start": 1911,
+      "end": 1912,
+      "title": "辛亥革命",
+      "subtitle": "两千年帝制的终点",
+      "era": "清 · 宣统",
+      "region": "全国",
+      "themes": ["政略", "制度"],
+      "summary": "1911 年 10 月 10 日武昌新军起义，各省相继响应独立，1912 年 1 月中华民国临时政府在南京成立，2 月清帝退位。延续两千一百三十二年的帝制结束，共和第一次成为中国的国家形式。",
+      "background": "甲午战败后，戊戌变法失败、义和团与《辛丑条约》、清末新政与预备立宪接连受挫。同盟会自 1905 年起组织多次起义，新军与留学生成为革命的组织基础。",
+      "course": "1911 年 5 月铁路国有政策引发保路运动，湖北新军调入四川，武昌空虚。10 月 10 日工程营发难，两日内控制武汉三镇；随后十四省宣布独立。孙中山 12 月归国，1912 年 1 月 1 日就任临时大总统。",
+      "impact": "共和建立但未巩固：袁世凯接任、军阀割据、帝制复辟相继而来。辛亥革命真正完成的是「帝制不再是唯一选项」这件事，此后的政治竞争都在共和的名义下进行。",
+      "figures": [{ "name": "孙中山", "role": "临时大总统" }, { "name": "黄兴", "role": "革命军统帅" }, { "name": "袁世凯", "role": "北洋大臣、后任大总统" }],
+      "counterparts": ["world-meiji"],
+      "sources": [
+        { "title": "辛亥革命", "url": "https://zh.wikipedia.org/wiki/辛亥革命", "publisher": "维基百科" },
+        { "title": "1911 Revolution", "url": "https://en.wikipedia.org/wiki/1911_Revolution", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    }
+  ]
+}

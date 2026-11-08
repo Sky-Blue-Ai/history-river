@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "id": "cn-xuanzang",
+      "track": "cn",
+      "epochId": "e4",
+      "start": 629,
+      "end": 645,
+      "title": "玄奘西行求法",
+      "subtitle": "偷渡出关的留学生",
+      "era": "唐 · 贞观",
+      "region": "长安至天竺",
+      "themes": ["文化", "商路"],
+      "summary": "玄奘为求解说分歧，未经批准私自出关西行，经河西、高昌、中亚抵那烂陀寺，留学五年后携六百余部梵本归国。他口述的《大唐西域记》记录了沿途一百三十八国的地理与风俗。",
+      "background": "唐初佛教各派对教义理解分歧严重，汉译经典质量参差。玄奘因此决意求取梵文原典，但当时朝廷禁止百姓出境。",
+      "course": "629 年出玉门关，经高昌（今吐鲁番）、龟兹、碎叶，越铁门关进入北印度；在那烂陀寺师从戒贤，游历五印度，戒日王为他召开曲女城大会。645 年归长安，太宗命其译经并口述行程。",
+      "impact": "玄奘译出经论七十五部、一千三百余卷，确立汉传佛教的唯识学基础。《大唐西域记》不含宗教神话，被现代考古学家用来定位那烂陀、蓝毗尼等遗址，是研究中亚与南亚中世纪史的一等材料。",
+      "figures": [{ "name": "玄奘", "role": "法师" }, { "name": "戒日王", "role": "曲女城大会召集者" }],
+      "counterparts": ["world-hijra"],
+      "sources": [
+        { "title": "玄奘", "url": "https://zh.wikipedia.org/wiki/玄奘", "publisher": "维基百科" },
+        { "title": "大唐西域记", "url": "https://zh.wikisource.org/wiki/大唐西域記", "publisher": "维基文库" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-hijra",
+      "track": "world",
+      "epochId": "e4",
+      "start": 622,
+      "end": 632,
+      "title": "希吉拉与伊斯兰共同体",
+      "subtitle": "从麦加到麦地那",
+      "era": "伊斯兰创兴期",
+      "region": "阿拉伯半岛",
+      "themes": ["宗教", "政略"],
+      "summary": "622 年穆罕默德率信众从麦加迁往麦地那，建立以信仰而非血缘为纽带的社会共同体（乌玛），这一年成为伊斯兰历元年。十年之内，阿拉伯半岛大部归于一统。",
+      "background": "麦加是贸易与朝觐中心，古莱什部落靠克尔白的神庙经济获利。穆罕默德传教触动多神祭祀的利益，信众遭迫害，迁移成为唯一出路。",
+      "course": "在麦地那，他与犹太部落、阿拉伯部落订立宪章式的盟约，确立仲裁与共同防卫；628 年与麦加订立侯代比亚和约，630 年和平进入麦加，清除克尔白偶像，632 年去世时半岛基本统一。",
+      "impact": "乌玛把宗教、法律与政治合成一个共同体，此后哈里发国家的扩张能在极短时间内整合叙利亚、埃及与波斯。它也重新定义了中东的认同单位，直到现代民族国家兴起。",
+      "figures": [{ "name": "穆罕默德", "role": "先知" }, { "name": "阿布·伯克尔", "role": "首任哈里发" }],
+      "counterparts": ["cn-xuanzang"],
+      "sources": [
+        { "title": "希吉拉", "url": "https://zh.wikipedia.org/wiki/希吉拉", "publisher": "维基百科" },
+        { "title": "Hijrah", "url": "https://en.wikipedia.org/wiki/Hijrah", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "cn-talaros",
+      "track": "cn",
+      "epochId": "e4",
+      "start": 751,
+      "end": 751,
+      "title": "怛罗斯之战",
+      "subtitle": "一场败仗与技术西传",
+      "era": "唐 · 天宝",
+      "region": "中亚 · 塔拉斯河",
+      "themes": ["征伐", "科技"],
+      "summary": "唐将高仙芝率军深入中亚，在怛罗斯（今哈萨克斯坦塔拉兹一带）与阿拔斯王朝呼罗珊军交战五日，因葛逻禄部阵前倒戈而大败。战后唐朝退出中亚，阿拔斯势力东进至锡尔河。",
+      "background": "唐朝通过安西四镇控制塔里木盆地，与正在东扩的阿拔斯王朝在锡尔河流域形成直接竞争。石国（塔什干）与唐朝的冲突成为导火索。",
+      "course": "751 年高仙芝率蕃汉兵三万深入，与齐亚德·萨利赫的呼罗珊军会战。唐军战力相当，但侧翼葛逻禄部叛变，唐军溃败，数千人被俘。四年后安史之乱爆发，唐朝再无力量西顾。",
+      "impact": "被俘工匠中的造纸者把技术带到撒马尔罕，造纸业此后经巴格达、大马士革、开罗传入欧洲。这一传播链在学界有不同说法：纸张在西域本已存在，怛罗斯更可能是加速而非起点。",
+      "figures": [{ "name": "高仙芝", "role": "安西节度使" }, { "name": "齐亚德·萨利赫", "role": "阿拔斯将领" }],
+      "counterparts": ["world-baghdad"],
+      "sources": [
+        { "title": "怛罗斯之战", "url": "https://zh.wikipedia.org/wiki/怛罗斯之战", "publisher": "维基百科" },
+        { "title": "Battle of Talas", "url": "https://en.wikipedia.org/wiki/Battle_of_Talas", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": true
+    },
+    {
+      "id": "world-baghdad",
+      "track": "world",
+      "epochId": "e4",
+      "start": 762,
+      "end": 833,
+      "title": "巴格达智慧宫与大翻译",
+      "subtitle": "用黄金换古希腊的书",
+      "era": "阿拔斯王朝",
+      "region": "两河流域",
+      "themes": ["科技", "文化"],
+      "summary": "阿拔斯王朝在底格里斯河畔新建巴格达，哈里发马蒙设「智慧宫」，组织学者把希腊、波斯、印度的数学、天文、医学典籍译成阿拉伯文。花拉子密在此写出代数著作，代数学（algebra）由此得名。",
+      "background": "阿拔斯革命后，帝国重心从叙利亚移向伊拉克，波斯官僚与学者大量进入宫廷。造纸术传入使抄本成本下降，为大规模翻译提供了条件。",
+      "course": "翻译运动持续约两百年，侯奈因·伊本·伊斯哈格等译者校勘希腊医学；花拉子密编《代数学》与天文表，引入印度数字与十进位；巴格达设观测台与公共医院。1258 年蒙古攻陷巴格达，智慧宫与大部藏书毁于战火。",
+      "impact": "阿拉伯语成为中世纪知识的总汇语言。12 世纪起，托莱多等地的译者把阿拉伯文典籍转译成拉丁文，亚里士多德与欧几里得由此重返欧洲大学，构成欧洲科学革命的前史。",
+      "figures": [{ "name": "马蒙", "role": "哈里发" }, { "name": "花拉子密", "role": "数学家" }],
+      "counterparts": ["cn-talaros"],
+      "sources": [
+        { "title": "智慧宫", "url": "https://zh.wikipedia.org/wiki/智慧宫", "publisher": "维基百科" },
+        { "title": "House of Wisdom", "url": "https://en.wikipedia.org/wiki/House_of_Wisdom", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    }
+  ]
+}

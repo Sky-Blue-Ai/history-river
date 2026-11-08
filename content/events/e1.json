@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "id": "cn-liangzhu",
+      "track": "cn",
+      "epochId": "e1",
+      "start": -3300,
+      "end": -2300,
+      "title": "良渚古城与玉琮",
+      "subtitle": "史前水城与早期国家的雏形",
+      "era": "新石器晚期",
+      "region": "长江下游",
+      "themes": ["城邑", "礼制"],
+      "summary": "浙江余杭的良渚先民在沼泽上筑起约三百万平方米的古城，外围水坝系统控制着山洪与灌溉。玉琮、玉钺只随葬于少数高等级墓葬，说明当时已出现稳定的权力分层与祭祀体系。",
+      "background": "距今五千年前后，长江下游的稻作农业已能供养大量非农人口。良渚人依靠竹木、草裹泥工艺在湿地筑坝，形成了中国目前所知最早的大型水利工程。",
+      "course": "古城由内城、外城与外围水利系统构成，中心是莫角山台地上的大型建筑基址。反山、瑶山等高等级墓地出土的玉琮上刻有统一的神人兽面纹，说明跨聚落的信仰与手工业已被上层垄断。",
+      "impact": "良渚代表了东亚最早一批具备国家形态的社会之一，2019 年被列入世界遗产名录。它常被用作讨论「中华文明五千年」的考古学支点，但学界对「是否已进入王朝」仍持谨慎态度。",
+      "figures": [],
+      "counterparts": ["world-giza"],
+      "sources": [
+        { "title": "良渚古城遗址", "url": "https://zh.wikipedia.org/wiki/良渚遗址", "publisher": "维基百科" },
+        { "title": "良渚：中国史前文明的权力与信仰", "url": "https://www.whc.unesco.org/en/list/1592/", "publisher": "UNESCO 世界遗产中心" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-giza",
+      "track": "world",
+      "epochId": "e1",
+      "start": -2560,
+      "end": -2540,
+      "title": "吉萨大金字塔",
+      "subtitle": "古王国的国家动员力",
+      "era": "埃及第四王朝",
+      "region": "尼罗河下游",
+      "themes": ["城邑", "工程"],
+      "summary": "胡夫金字塔以约二百三十万块石灰岩砌成，原高约一百四十六米，是此后三千八百年间人类最高的建筑。它的真正意义不在石头，而在于支撑它的粮食征收、工匠组织与运输体系。",
+      "background": "尼罗河每年的泛滥带来可预测的农业剩余，使法老能够在农闲季节征调大量劳动力。古王国时期的国家已具备成熟的粮仓、账簿与官僚层级。",
+      "course": "金字塔群包括胡夫、哈夫拉、门卡乌拉三座主金字塔及配套的祭庙、堤道与工匠村。近年考古发现的工匠聚落表明，主要劳力是有组织的工匠与轮换征工，而非传统叙述中的大规模奴隶。",
+      "impact": "金字塔是「国家能力」最早的量化证据：没有稳定的税收与行政，就没有这样的工程。它也奠定了埃及王权「神—王—来世」的整套意识形态。",
+      "figures": [{ "name": "胡夫", "role": "法老" }],
+      "counterparts": ["cn-liangzhu"],
+      "sources": [
+        { "title": "吉萨金字塔", "url": "https://zh.wikipedia.org/wiki/吉萨金字塔", "publisher": "维基百科" },
+        { "title": "Great Pyramid of Giza", "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "cn-shang-oracle",
+      "track": "cn",
+      "epochId": "e1",
+      "start": -1250,
+      "end": -1046,
+      "title": "殷墟甲骨文",
+      "subtitle": "汉字最早的成熟形态",
+      "era": "商代晚期",
+      "region": "黄河中下游",
+      "themes": ["文字", "礼制"],
+      "summary": "商王用龟甲与牛肩胛骨占卜，把卜问、应验刻在骨面上，留下了十余万片有字甲骨。这些卜辞既是目前所见最早的成熟汉字，也是一份关于战争、农事、疾病与祭祀的宫廷档案。",
+      "background": "商代已建立以王畿为中心的方国联盟，王权通过祭祀与军事征伐维系。占卜是决策的固定环节，几乎一切国家大事都要先问神。",
+      "course": "武丁时期的卜辞数量最多、内容最丰富，涉及对土方、方方的战争，以及田猎、求雨、王妇生育。1899 年王懿荣在药材「龙骨」上认出古文字，殷墟由此进入学术视野。",
+      "impact": "甲骨文把中国有直接文字记载的历史前推到商代，也使《史记·殷本纪》的商王世系第一次得到实物验证。汉字的基本构形原则在这一时期已经确立。",
+      "figures": [{ "name": "武丁", "role": "商王" }, { "name": "王懿荣", "role": "发现者，1899" }],
+      "counterparts": ["world-hammurabi"],
+      "sources": [
+        { "title": "甲骨文", "url": "https://zh.wikipedia.org/wiki/甲骨文", "publisher": "维基百科" },
+        { "title": "殷墟", "url": "https://zh.wikipedia.org/wiki/殷墟", "publisher": "维基百科" }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-hammurabi",
+      "track": "world",
+      "epochId": "e1",
+      "start": -1754,
+      "end": -1754,
+      "title": "汉谟拉比法典",
+      "subtitle": "把判决刻在石头上",
+      "era": "古巴比伦第一王朝",
+      "region": "两河流域",
+      "themes": ["律法", "文字"],
+      "summary": "巴比伦王汉谟拉比把二百八十二条判例与规定刻在一根两米多高的玄武岩石柱上，公开宣示「使强者不得欺凌弱者」。它并非最早的成文法，却是流传最完整、影响最广的一部。",
+      "background": "两河流域自苏美尔时代就有成文法律传统，乌尔纳姆法典比它早约三百年。汉谟拉比统一两河后，需要一套跨城邦的统一规则来治理。",
+      "course": "法典按「神判—王室职责—具体条文—结语」排列，条文覆盖财产、租佃、债务、婚姻、医疗责任与工匠质量。同罪不同罚取决于当事人身份，是典型的等级法。",
+      "impact": "石柱在 1901 年被法国考古队于苏萨发现，现藏卢浮宫。它成为后世讨论「法律公开化」的起点：法律从祭司的口传知识变成可被所有人看见的王室承诺。",
+      "figures": [{ "name": "汉谟拉比", "role": "巴比伦王" }],
+      "counterparts": ["cn-shang-oracle"],
+      "sources": [
+        { "title": "汉谟拉比法典", "url": "https://zh.wikipedia.org/wiki/汉谟拉比法典", "publisher": "维基百科" },
+        { "title": "Code of Hammurabi", "url": "https://en.wikipedia.org/wiki/Code_of_Hammurabi", "publisher": "Wikipedia" }
+      ],
+      "verified": true,
+      "disputed": false
+    }
+  ]
+}

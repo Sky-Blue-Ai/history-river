@@ -1,0 +1,27 @@
+{
+  "name": "history-river",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "tokens": "python3 tools/gen_tokens.py",
+    "content:check": "python3 tools/check_content.py",
+    "content:export": "python3 tools/export_content.py",
+    "prebuild": "python3 tools/gen_tokens.py && python3 tools/export_content.py",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "python3 -m http.server -d out 8099"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0"
+  }
+}
