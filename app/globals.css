@@ -71,6 +71,7 @@ p { margin: 0; }
   padding: 0.12rem 0.45rem;
   color: var(--color-ink-muted);
   background: var(--color-surface);
+  white-space: nowrap;
 }
 
 /* ---------- 顶栏 ---------- */
@@ -363,7 +364,7 @@ p { margin: 0; }
   box-shadow: var(--shadow-raised);
 }
 .card .top { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; }
-.card .when { font-family: var(--font-sans); font-size: 0.6875rem; letter-spacing: 0.1em; color: var(--color-bronze); font-variant-numeric: tabular-nums; }
+.card .when { font-family: var(--font-sans); font-size: 0.6875rem; letter-spacing: 0.1em; color: var(--color-bronze); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .card[data-track="cn"] .when { color: var(--color-track-cn); }
 .card .badge {
   font-size: 0.625rem; letter-spacing: 0.08em;
@@ -431,6 +432,7 @@ p { margin: 0; }
   padding: 0.15rem 0.5rem;
   font-size: 0.6875rem;
   letter-spacing: 0.04em;
+  white-space: nowrap;
 }
 
 /* ---------- 首页纪元区块 ---------- */
@@ -622,6 +624,7 @@ p { margin: 0; }
 
 @media (max-width: 860px) {
   .nav { display: none; }
+  .eb-cards { grid-template-columns: minmax(0, 1fr); }
   .searchbox { display: none; }
   .hero h1 { font-size: var(--text-display-hero-sm); }
   .tracks, .tl-rows, .rail { grid-template-columns: minmax(0, 1fr); }
