@@ -1,18 +1,22 @@
 import EventCard from "@/components/EventCard";
-import { comparisons, epochs, events, eventsByTrack, stats, themeCounts } from "@/lib/content";
+import { comparisons, epochs, events, stats, themeCounts } from "@/lib/content";
 import { href, shortYear, spanText } from "@/lib/format";
 
 export default function HomePage() {
   const themes = themeCounts();
-  const cnTop = eventsByTrack("cn")
-    .slice()
-    .sort((a, b) => b.start - a.start)
-    .slice(0, 3);
-  const worldTop = eventsByTrack("world")
-    .slice()
-    .sort((a, b) => b.start - a.start)
-    .slice(0, 3);
   const latestEpoch = epochs[epochs.length - 1];
+
+  /** 每个纪元取双轨各 1 条代表事件 + 该纪元的对照矩阵 */
+  const blocks = epochs.map((ep) => {
+    const evs = events.filter((e) => e.epochId === ep.id).sort((a, b) => a.start - b.start);
+    return {
+      epoch: ep,
+      cn: evs.find((e) => e.track === "cn"),
+      world: evs.find((e) => e.track === "world"),
+      comparison: comparisons.find((c) => c.epochId === ep.id),
+      total: evs.length,
+    };
+  });
 
   return (
     <main>
@@ -126,96 +130,54 @@ export default function HomePage() {
           </div>
         </aside>
 
-        {/* 双轨主区 */}
-        <section className="tracks">
-          <div className="track-cn">
-            <div className="track-head">
-              <span className="t">
-                <i aria-hidden="true" />
-                华夏纪元轨
-              </span>
-              <span className="s">正朔传续 · {stats.cn} 条</span>
-            </div>
-            {cnTop.map((e) => (
-              <EventCard key={e.id} event={e} />
-            ))}
-            <a className="btn ghost" href={href("/archive?track=cn")}>
-              全部 {stats.cn} 条华夏纪事 →
-            </a>
-          </div>
+        {/* 主区：按纪元分组，每组双轨各一张大卡 */}
+        <div>
+          {blocks.map(({ epoch, cn, world, comparison, total }) => (
+            <section className="epoch-block" key={epoch.id}>
+              <div className="eb-head">
+                <span className="lab">{epoch.label}</span>
+                <h2>{epoch.name}</h2>
+                <span className="sp">
+                  {spanText(epoch.cnSpan.from, epoch.cnSpan.to)} · 共 {total} 条
+                </span>
+                <a className="more" href={href(`/epoch/${epoch.id}`)}>
+                  展开本卷 {total} 条 →
+                </a>
+              </div>
+              <p className="eb-line">{epoch.oneLiner}</p>
 
-          <div className="track-world">
-            <div className="track-head">
-              <span className="t">
-                <i aria-hidden="true" />
-                域外诸邦与全球文明
-              </span>
-              <span className="s">并轨对照 · {stats.world} 条</span>
-            </div>
-            {worldTop.map((e) => (
-              <EventCard key={e.id} event={e} />
-            ))}
-            <a className="btn ghost" href={href("/archive?track=world")}>
-              全部 {stats.world} 条域外纪事 →
-            </a>
-          </div>
-        </section>
+              <div className="eb-cards">
+                {cn ? <EventCard event={cn} /> : <div className="card" data-track="cn"><p className="sum">本卷华夏轨待补。</p></div>}
+                {world ? <EventCard event={world} /> : <div className="card" data-track="world"><p className="sum">本卷世界轨待补。</p></div>}
+              </div>
+
+              {comparison ? (
+                <div className="eb-confluence">
+                  <span className="label">时空交汇点</span>
+                  <span className="ebc-body">
+                    <span>
+                      <b>{comparison.left.title}</b> VS <b>{comparison.right.title}</b>
+                    </span>
+                    <span className="ebc-verdict">{comparison.verdict}</span>
+                  </span>
+                  <a href={href(`/epoch/${epoch.id}#matrix`)}>看四维对照 →</a>
+                </div>
+              ) : null}
+            </section>
+          ))}
+        </div>
       </div>
 
-      {/* 时空交汇点 */}
-      <section className="wrap confluence">
-        <div className="head">
-          <h2>时空交错交汇点</h2>
-          <a className="btn ghost" href={href("/timeline")}>
-            展开双轨编年长卷
-          </a>
-        </div>
-        {comparisons.map((c) => {
-          const ep = epochs.find((e) => e.id === c.epochId);
-          return (
-            <div className="conf-item" key={c.epochId}>
-              <div className="vs">
-                {ep?.label}
-                <br />
-                {ep ? spanText(ep.cnSpan.from, ep.cnSpan.to) : ""}
-              </div>
-              <div>
-                <div className="pair">
-                  {c.left.title}
-                  <em>VS</em>
-                  {c.right.title}
-                </div>
-                <p className="txt" style={{ marginTop: "0.35rem" }}>
-                  {c.verdict}
-                </p>
-              </div>
-              <a className="btn" href={href(`/epoch/${c.epochId}#matrix`)}>
-                看四维对照 →
-              </a>
-            </div>
-          );
-        })}
-        {comparisons.length === 0 ? (
-          <p className="txt">对照矩阵正在修撰，暂未合卷。</p>
-        ) : null}
-      </section>
-
-      {/* 最新收录 */}
-      <section className="wrap" style={{ paddingBlock: "var(--spacing-xl) 0" }}>
-        <div className="head" style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: "1rem" }}>
-          <h2 style={{ fontSize: "var(--text-headline-lg)" }}>新入卷册</h2>
-          <a className="btn ghost" href={href("/archive")}>
-            查看全部 {events.length} 条 →
-          </a>
-        </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(17rem, 1fr))", gap: "var(--spacing-gutter)", marginTop: "var(--spacing-md)" }}>
-          {events
-            .slice()
-            .sort((a, b) => b.start - a.start)
-            .slice(0, 4)
-            .map((e) => (
-              <EventCard key={e.id} event={e} plate={false} />
-            ))}
+      {/* 收束：长卷入口 */}
+      <section className="wrap" style={{ paddingBlock: "var(--spacing-xl)" }}>
+        <div
+          className="eb-confluence"
+          style={{ marginTop: 0, padding: "var(--spacing-lg)", justifyContent: "space-between" }}
+        >
+          <span>
+            <b>横向阅读：</b>把 {stats.events} 条事件按年代铺成一条长卷，左华夏、右域外，同代并置。
+          </span>
+          <a href={href("/timeline")}>展开双轨编年长卷 →</a>
         </div>
       </section>
     </main>

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Plate from "@/components/Plate";
 import { epochById, eventById, events, neighbours, counterpartsOf } from "@/lib/content";
 import { formatYear, href, spanText } from "@/lib/format";
 
@@ -58,10 +59,10 @@ export default async function EventPage({ params }: Params) {
 
         <p className="lede">{event.summary}</p>
 
-        <div className="plate" aria-hidden="true" style={{ marginTop: "var(--spacing-lg)" }}>
-          <span className="glyph">{event.title.slice(0, 2)}</span>
-          <span className="mark-note">图待补 · 文物图授权中</span>
-        </div>
+        <figure className="plate-wrap" style={{ marginTop: "var(--spacing-lg)" }}>
+          <Plate id={event.id} title={event.title} track={event.track} height={320} />
+          <figcaption>{event.subtitle ? `${event.subtitle} · 图卷` : `${event.title} · 图卷`}</figcaption>
+        </figure>
 
         <section>
           <h2>背景</h2>

@@ -394,31 +394,71 @@ p { margin: 0; }
 }
 .card .foot .go { color: var(--color-vermilion); letter-spacing: 0.06em; }
 
-/* 无图时的卷面占位 */
-.plate {
-  margin-top: 0.9rem;
-  height: 7.5rem;
+/* 卡内插图（程序生成水墨示意，替换时只换 <Plate> 本身） */
+.plate-wrap {
+  margin: 0.9rem 0 0;
   border: 1px solid var(--color-line);
   border-radius: var(--radius-md);
-  background:
-    radial-gradient(circle at 18% 20%, color-mix(in srgb, var(--color-bronze) 10%, transparent), transparent 55%),
-    repeating-linear-gradient(90deg, transparent 0 22px, color-mix(in srgb, var(--color-line) 60%, transparent) 22px 23px),
-    var(--color-surface-sunken);
-  display: grid;
-  place-items: center;
-  position: relative;
   overflow: hidden;
+  background: var(--color-surface-sunken);
 }
-.plate .glyph {
-  font-family: var(--font-seal);
-  font-size: 2.6rem;
-  color: color-mix(in srgb, var(--color-ink) 16%, transparent);
-  letter-spacing: 0.1em;
+.plate-wrap > svg { display: block; width: 100%; height: 10.5rem; }
+.plate-wrap figcaption {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-muted);
+  padding: 0.4rem 0.65rem;
+  border-top: 1px solid var(--color-line);
+  background: var(--color-surface-sunken);
 }
-.plate .mark-note {
-  position: absolute; bottom: 0.35rem; right: 0.5rem;
-  font-size: 0.625rem; color: var(--color-ink-muted); letter-spacing: 0.1em;
+
+.card .top-right { display: flex; align-items: center; gap: 0.45rem; color: var(--color-ink-muted); }
+.card .fig-label {
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+  color: var(--color-bronze);
+  margin-right: 0.15rem;
+  flex: none;
 }
+.card .foot .go.ghost {
+  color: var(--color-ink-muted);
+  border: 1px solid var(--color-line-strong);
+  border-radius: var(--radius-xs);
+  padding: 0.15rem 0.5rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+}
+
+/* ---------- 首页纪元区块 ---------- */
+.epoch-block { border-top: 1px solid var(--color-line); padding-block: var(--spacing-xl); }
+.epoch-block:first-of-type { border-top: 0; padding-top: 0; }
+.eb-head { display: flex; align-items: baseline; gap: 0.9rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.eb-head .lab { font-size: 0.625rem; letter-spacing: 0.16em; color: var(--color-bronze); }
+.eb-head h2 { font-size: var(--text-headline-lg); }
+.eb-head .sp { font-size: 0.75rem; color: var(--color-ink-muted); font-variant-numeric: tabular-nums; }
+.eb-head .more { margin-left: auto; font-size: 0.75rem; color: var(--color-vermilion); letter-spacing: 0.04em; }
+.eb-line { font-size: var(--text-body-sm); color: var(--color-ink-variant); max-width: 46rem; margin-bottom: var(--spacing-md); line-height: 1.85; }
+.eb-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-gutter); }
+.eb-confluence {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  margin-top: var(--spacing-gutter);
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-line);
+  border-left: 2px solid var(--color-bronze);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: color-mix(in srgb, var(--color-bronze) 4%, var(--color-surface));
+  font-size: var(--text-body-sm);
+  color: var(--color-ink-variant);
+}
+.eb-confluence b { font-family: var(--font-serif); color: var(--color-ink); font-weight: 600; }
+.eb-confluence a { margin-left: auto; color: var(--color-vermilion); white-space: nowrap; font-size: 0.75rem; }
+.eb-confluence .ebc-body { flex: 1 1 22rem; display: grid; gap: 0.2rem; }
+.eb-confluence .ebc-verdict { color: var(--color-ink-muted); font-size: 0.8125rem; line-height: 1.7; }
 
 /* ---------- 交汇点 ---------- */
 .confluence { margin-top: var(--spacing-2xl); border-top: 1px solid var(--color-line); padding-top: var(--spacing-xl); }
