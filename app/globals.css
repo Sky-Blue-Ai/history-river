@@ -348,7 +348,9 @@ p { margin: 0; }
 
 /* ---------- 事件卡 ---------- */
 .card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background: var(--color-surface);
   border: 1px solid var(--color-line);
   border-radius: var(--radius-lg);
@@ -388,7 +390,7 @@ p { margin: 0; }
 
 .card .foot {
   display: flex; align-items: center; justify-content: space-between;
-  margin-top: 1rem; padding-top: 0.7rem;
+  margin-top: auto; padding-top: 0.7rem;
   border-top: 1px solid var(--color-line);
   font-size: var(--text-label-sm); color: var(--color-ink-muted);
 }
@@ -402,7 +404,7 @@ p { margin: 0; }
   overflow: hidden;
   background: var(--color-surface-sunken);
 }
-.plate-wrap > svg { display: block; width: 100%; height: 10.5rem; }
+.plate-wrap > svg { display: block; width: 100%; height: 11rem; }
 .plate-wrap figcaption {
   font-family: var(--font-serif);
   font-style: italic;
@@ -440,7 +442,7 @@ p { margin: 0; }
 .eb-head .sp { font-size: 0.75rem; color: var(--color-ink-muted); font-variant-numeric: tabular-nums; }
 .eb-head .more { margin-left: auto; font-size: 0.75rem; color: var(--color-vermilion); letter-spacing: 0.04em; }
 .eb-line { font-size: var(--text-body-sm); color: var(--color-ink-variant); max-width: 46rem; margin-bottom: var(--spacing-md); line-height: 1.85; }
-.eb-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-gutter); }
+.eb-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-gutter); align-items: stretch; }
 .eb-confluence {
   display: flex;
   align-items: center;

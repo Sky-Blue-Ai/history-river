@@ -70,7 +70,7 @@ export default function Plate({
     <svg
       className={className}
       viewBox={`0 0 640 ${height}`}
-      preserveAspectRatio="xMidYMid slice"
+      preserveAspectRatio="none"
       role="img"
       aria-label={`${title} · 水墨示意图`}
       style={{ display: "block", width: "100%", height: "100%" }}
