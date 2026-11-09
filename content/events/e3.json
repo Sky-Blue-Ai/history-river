@@ -179,6 +179,123 @@
       ],
       "verified": true,
       "disputed": false
+    },
+    {
+      "id": "cn-song-economy",
+      "track": "cn",
+      "epochId": "c3",
+      "start": 1127,
+      "end": 1279,
+      "title": "宋元经济重心南移与市舶",
+      "subtitle": "财政靠海，钱变成了纸",
+      "era": "南宋",
+      "region": "东南沿海",
+      "themes": [
+        "商贸",
+        "财政"
+      ],
+      "summary": "宋室南渡后人口与财赋重心移到长江以南；广州、泉州、明州设市舶司抽解榷货。《宋史·食货志》记交子以铁钱为本、三年一界，泉州在南宋后期成为世界级港口，市舶收入一度占财政二十分之一。",
+      "background": "西夏阻断陆路、北方战乱与人口南迁，使海上贸易成为财政支柱；四川铁钱笨重，大宗贸易催生信用票据。",
+      "course": "971 年北宋首置市舶司于广州，其后杭州、明州、泉州陆续设司；1080 年颁《广州市舶条法》，为中国第一部贸易法；交子由成都十六富户民办转为益州交子务官办，分界发行、备有准备金。",
+      "impact": "经济重心南移在此定型，海洋贸易把中国接入印度洋贸易圈；纸币与市舶税的经验与风险（超额发行即贬值）也一并留给后世。",
+      "figures": [],
+      "counterparts": [],
+      "sources": [
+        {
+          "title": "《宋史·食货志下三》交子条（识典古籍）",
+          "url": "https://www.shidianguji.com/zh/book/LS0020/chapter/LS0020_478",
+          "publisher": "识典古籍"
+        },
+        {
+          "title": "《宋史·食货志下八》市舶条（识典古籍）",
+          "url": "https://www.shidianguji.com/zh/book/LS0020/chapter/LS0020_493",
+          "publisher": "识典古籍"
+        }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "cn-yuan-unification",
+      "track": "cn",
+      "epochId": "c3",
+      "start": 1271,
+      "end": 1368,
+      "title": "元朝统一与站赤网络",
+      "subtitle": "把欧亚铺成一张驿路",
+      "era": "元",
+      "region": "欧亚大陆",
+      "themes": [
+        "制度",
+        "交通"
+      ],
+      "summary": "元灭南宋（1279）后以「站赤」贯通帝国：《元史·兵志》记全国站赤一千四百九十六处，陆站用马牛驴车、水站用舟，凭铺马圣旨与金字圆符给驿，使节商旅可自大都直达中亚。",
+      "background": "蒙古经三次西征与灭金灭宋，疆域横跨草原与农耕区，政令、军情与贡赋都需跨越数千里的通信与后勤体系。",
+      "course": "站赤分陆站、水站，设驿令、提领，关会之地置脱脱禾孙稽查；军务急件用金字圆符、次用银字。站户由民户签充，逃亡则佥补。马可·波罗记沿途每二三十里一驿。",
+      "impact": "欧亚通道空前畅通，技术、作物、疾病与观念随之流动（火药、印刷术西传，黑死病东行）；中国与伊斯兰世界、欧洲第一次被同一条驿路串起。",
+      "figures": [
+        {
+          "name": "忽必烈",
+          "role": "元世祖"
+        }
+      ],
+      "counterparts": [
+        "world-mongol"
+      ],
+      "sources": [
+        {
+          "title": "《元史·站赤》原文（识典古籍）",
+          "url": "https://www.shidianguji.com/book/HY2140/chapter/1mbcclbeob8kk",
+          "publisher": "识典古籍"
+        }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-mongol",
+      "track": "world",
+      "epochId": "w3",
+      "start": 1206,
+      "end": 1262,
+      "title": "蒙古西征",
+      "subtitle": "从斡难河到多瑙河",
+      "era": "蒙古帝国",
+      "region": "欧亚大陆",
+      "themes": [
+        "征伐",
+        "交通"
+      ],
+      "summary": "成吉思汗 1219 年西征花剌子模，拔都率「长子西征」（1236—1242）破钦察、斡罗思诸城，1241 年在漷宁河败匈牙利军，兵锋抵中欧，因窝阔台死讯回师。钦察汗国由此建立。",
+      "background": "蒙古统一草原后以扩张获取贡赋与商路；花剌子模边将杀害蒙古商队与使者，成为西征导火索。",
+      "course": "哲别、速不台绕里海追击花剌子模算端；1236 年起拔都、速不台分五道西进，《元史·速不台传》记漷宁河之战、马茶城之役与诸王争功的细节；1242 年闻大汗死讯东返。",
+      "impact": "罗斯诸公国臣服两百年，钦察汗国成为欧亚贸易与情报的枢纽；欧洲由此获得关于「鞑靼」的系统记录，商路与瘟疫也沿同一条路流动。",
+      "figures": [
+        {
+          "name": "成吉思汗",
+          "role": "蒙古大汗"
+        },
+        {
+          "name": "拔都",
+          "role": "西征统帅"
+        },
+        {
+          "name": "速不台",
+          "role": "前锋主将"
+        }
+      ],
+      "counterparts": [
+        "cn-yuan-unification"
+      ],
+      "sources": [
+        {
+          "title": "《元史·速不台传》原文（识典古籍）",
+          "url": "https://www.shidianguji.com/zh/book/LS0023/chapter/LS0023_323",
+          "publisher": "识典古籍"
+        }
+      ],
+      "verified": true,
+      "disputed": false
     }
   ]
 }
