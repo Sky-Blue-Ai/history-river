@@ -57,7 +57,9 @@ export interface Stage {
   worldEpochId: string;
   cnFeature: string;
   worldFeature: string;
-  compare: string;
+  cnLine: { k: string; v: string }[];
+  worldLine: { k: string; v: string }[];
+  compare: string[];
   anchor?: boolean;
   anchorNote?: string;
 }

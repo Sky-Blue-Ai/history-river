@@ -13,7 +13,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { sid } = await params;
   const st = stageById.get(sid);
-  return st ? { title: `${st.name} · 分期`, description: st.compare.slice(0, 80) } : { title: "阶段不存在" };
+  return st ? { title: `${st.name} · 分期`, description: st.compare.join(" ").slice(0, 80) } : { title: "阶段不存在" };
 }
 
 export default async function StagePage({ params }: Params) {
@@ -47,7 +47,15 @@ export default async function StagePage({ params }: Params) {
           <h3>
             <span className="dot" aria-hidden="true" /> 中国线索
           </h3>
-          <p>{stage.cnFeature}</p>
+          <p className="stage-feature">{stage.cnFeature}</p>
+          <dl className="stage-lines">
+            {stage.cnLine.map((l) => (
+              <div key={l.k}>
+                <dt>{l.k}</dt>
+                <dd>{l.v}</dd>
+              </div>
+            ))}
+          </dl>
           {cnEpoch ? (
             <a className="stage-link" href={href(`/epoch/${cnEpoch.id}`)}>
               读{cnEpoch.name}（{cnEpoch.label}）→
@@ -59,7 +67,15 @@ export default async function StagePage({ params }: Params) {
           <h3>
             <span className="dot" aria-hidden="true" /> 世界线索
           </h3>
-          <p>{stage.worldFeature}</p>
+          <p className="stage-feature">{stage.worldFeature}</p>
+          <dl className="stage-lines">
+            {stage.worldLine.map((l) => (
+              <div key={l.k}>
+                <dt>{l.k}</dt>
+                <dd>{l.v}</dd>
+              </div>
+            ))}
+          </dl>
           {worldEpoch ? (
             <a className="stage-link" href={href(`/epoch/${worldEpoch.id}`)}>
               读{worldEpoch.name}（{worldEpoch.label}）→
@@ -70,7 +86,11 @@ export default async function StagePage({ params }: Params) {
 
       <section className="panel" style={{ marginTop: "var(--spacing-lg)", borderLeft: "2px solid var(--color-bronze)", borderRadius: "0 var(--radius-lg) var(--radius-lg) 0" }}>
         <h3>本阶段对照要点</h3>
-        <p style={{ marginTop: "0.6rem", color: "var(--color-ink-variant)", lineHeight: 1.95 }}>{stage.compare}</p>
+        <ul className="stage-compare">
+          {stage.compare.map((c) => (
+            <li key={c}>{c}</li>
+          ))}
+        </ul>
         {stage.anchorNote ? (
           <p style={{ marginTop: "0.6rem", fontSize: "var(--text-label-md)", color: "var(--color-bronze)", letterSpacing: "0.04em" }}>
             ◆ {stage.anchorNote}

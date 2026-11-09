@@ -55,6 +55,16 @@ def main() -> int:
     stage_ids = {s["id"] for s in stages["stages"]}
     cn_epochs, world_epochs = load_epochs()
 
+    # 阶段页是「特征清单」，因此每阶段必须有线索条目与对照要点
+    for st in stages["stages"]:
+        for field, minimum in (("cnLine", 2), ("worldLine", 2), ("compare", 1)):
+            items = st.get(field) or []
+            if len(items) < minimum:
+                errors.append(f"stage {st['id']}: {field} 至少 {minimum} 条，实际 {len(items)}")
+        for field in ("cnFeature", "worldFeature"):
+            if not str(st.get(field, "")).strip():
+                errors.append(f"stage {st['id']}: 缺 {field}")
+
     # 每条路线每个阶段恰好一卷，且 stageId 指向存在的阶段
     for set_ in (cn_epochs, world_epochs):
         seen = []

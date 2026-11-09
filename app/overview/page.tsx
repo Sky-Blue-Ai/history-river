@@ -34,10 +34,12 @@ export default function OverviewPage() {
                 <small>{spanText(st.span.from, st.span.to)}</small>
               </span>
               <span className="st-cn" role="cell">
-                {cnEp?.name}
+                <b>{cnEp?.name}</b>
+                <small>{st.cnFeature}</small>
               </span>
               <span className="st-world" role="cell">
-                {wEp?.name}
+                <b>{wEp?.name}</b>
+                <small>{st.worldFeature}</small>
               </span>
             </a>
           );
