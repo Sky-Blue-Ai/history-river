@@ -5,6 +5,7 @@ import { useState } from "react";
 import { BASE, href } from "@/lib/format";
 
 const TABS = [
+  { path: "/overview", label: "总览分期" },
   { path: "/cn", label: "华夏编年" },
   { path: "/world", label: "域外编年" },
   { path: "/timeline", label: "编年长卷" },
@@ -22,6 +23,7 @@ export default function SiteNav() {
   const isActive = (tabPath: string) => {
     if (tabPath === "/archive") return path.startsWith("/archive") || path.startsWith("/event");
     if (tabPath === "/timeline") return path.startsWith("/timeline");
+    if (tabPath === "/overview") return path.startsWith("/overview") || path.startsWith("/stage");
     if (tabPath === "/cn") return path === "/cn" || path.startsWith("/epoch/c");
     if (tabPath === "/world") return path === "/world" || path.startsWith("/epoch/w");
     return path.startsWith(tabPath);

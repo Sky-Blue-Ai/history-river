@@ -3,7 +3,7 @@
     {
       "id": "cn-jiaozi",
       "track": "cn",
-      "epochId": "c5",
+      "epochId": "c3",
       "start": 1023,
       "end": 1024,
       "title": "交子：世界最早的纸币",
@@ -45,7 +45,7 @@
     {
       "id": "cn-movable-type",
       "track": "cn",
-      "epochId": "c5",
+      "epochId": "c3",
       "start": 1045,
       "end": 1048,
       "title": "毕昇胶泥活字",

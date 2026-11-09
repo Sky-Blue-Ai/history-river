@@ -43,8 +43,8 @@
       ]
     },
     {
-      "id": "c4-vs-w3",
-      "cnEpochId": "c4",
+      "id": "c3-vs-w3",
+      "cnEpochId": "c3",
       "worldEpochId": "w3",
       "left": {
         "title": "唐帝国（中国轨）",
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "id": "c6-vs-w4",
-      "cnEpochId": "c6",
+      "id": "c4-vs-w4",
+      "cnEpochId": "c4",
       "worldEpochId": "w4",
       "left": {
         "title": "明清中国（中国轨）",

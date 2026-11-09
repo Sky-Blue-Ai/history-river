@@ -3,7 +3,7 @@
     {
       "id": "cn-zhenghe",
       "track": "cn",
-      "epochId": "c6",
+      "epochId": "c3",
       "start": 1405,
       "end": 1433,
       "title": "郑和七下西洋",
@@ -49,7 +49,7 @@
     {
       "id": "world-columbus",
       "track": "world",
-      "epochId": "w4",
+      "epochId": "w3",
       "start": 1492,
       "end": 1492,
       "title": "哥伦布抵达美洲",
@@ -95,7 +95,7 @@
     {
       "id": "world-newton",
       "track": "world",
-      "epochId": "w5",
+      "epochId": "w4",
       "start": 1687,
       "end": 1687,
       "title": "牛顿《自然哲学的数学原理》",
@@ -141,7 +141,7 @@
     {
       "id": "cn-kangxi-calendar",
       "track": "cn",
-      "epochId": "c6",
+      "epochId": "c4",
       "start": 1669,
       "end": 1722,
       "title": "康熙历狱与西学入宫",

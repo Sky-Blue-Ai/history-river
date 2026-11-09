@@ -1,4 +1,4 @@
-import { routes, stats, eventsOfTrack } from "@/lib/content";
+import { routes, stages, stats, eventsOfTrack } from "@/lib/content";
 import { href, shortYear, spanText } from "@/lib/format";
 
 export default function HomePage() {
@@ -70,6 +70,25 @@ export default function HomePage() {
               {shortYear(stats.earliest)} — {shortYear(stats.latest)}
             </span>
           </div>
+        </div>
+      </section>
+
+      <section className="wrap" style={{ paddingBlock: "var(--spacing-xl) 0" }}>
+        <div className="eb-head">
+          <span className="lab">骨干</span>
+          <h2 style={{ fontSize: "var(--text-headline-lg)" }}>六个阶段：两条路线共用的时间骨架</h2>
+          <a className="more" href={href("/overview")}>
+            总览分期与书单 →
+          </a>
+        </div>
+        <div className="spine">
+          {stages.map((st) => (
+            <a className="spine-item" key={st.id} href={href(`/stage/${st.id}`)}>
+              <span className="n">{st.label}</span>
+              <span className="t">{st.name}</span>
+              <span className="y">{spanText(st.span.from, st.span.to)}</span>
+            </a>
+          ))}
         </div>
       </section>
 

@@ -3,7 +3,7 @@
     {
       "id": "cn-opium-war",
       "track": "cn",
-      "epochId": "c7",
+      "epochId": "c5",
       "start": 1840,
       "end": 1842,
       "title": "鸦片战争与《南京条约》",
@@ -49,7 +49,7 @@
     {
       "id": "world-meiji",
       "track": "world",
-      "epochId": "w6",
+      "epochId": "w5",
       "start": 1868,
       "end": 1889,
       "title": "明治维新",
@@ -100,7 +100,7 @@
     {
       "id": "cn-xinhai",
       "track": "cn",
-      "epochId": "c7",
+      "epochId": "c5",
       "start": 1911,
       "end": 1912,
       "title": "辛亥革命",

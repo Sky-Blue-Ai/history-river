@@ -37,6 +37,7 @@ export interface HEvent {
 
 export interface Epoch {
   id: string;
+  stageId: string;
   order: number;
   label: string;
   name: string;
@@ -44,7 +45,21 @@ export interface Epoch {
   span: { from: number; to: number };
   oneLiner: string;
   keywords: string[];
-  chapter: string;
+}
+
+export interface Stage {
+  id: string;
+  order: number;
+  label: string;
+  name: string;
+  span: { from: number; to: number };
+  cnEpochId: string;
+  worldEpochId: string;
+  cnFeature: string;
+  worldFeature: string;
+  compare: string;
+  anchor?: boolean;
+  anchorNote?: string;
 }
 
 export interface EpochSet {
@@ -72,6 +87,7 @@ export interface Comparison {
 }
 
 interface Content {
+  stages: { framework: string; stages: Stage[]; methods: { title: string; body: string }[]; books: { layer: string; items: string[] }[] };
   epochsCn: EpochSet;
   epochsWorld: EpochSet;
   events: HEvent[];
@@ -82,6 +98,7 @@ interface Content {
     world: number;
     epochsCn: number;
     epochsWorld: number;
+    stages: number;
     comparisons: number;
     earliest: number;
     latest: number;
@@ -95,6 +112,10 @@ export const routes: Record<Track, EpochSet> = {
   cn: content.epochsCn,
   world: content.epochsWorld,
 };
+
+export const framework = content.stages;
+export const stages = content.stages.stages;
+export const stageById = new Map(stages.map((s) => [s.id, s]));
 
 export const events = content.events;
 export const comparisons = content.comparisons;
@@ -150,5 +171,17 @@ export function epochNeighbours(epochId: string): { prev?: Epoch; next?: Epoch }
   const i = list.findIndex((e) => e.id === epochId);
   return { prev: list[i - 1], next: list[i + 1] };
 }
+
+export const eventsOfStage = (stageId: string) => {
+  const st = stageById.get(stageId);
+  if (!st) return [];
+  return events.filter((e) => e.epochId === st.cnEpochId || e.epochId === st.worldEpochId).sort((a, b) => a.start - b.start);
+};
+
+export const epochOfStage = (stageId: string, track: Track) => {
+  const st = stageById.get(stageId);
+  if (!st) return undefined;
+  return epochById.get(track === "cn" ? st.cnEpochId : st.worldEpochId);
+};
 
 export const trackOfEpoch = (epochId: string): Track => (epochId.startsWith("c") ? "cn" : "world");

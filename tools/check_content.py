@@ -33,6 +33,10 @@ def load_events() -> list[dict]:
     return events
 
 
+def load_stages() -> dict:
+    return json.loads((CONTENT / "stages.json").read_text(encoding="utf-8"))
+
+
 def load_epochs() -> tuple[dict, dict]:
     cn = json.loads((CONTENT / "epochs.cn.json").read_text(encoding="utf-8"))
     world = json.loads((CONTENT / "epochs.world.json").read_text(encoding="utf-8"))
@@ -47,7 +51,22 @@ def main() -> int:
     errors: list[str] = []
     warnings: list[str] = []
 
+    stages = load_stages()
+    stage_ids = {s["id"] for s in stages["stages"]}
     cn_epochs, world_epochs = load_epochs()
+
+    # 每条路线每个阶段恰好一卷，且 stageId 指向存在的阶段
+    for set_ in (cn_epochs, world_epochs):
+        seen = []
+        for ep in set_["epochs"]:
+            if ep.get("stageId") not in stage_ids:
+                errors.append(f"{set_['track']} epoch {ep['id']}: stageId 不存在 {ep.get('stageId')!r}")
+            seen.append(ep.get("stageId"))
+        if len(seen) != len(set(seen)):
+            errors.append(f"{set_['track']}: 同一阶段出现多卷，阶段与卷目必须一一对应")
+        if set(seen) != stage_ids:
+            errors.append(f"{set_['track']}: 阶段未全覆盖，缺 {sorted(stage_ids - set(seen))}")
+
     epoch_ids = {e["id"] for e in cn_epochs["epochs"]} | {e["id"] for e in world_epochs["epochs"]}
     conn_ids = {e["id"] for e in cn_epochs["epochs"]}
     wall_ids = {e["id"] for e in world_epochs["epochs"]}
@@ -112,6 +131,11 @@ def main() -> int:
             errors.append(f"comparisons:{c.get('id')}: cnEpochId 不存在 {cid!r}")
         if wid not in wall_ids:
             errors.append(f"comparisons:{c.get('id')}: worldEpochId 不存在 {wid!r}")
+        # 对照必须发生在同一阶段，否则时间错位
+        cn_ep = next((e for e in cn_epochs["epochs"] if e["id"] == cid), None)
+        w_ep = next((e for e in world_epochs["epochs"] if e["id"] == wid), None)
+        if cn_ep and w_ep and cn_ep.get("stageId") != w_ep.get("stageId"):
+            errors.append(f"comparisons:{c.get('id')}: 两条线不在同一阶段（{cn_ep.get('stageId')} vs {w_ep.get('stageId')}）")
         key = (cid, wid)
         if key in seen_epochs:
             errors.append(f"comparisons:{c.get('id')}: 同一纪元对重复 {key}")

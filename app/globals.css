@@ -666,6 +666,71 @@ p { margin: 0; }
   .epoch-cards { grid-template-columns: minmax(0, 1fr); }
 }
 
+
+/* ---------- 六阶段骨干 ---------- */
+.spine { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); border-top: 1px solid var(--color-line); border-bottom: 1px solid var(--color-line); }
+.spine-item { padding: 0.9rem 0.8rem; border-right: 1px solid var(--color-line); display: grid; gap: 0.25rem; }
+.spine-item:last-child { border-right: 0; }
+.spine-item:hover { background: var(--color-surface); }
+.spine-item .n { font-size: 0.625rem; letter-spacing: 0.14em; color: var(--color-bronze); }
+.spine-item .t { font-family: var(--font-serif); font-size: 0.9375rem; line-height: 1.45; }
+.spine-item .y { font-size: 0.6875rem; color: var(--color-ink-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* ---------- 总览分期表 ---------- */
+.stage-table { margin-top: var(--spacing-lg); border: 1px solid var(--color-line); border-radius: var(--radius-lg); overflow: hidden; background: var(--color-surface); }
+.st-head { display: grid; grid-template-columns: 15rem minmax(0, 1fr) minmax(0, 1.25fr); gap: 1rem; padding: 0.7rem 1rem; background: var(--color-surface-sunken); border-bottom: 1px solid var(--color-line); font-size: var(--text-label-sm); letter-spacing: 0.1em; color: var(--color-ink-muted); }
+.st-row { display: grid; grid-template-columns: 15rem minmax(0, 1fr) minmax(0, 1.25fr); gap: 1rem; padding: 0.9rem 1rem; border-top: 1px solid var(--color-line); align-items: baseline; }
+.st-row:first-of-type { border-top: 0; }
+.st-row:hover { background: var(--color-canvas); }
+.st-row .st-name { display: grid; gap: 0.2rem; }
+.st-row .st-name b { font-family: var(--font-serif); font-size: 1rem; font-weight: 600; }
+.st-row .st-name em { font-style: normal; font-size: 0.625rem; letter-spacing: 0.08em; color: var(--color-vermilion); }
+.st-row .st-name small { font-size: 0.6875rem; color: var(--color-ink-muted); font-variant-numeric: tabular-nums; }
+.st-row .st-cn { font-family: var(--font-serif); color: var(--color-track-cn); font-size: 0.95rem; }
+.st-row .st-world { font-family: var(--font-serif); color: var(--color-track-world); font-size: 0.95rem; }
+
+.anchor-list { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.6rem; }
+.anchor-list li { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 1rem; padding-block: 0.6rem; border-top: 1px solid var(--color-line); font-size: var(--text-body-sm); color: var(--color-ink-variant); }
+.anchor-list a { font-family: var(--font-serif); color: var(--color-ink); }
+.anchor-list a:hover { color: var(--color-vermilion); }
+
+.method-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-gutter); margin-top: var(--spacing-md); }
+.book-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--spacing-gutter); margin-top: var(--spacing-md); }
+.book-grid h4 { font-size: var(--text-label-md); letter-spacing: 0.1em; color: var(--color-bronze); margin-bottom: 0.5rem; }
+.book-grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; }
+.book-grid li { font-size: var(--text-body-sm); color: var(--color-ink-variant); line-height: 1.7; }
+
+/* ---------- 阶段页 ---------- */
+.stage-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-gutter); margin-top: var(--spacing-lg); }
+.stage-panel { display: flex; flex-direction: column; }
+.stage-panel h3 { display: flex; align-items: center; gap: 0.45rem; }
+.stage-panel .dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; display: inline-block; }
+.stage-panel[data-track="cn"] { border-top: 2px solid var(--color-track-cn); }
+.stage-panel[data-track="cn"] .dot { background: var(--color-track-cn); }
+.stage-panel[data-track="world"] { border-top: 2px solid var(--color-track-world); }
+.stage-panel[data-track="world"] .dot { background: var(--color-track-world); }
+.stage-panel p { margin-top: 0.7rem; font-size: var(--text-body-sm); color: var(--color-ink-variant); line-height: 1.95; }
+.stage-link { margin-top: auto; padding-top: 1rem; font-size: var(--text-label-md); color: var(--color-vermilion); letter-spacing: 0.04em; }
+
+@media (max-width: 1100px) {
+  .spine { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .spine-item:nth-child(3n) { border-right: 0; }
+  .book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .method-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 860px) {
+  .spine { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .spine-item:nth-child(3n) { border-right: 1px solid var(--color-line); }
+  .spine-item:nth-child(2n) { border-right: 0; }
+  .st-head { display: none; }
+  .st-row { grid-template-columns: minmax(0, 1fr); gap: 0.35rem; }
+  .st-row .st-cn::before { content: "中国 · "; color: var(--color-ink-muted); font-size: 0.6875rem; }
+  .st-row .st-world::before { content: "世界 · "; color: var(--color-ink-muted); font-size: 0.6875rem; }
+  .stage-cols { grid-template-columns: minmax(0, 1fr); }
+  .anchor-list li { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
+  .book-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* ---------- 窄屏 ---------- */
 @media (max-width: 1100px) {
   .hero { grid-template-columns: minmax(0, 1fr); }
