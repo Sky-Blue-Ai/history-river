@@ -29,17 +29,19 @@ export default function EventCard({ event, plate = true }: { event: HEvent; plat
 
       <p className="sum">{event.summary}</p>
 
-      {figures.length > 0 ? (
-        <div className="figures">
-          <span className="fig-label">风云人物列传</span>
-          {figures.map((f) => (
+      <div className="figures">
+        <span className="fig-label">风云人物列传</span>
+        {figures.length > 0 ? (
+          figures.map((f) => (
             <span key={f.name}>
               {f.name}
               {f.role ? ` · ${f.role}` : ""}
             </span>
-          ))}
-        </div>
-      ) : null}
+          ))
+        ) : (
+          <span>史载未详</span>
+        )}
+      </div>
 
       <div className="foot">
         <span className="go">入卷研读 →</span>

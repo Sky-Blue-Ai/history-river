@@ -73,7 +73,7 @@ export default function Plate({
       preserveAspectRatio="none"
       role="img"
       aria-label={`${title} · 水墨示意图`}
-      style={{ display: "block", width: "100%", height: "100%" }}
+      style={{ display: "block", width: "100%" }}
     >
       <defs>
         <filter id={`${uid}-soft`} x="-20%" y="-20%" width="140%" height="140%">
@@ -137,7 +137,7 @@ export default function Plate({
       </g>
 
       {/* 图注 */}
-      <text x="16" y={height - 12} fontSize="9" letterSpacing="2" fill="#75777C" fontFamily="Inter, sans-serif">
+      <text x="16" y="18" fontSize="9" letterSpacing="2" fill="#8A8079" opacity="0.9" fontFamily="Inter, sans-serif">
         示意图 · 文物图授权中
       </text>
 
