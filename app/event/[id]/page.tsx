@@ -30,7 +30,7 @@ export default async function EventPage({ params }: Params) {
     <article className="wrap">
       <div className="article">
         <div className="crumb">
-          <a href={href("/")}>典藏纪年</a>
+          <a href={href(`/${event.track}`)}>{event.track === "cn" ? "华夏编年" : "域外编年"}</a>
           <span aria-hidden="true">/</span>
           <a href={href(`/epoch/${event.epochId}`)}>{epoch?.name ?? "纪元"}</a>
           <span aria-hidden="true">/</span>
@@ -102,7 +102,7 @@ export default async function EventPage({ params }: Params) {
 
         {counterparts.length > 0 ? (
           <div className="callout">
-            <span className="label">同期对照 · 另一边在发生什么</span>
+            <span className="label">可选 · 跨轨参照（同期另一边）</span>
             <h3>时空交错点</h3>
             <div className="counterpart-list">
               {counterparts.map((c) => (

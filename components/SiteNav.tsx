@@ -5,10 +5,11 @@ import { useState } from "react";
 import { BASE, href } from "@/lib/format";
 
 const TABS = [
-  { path: "/", label: "典藏纪年" },
-  { path: "/timeline", label: "时空编年中枢" },
+  { path: "/cn", label: "华夏编年" },
+  { path: "/world", label: "域外编年" },
+  { path: "/timeline", label: "编年长卷" },
   { path: "/archive", label: "典籍与故事" },
-  { path: "/quiz", label: "太史考课台", soon: true },
+  { path: "/compare", label: "对照视图" },
   { path: "/sources", label: "馆藏通则" },
 ];
 
@@ -19,8 +20,10 @@ export default function SiteNav() {
   const router = useRouter();
 
   const isActive = (tabPath: string) => {
-    if (tabPath === "/") return path === "/";
     if (tabPath === "/archive") return path.startsWith("/archive") || path.startsWith("/event");
+    if (tabPath === "/timeline") return path.startsWith("/timeline");
+    if (tabPath === "/cn") return path === "/cn" || path.startsWith("/epoch/c");
+    if (tabPath === "/world") return path === "/world" || path.startsWith("/epoch/w");
     return path.startsWith(tabPath);
   };
 
@@ -36,17 +39,11 @@ export default function SiteNav() {
         </a>
 
         <nav className="nav" aria-label="主导航">
-          {TABS.map((t) =>
-            t.soon ? (
-              <span key={t.path} className="soon" title="下一期开放：太史考课台（练习与考课）">
-                {t.label}
-              </span>
-            ) : (
-              <a key={t.path} href={href(t.path)} aria-current={isActive(t.path) ? "page" : undefined}>
-                {t.label}
-              </a>
-            )
-          )}
+          {TABS.map((t) => (
+            <a key={t.path} href={href(t.path)} aria-current={isActive(t.path) ? "page" : undefined}>
+              {t.label}
+            </a>
+          ))}
         </nav>
 
         <div className="header-tools">

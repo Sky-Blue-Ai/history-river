@@ -30,7 +30,8 @@ def main() -> int:
     if subprocess.run([sys.executable, str(check)], cwd=ROOT).returncode != 0:
         die("内容校验未通过，拒绝导出（产物保持上一次的已核验版本）")
 
-    epochs = json.loads((CONTENT / "epochs.json").read_text(encoding="utf-8"))["epochs"]
+    epochs_cn = json.loads((CONTENT / "epochs.cn.json").read_text(encoding="utf-8"))
+    epochs_world = json.loads((CONTENT / "epochs.world.json").read_text(encoding="utf-8"))
     events = []
     for path in sorted(glob.glob(str(CONTENT / "events" / "*.json"))):
         for e in json.loads(Path(path).read_text(encoding="utf-8"))["events"]:
@@ -40,7 +41,8 @@ def main() -> int:
     comps = [
         c
         for c in json.loads((CONTENT / "comparisons.json").read_text(encoding="utf-8"))["comparisons"]
-        if any(e["epochId"] == c["epochId"] for e in events)
+        if any(e["epochId"] == c["cnEpochId"] for e in events)
+        and any(e["epochId"] == c["worldEpochId"] for e in events)
     ]
 
     if not events:
@@ -67,14 +69,16 @@ def main() -> int:
 
     events.sort(key=lambda e: (e["start"], e["track"] != "cn"))
     payload = {
-        "epochs": epochs,
+        "epochsCn": epochs_cn,
+        "epochsWorld": epochs_world,
         "events": events,
         "comparisons": comps,
         "stats": {
             "events": len(events),
             "cn": sum(1 for e in events if e["track"] == "cn"),
             "world": sum(1 for e in events if e["track"] == "world"),
-            "epochs": len(epochs),
+            "epochsCn": len(epochs_cn["epochs"]),
+            "epochsWorld": len(epochs_world["epochs"]),
             "comparisons": len(comps),
             "earliest": min(e["start"] for e in events),
             "latest": max(e.get("end", e["start"]) for e in events),

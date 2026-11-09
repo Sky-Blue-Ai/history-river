@@ -1,172 +1,264 @@
 {
- "epochs": [
-  {
-   "id": "e1",
-   "order": 1,
-   "label": "纪元 · 壹",
-   "name": "文明肇始与青铜时代",
-   "slug": "bronze-age",
-   "cnSpan": {
-    "from": -3000,
-    "to": -800
+ "epochsCn": {
+  "track": "cn",
+  "label": "华夏编年",
+  "sub": "中国史 · 二十四史经纬",
+  "epochs": [
+   {
+    "id": "c1",
+    "order": 1,
+    "label": "卷一",
+    "name": "先秦：从良渚到战国",
+    "slug": "pre-qin",
+    "span": {
+     "from": -3000,
+     "to": -221
+    },
+    "oneLiner": "城邑、甲骨、青铜礼器与诸子学说，在两千年里逐次出现——中国之为中国的底层设定，大半在这一卷写成。",
+    "keywords": [
+     "城邑",
+     "甲骨",
+     "礼乐",
+     "诸子"
+    ],
+    "chapter": "卷一"
    },
-   "worldSpan": {
-    "from": -3000,
-    "to": -800
+   {
+    "id": "c2",
+    "order": 2,
+    "label": "卷二",
+    "name": "秦汉：大一统的定型",
+    "slug": "qin-han",
+    "span": {
+     "from": -221,
+     "to": 220
+    },
+    "oneLiner": "郡县、编户、书同文、独尊儒术：秦开了模子，汉把它做成了此后两千年的默认制度。",
+    "keywords": [
+     "郡县",
+     "丝路",
+     "儒术",
+     "造纸"
+    ],
+    "chapter": "卷二"
    },
-   "oneLiner": "文字、城邑与青铜礼器同时出现：两河用泥板记账，华夏用甲骨问天。",
-   "keywords": [
-    "文字",
-    "城邑",
-    "青铜",
-    "法典"
-   ],
-   "chapter": "卷一"
-  },
-  {
-   "id": "e2",
-   "order": 2,
-   "label": "纪元 · 贰",
-   "name": "先秦诸子与希腊古典",
-   "slug": "axial-age",
-   "cnSpan": {
-    "from": -800,
-    "to": -200
+   {
+    "id": "c3",
+    "order": 3,
+    "label": "卷三",
+    "name": "魏晋南北朝：分裂中的融合",
+    "slug": "wei-jin",
+    "span": {
+     "from": 220,
+     "to": 589
+    },
+    "oneLiner": "政权更迭最频繁的三百七十年，也是民族、宗教与艺术融合最剧烈的一段。本卷待补。",
+    "keywords": [
+     "门阀",
+     "佛教",
+     "民族融合"
+    ],
+    "chapter": "卷三"
    },
-   "worldSpan": {
-    "from": -800,
-    "to": -200
+   {
+    "id": "c4",
+    "order": 4,
+    "label": "卷四",
+    "name": "隋唐：开放的帝国",
+    "slug": "sui-tang",
+    "span": {
+     "from": 581,
+     "to": 907
+    },
+    "oneLiner": "科举把士人吸进国家，长安把粟特、天竺与拂菻吸进城门；怛罗斯一战，又把造纸的手艺送了出去。",
+    "keywords": [
+     "科举",
+     "长安",
+     "求法",
+     "怛罗斯"
+    ],
+    "chapter": "卷四"
    },
-   "oneLiner": "同一段时间里，孔子在鲁国讲仁，苏格拉底在雅典问什么是正义。",
-   "keywords": [
-    "诸子",
-    "城邦",
-    "民主",
-    "帝国"
-   ],
-   "chapter": "卷二"
-  },
-  {
-   "id": "e3",
-   "order": 3,
-   "label": "纪元 · 叁",
-   "name": "秦汉帝国与罗马盛世",
-   "slug": "empires",
-   "cnSpan": {
-    "from": -221,
-    "to": 220
+   {
+    "id": "c5",
+    "order": 5,
+    "label": "卷五",
+    "name": "宋辽金：商贸与技术的顶点",
+    "slug": "song",
+    "span": {
+     "from": 960,
+     "to": 1279
+    },
+    "oneLiner": "交子、活字、市舶司：财政收入与技术扩散同时达到前近代的高点，军事上却长期处于守势。",
+    "keywords": [
+     "交子",
+     "活字",
+     "市舶"
+    ],
+    "chapter": "卷五"
    },
-   "worldSpan": {
-    "from": -509,
-    "to": 476
+   {
+    "id": "c6",
+    "order": 6,
+    "label": "卷六",
+    "name": "元明清：海禁与白银",
+    "slug": "yuan-ming-qing",
+    "span": {
+     "from": 1271,
+     "to": 1840
+    },
+    "oneLiner": "郑和的宝船先出海又收帆，白银从美洲经马尼拉流入，天朝的财政与世界市场第一次被同一根线牵住。",
+    "keywords": [
+     "下西洋",
+     "白银",
+     "西学",
+     "考据"
+    ],
+    "chapter": "卷六"
    },
-   "oneLiner": "欧亚大陆两端各自长出一个巨型帝国：一边郡县编户，一边元老院与军团。",
-   "keywords": [
-    "郡县",
-    "丝路",
-    "元首制",
-    "律法"
-   ],
-   "chapter": "卷三"
-  },
-  {
-   "id": "e4",
-   "order": 4,
-   "label": "纪元 · 肆",
-   "name": "隋唐与伊斯兰黄金时代",
-   "slug": "tang-abbasid",
-   "cnSpan": {
-    "from": 581,
-    "to": 907
+   {
+    "id": "c7",
+    "order": 7,
+    "label": "卷七",
+    "name": "近代：条约与革命",
+    "slug": "modern",
+    "span": {
+     "from": 1840,
+     "to": 1911
+    },
+    "oneLiner": "鸦片战争把条约体系推上门，洋务、变法、革命接连作答；帝制在 1912 年终止，问题没有。",
+    "keywords": [
+     "条约",
+     "自强",
+     "变法",
+     "共和"
+    ],
+    "chapter": "卷七"
+   }
+  ]
+ },
+ "epochsWorld": {
+  "track": "world",
+  "label": "域外编年",
+  "sub": "世界史 · 地中海、两河与欧亚大陆",
+  "epochs": [
+   {
+    "id": "w1",
+    "order": 1,
+    "label": "卷一",
+    "name": "古代文明：泥板与金字塔",
+    "slug": "ancient",
+    "span": {
+     "from": -3000,
+     "to": -800
+    },
+    "oneLiner": "两河用泥板记账立法，埃及用石头堆出王权，印度河与爱琴海各自起步——文明不止一处点火。",
+    "keywords": [
+     "城邦",
+     "法典",
+     "文字"
+    ],
+    "chapter": "卷一"
    },
-   "worldSpan": {
-    "from": 622,
-    "to": 1258
+   {
+    "id": "w2",
+    "order": 2,
+    "label": "卷二",
+    "name": "古典时代：希腊与罗马",
+    "slug": "classical",
+    "span": {
+     "from": -800,
+     "to": 476
+    },
+    "oneLiner": "雅典把统治交给抽签的公民，罗马把共和国扩成帝国；两套政治实验的遗产，至今仍在被引用。",
+    "keywords": [
+     "城邦",
+     "民主",
+     "帝国",
+     "律法"
+    ],
+    "chapter": "卷二"
    },
-   "oneLiner": "长安与巴格达是当时地球上最大的两座知识城，中间隔着一条怛罗斯。",
-   "keywords": [
-    "科举",
-    "长安",
-    "智慧宫",
-    "造纸西传"
-   ],
-   "chapter": "卷四"
-  },
-  {
-   "id": "e5",
-   "order": 5,
-   "label": "纪元 · 伍",
-   "name": "两宋繁华与欧洲中世纪",
-   "slug": "song-medieval",
-   "cnSpan": {
-    "from": 960,
-    "to": 1279
+   {
+    "id": "w3",
+    "order": 3,
+    "label": "卷三",
+    "name": "中世纪：信仰与商路",
+    "slug": "medieval",
+    "span": {
+     "from": 476,
+     "to": 1453
+    },
+    "oneLiner": "伊斯兰世界接着翻译希腊，欧洲在十字军与大宪章之间摸索王权边界，草原帝国把两端连成一条路。",
+    "keywords": [
+     "伊斯兰",
+     "十字军",
+     "大宪章",
+     "蒙古"
+    ],
+    "chapter": "卷三"
    },
-   "worldSpan": {
-    "from": 1096,
-    "to": 1291
+   {
+    "id": "w4",
+    "order": 4,
+    "label": "卷四",
+    "name": "大航海与科学革命",
+    "slug": "discovery",
+    "span": {
+     "from": 1400,
+     "to": 1648
+    },
+    "oneLiner": "三艘小船把两个半球缝在一起，哥白尼与伽利略把天空从神学里拆出来——世界的尺度被同时改写。",
+    "keywords": [
+     "新航路",
+     "殖民",
+     "科学革命"
+    ],
+    "chapter": "卷四"
    },
-   "oneLiner": "汴京已有百万人口与纸币，欧洲正在十字军与《大宪章》之间摸索王权的边界。",
-   "keywords": [
-    "活字",
-    "纸币",
-    "十字军",
-    "大宪章"
-   ],
-   "chapter": "卷五"
-  },
-  {
-   "id": "e6",
-   "order": 6,
-   "label": "纪元 · 陆",
-   "name": "明清与地理大发现",
-   "slug": "ming-daqi",
-   "cnSpan": {
-    "from": 1368,
-    "to": 1840
+   {
+    "id": "w5",
+    "order": 5,
+    "label": "卷五",
+    "name": "启蒙、革命与工业",
+    "slug": "enlightenment",
+    "span": {
+     "from": 1648,
+     "to": 1815
+    },
+    "oneLiner": "牛顿给出可计算的宇宙，洛克与卢梭给出可质疑的权威；蒸汽机随后把这两件事变成国力。",
+    "keywords": [
+     "启蒙",
+     "革命",
+     "工业革命"
+    ],
+    "chapter": "卷五"
    },
-   "worldSpan": {
-    "from": 1400,
-    "to": 1840
-   },
-   "oneLiner": "郑和的宝船先出海又收帆，哥伦布的三艘小船把两个大陆永久缝在了一起。",
-   "keywords": [
-    "下西洋",
-    "新航路",
-    "银流",
-    "科学革命"
-   ],
-   "chapter": "卷六"
-  },
-  {
-   "id": "e7",
-   "order": 7,
-   "label": "纪元 · 柒",
-   "name": "近代转型：炮舰与维新",
-   "slug": "modern-transition",
-   "cnSpan": {
-    "from": 1840,
-    "to": 1911
-   },
-   "worldSpan": {
-    "from": 1760,
-    "to": 1911
-   },
-   "oneLiner": "蒸汽机先改造了欧洲，再用炮舰把改造的账单送到东亚。",
-   "keywords": [
-    "工业革命",
-    "条约",
-    "维新",
-    "共和"
-   ],
-   "chapter": "卷七"
-  }
- ],
+   {
+    "id": "w6",
+    "order": 6,
+    "label": "卷六",
+    "name": "工业帝国与全球秩序",
+    "slug": "industrial",
+    "span": {
+     "from": 1815,
+     "to": 1911
+    },
+    "oneLiner": "铁路、电报与炮舰把世界压成一个市场，也把非工业地区压成原料与市场——明治日本是唯一答对的东亚学生。",
+    "keywords": [
+     "工业化",
+     "殖民",
+     "明治维新"
+    ],
+    "chapter": "卷六"
+   }
+  ]
+ },
  "events": [
   {
    "id": "cn-liangzhu",
    "track": "cn",
-   "epochId": "e1",
+   "epochId": "c1",
    "start": -3300,
    "end": -2300,
    "title": "良渚古城与玉琮",
@@ -203,7 +295,7 @@
   {
    "id": "world-giza",
    "track": "world",
-   "epochId": "e1",
+   "epochId": "w1",
    "start": -2560,
    "end": -2540,
    "title": "吉萨大金字塔",
@@ -245,7 +337,7 @@
   {
    "id": "world-hammurabi",
    "track": "world",
-   "epochId": "e1",
+   "epochId": "w1",
    "start": -1754,
    "end": -1754,
    "title": "汉谟拉比法典",
@@ -287,7 +379,7 @@
   {
    "id": "cn-shang-oracle",
    "track": "cn",
-   "epochId": "e1",
+   "epochId": "c1",
    "start": -1250,
    "end": -1046,
    "title": "殷墟甲骨文",
@@ -333,7 +425,7 @@
   {
    "id": "cn-confucius",
    "track": "cn",
-   "epochId": "e2",
+   "epochId": "c1",
    "start": -551,
    "end": -479,
    "title": "孔子设教与仁礼之学",
@@ -379,7 +471,7 @@
   {
    "id": "world-athens",
    "track": "world",
-   "epochId": "e2",
+   "epochId": "w2",
    "start": -508,
    "end": -507,
    "title": "雅典民主改革",
@@ -425,7 +517,7 @@
   {
    "id": "world-alexander",
    "track": "world",
-   "epochId": "e2",
+   "epochId": "w2",
    "start": -334,
    "end": -323,
    "title": "亚历山大东征",
@@ -471,7 +563,7 @@
   {
    "id": "cn-qin-unify",
    "track": "cn",
-   "epochId": "e2",
+   "epochId": "c2",
    "start": -221,
    "end": -206,
    "title": "秦统一六国",
@@ -517,7 +609,7 @@
   {
    "id": "cn-silkroad",
    "track": "cn",
-   "epochId": "e3",
+   "epochId": "c2",
    "start": -138,
    "end": -126,
    "title": "张骞凿空西域",
@@ -563,7 +655,7 @@
   {
    "id": "world-rome-principate",
    "track": "world",
-   "epochId": "e3",
+   "epochId": "w2",
    "start": -27,
    "end": 14,
    "title": "奥古斯都创立元首制",
@@ -609,7 +701,7 @@
   {
    "id": "world-rome-peak",
    "track": "world",
-   "epochId": "e3",
+   "epochId": "w2",
    "start": 98,
    "end": 117,
    "title": "图拉真与帝国极盛",
@@ -655,7 +747,7 @@
   {
    "id": "cn-paper",
    "track": "cn",
-   "epochId": "e3",
+   "epochId": "c2",
    "start": 105,
    "end": 105,
    "title": "蔡伦改进造纸术",
@@ -697,7 +789,7 @@
   {
    "id": "world-hijra",
    "track": "world",
-   "epochId": "e4",
+   "epochId": "w3",
    "start": 622,
    "end": 632,
    "title": "希吉拉与伊斯兰共同体",
@@ -743,7 +835,7 @@
   {
    "id": "cn-xuanzang",
    "track": "cn",
-   "epochId": "e4",
+   "epochId": "c4",
    "start": 629,
    "end": 645,
    "title": "玄奘西行求法",
@@ -789,7 +881,7 @@
   {
    "id": "cn-talaros",
    "track": "cn",
-   "epochId": "e4",
+   "epochId": "c4",
    "start": 751,
    "end": 751,
    "title": "怛罗斯之战",
@@ -835,7 +927,7 @@
   {
    "id": "world-baghdad",
    "track": "world",
-   "epochId": "e4",
+   "epochId": "w3",
    "start": 762,
    "end": 833,
    "title": "巴格达智慧宫与大翻译",
@@ -881,7 +973,7 @@
   {
    "id": "cn-jiaozi",
    "track": "cn",
-   "epochId": "e5",
+   "epochId": "c5",
    "start": 1023,
    "end": 1024,
    "title": "交子：世界最早的纸币",
@@ -923,7 +1015,7 @@
   {
    "id": "cn-movable-type",
    "track": "cn",
-   "epochId": "e5",
+   "epochId": "c5",
    "start": 1045,
    "end": 1048,
    "title": "毕昇胶泥活字",
@@ -969,7 +1061,7 @@
   {
    "id": "world-crusade",
    "track": "world",
-   "epochId": "e5",
+   "epochId": "w3",
    "start": 1096,
    "end": 1099,
    "title": "第一次十字军东征",
@@ -1015,7 +1107,7 @@
   {
    "id": "world-magna-carta",
    "track": "world",
-   "epochId": "e5",
+   "epochId": "w3",
    "start": 1215,
    "end": 1215,
    "title": "《大宪章》",
@@ -1061,7 +1153,7 @@
   {
    "id": "cn-zhenghe",
    "track": "cn",
-   "epochId": "e6",
+   "epochId": "c6",
    "start": 1405,
    "end": 1433,
    "title": "郑和七下西洋",
@@ -1107,7 +1199,7 @@
   {
    "id": "world-columbus",
    "track": "world",
-   "epochId": "e6",
+   "epochId": "w4",
    "start": 1492,
    "end": 1492,
    "title": "哥伦布抵达美洲",
@@ -1153,7 +1245,7 @@
   {
    "id": "cn-kangxi-calendar",
    "track": "cn",
-   "epochId": "e6",
+   "epochId": "c6",
    "start": 1669,
    "end": 1722,
    "title": "康熙历狱与西学入宫",
@@ -1199,7 +1291,7 @@
   {
    "id": "world-newton",
    "track": "world",
-   "epochId": "e6",
+   "epochId": "w5",
    "start": 1687,
    "end": 1687,
    "title": "牛顿《自然哲学的数学原理》",
@@ -1245,7 +1337,7 @@
   {
    "id": "cn-opium-war",
    "track": "cn",
-   "epochId": "e7",
+   "epochId": "c7",
    "start": 1840,
    "end": 1842,
    "title": "鸦片战争与《南京条约》",
@@ -1291,7 +1383,7 @@
   {
    "id": "world-meiji",
    "track": "world",
-   "epochId": "e7",
+   "epochId": "w6",
    "start": 1868,
    "end": 1889,
    "title": "明治维新",
@@ -1342,7 +1434,7 @@
   {
    "id": "cn-xinhai",
    "track": "cn",
-   "epochId": "e7",
+   "epochId": "c7",
    "start": 1911,
    "end": 1912,
    "title": "辛亥革命",
@@ -1392,7 +1484,9 @@
  ],
  "comparisons": [
   {
-   "epochId": "e3",
+   "id": "c2-vs-w2",
+   "cnEpochId": "c2",
+   "worldEpochId": "w2",
    "left": {
     "title": "大汉帝国（中国轨）",
     "place": "长安",
@@ -1432,7 +1526,9 @@
    ]
   },
   {
-   "epochId": "e4",
+   "id": "c4-vs-w3",
+   "cnEpochId": "c4",
+   "worldEpochId": "w3",
    "left": {
     "title": "唐帝国（中国轨）",
     "place": "长安",
@@ -1472,7 +1568,9 @@
    ]
   },
   {
-   "epochId": "e6",
+   "id": "c6-vs-w4",
+   "cnEpochId": "c6",
+   "worldEpochId": "w4",
    "left": {
     "title": "明清中国（中国轨）",
     "place": "北京 / 南京",
@@ -1516,7 +1614,8 @@
   "events": 27,
   "cn": 14,
   "world": 13,
-  "epochs": 7,
+  "epochsCn": 7,
+  "epochsWorld": 6,
   "comparisons": 3,
   "earliest": -3300,
   "latest": 1912

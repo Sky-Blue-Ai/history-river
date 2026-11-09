@@ -3,23 +3,41 @@
     {
       "id": "cn-jiaozi",
       "track": "cn",
-      "epochId": "e5",
+      "epochId": "c5",
       "start": 1023,
       "end": 1024,
       "title": "交子：世界最早的纸币",
       "subtitle": "信用替代了铜钱",
       "era": "北宋 · 仁宗",
       "region": "四川",
-      "themes": ["商贸", "制度"],
+      "themes": [
+        "商贸",
+        "制度"
+      ],
       "summary": "四川商人联合发行的存款凭证「交子」，在 1023 年前后被官府接管为「官交子」，成为世界最早的政府纸币。它的出现源于铁钱太重、跨区域贸易太密，纸与信用第一次取代了金属。",
       "background": "北宋四川通行铁钱，一贯重达数公斤，大宗交易几乎无法携带。商人遂以存款凭证互相冲抵，形成民间信用票据。",
       "course": "仁宗天圣元年（1023）设益州交子务，规定分界发行、三年一界、备有准备金，面额从一贯到十贯。此后因对西夏战争财政吃紧，朝廷超额发行，交子贬值，徽宗时改行「钱引」。",
       "impact": "交子证明纸币可行，也证明它的失败模式：一旦发行脱离准备金与财政纪律，通胀就会吞掉信用。这一教训在此后八百年间反复重演，直到近代中央银行制度才被制度性约束。",
-      "figures": [{ "name": "张咏", "role": "益州知州，整顿交子" }],
-      "counterparts": ["world-magna-carta"],
+      "figures": [
+        {
+          "name": "张咏",
+          "role": "益州知州，整顿交子"
+        }
+      ],
+      "counterparts": [
+        "world-magna-carta"
+      ],
       "sources": [
-        { "title": "交子", "url": "https://zh.wikipedia.org/wiki/交子", "publisher": "维基百科" },
-        { "title": "宋史·食货志", "url": "https://zh.wikisource.org/wiki/宋史/卷181", "publisher": "维基文库" }
+        {
+          "title": "交子",
+          "url": "https://zh.wikipedia.org/wiki/交子",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "宋史·食货志",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷181",
+          "publisher": "维基文库"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -27,23 +45,45 @@
     {
       "id": "cn-movable-type",
       "track": "cn",
-      "epochId": "e5",
+      "epochId": "c5",
       "start": 1045,
       "end": 1048,
       "title": "毕昇胶泥活字",
       "subtitle": "被记录却未被普及的发明",
       "era": "北宋 · 庆历",
       "region": "杭州一带",
-      "themes": ["科技", "文化"],
+      "themes": [
+        "科技",
+        "文化"
+      ],
       "summary": "平民工匠毕昇用胶泥刻字、火烧成硬块，按韵排字、铁板敷药固定，制成可重复使用的活字。沈括在《梦溪笔谈》中记下这套工艺，但宋代出版仍以雕版为主，活字未成主流。",
       "background": "宋代科举与城市文化带来空前的书籍需求，雕版印刷在成都、杭州、建阳形成产业。雕版一版一用，改字即废版，成本压在长篇与重印上。",
       "course": "毕昇的方法包含制字、排版、固版、拆版、按韵贮字五个环节，技术上完全可行。制约在于汉字字数庞大：常用字数千，一套活字需反复检字，反而不如雕版经济。",
       "impact": "活字在汉字文化圈长期让位于雕版，直到晚清西方铅活字与机器印刷传入才彻底改变。技术是否被采用，取决于文字系统与市场规模，而不只取决于它是否「更先进」。",
-      "figures": [{ "name": "毕昇", "role": "工匠" }, { "name": "沈括", "role": "记录者" }],
-      "counterparts": ["world-crusade"],
+      "figures": [
+        {
+          "name": "毕昇",
+          "role": "工匠"
+        },
+        {
+          "name": "沈括",
+          "role": "记录者"
+        }
+      ],
+      "counterparts": [
+        "world-crusade"
+      ],
       "sources": [
-        { "title": "毕昇", "url": "https://zh.wikipedia.org/wiki/毕昇", "publisher": "维基百科" },
-        { "title": "梦溪笔谈·技艺", "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷18", "publisher": "维基文库" }
+        {
+          "title": "毕昇",
+          "url": "https://zh.wikipedia.org/wiki/毕昇",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "梦溪笔谈·技艺",
+          "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷18",
+          "publisher": "维基文库"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -51,23 +91,45 @@
     {
       "id": "world-crusade",
       "track": "world",
-      "epochId": "e5",
+      "epochId": "w3",
       "start": 1096,
       "end": 1099,
       "title": "第一次十字军东征",
       "subtitle": "以信仰之名的远征战",
       "era": "中世纪欧洲",
       "region": "欧洲至黎凡特",
-      "themes": ["征伐", "宗教"],
+      "themes": [
+        "征伐",
+        "宗教"
+      ],
       "summary": "1096 年，西欧骑士在「收复圣墓」的号召下东征，三年后攻陷耶路撒冷并屠杀城中居民，建立耶路撒冷王国等十字军国家。这场持续近两百年的运动，意外地把欧洲重新接入了地中海的贸易与知识网络。",
       "background": "塞尔柱突厥扩张使朝圣路线受阻，拜占庭皇帝向教皇求援。教宗乌尔班二世在克莱蒙宗教会议上把援助东方与「赎罪」结合，赋予远征宗教正当性。",
       "course": "数万骑士与平民分路东进，1099 年 7 月攻破耶路撒冷。此后建立埃德萨、安条克、耶路撒冷等拉丁国家，依赖意大利城邦的海运补给。1187 年萨拉丁收复耶路撒冷，1291 年阿卡陷落，十字军国家终结。",
       "impact": "十字军未永久改变近东政治，却重塑了欧洲：威尼斯与热那亚借运输崛起，骑士团成为跨国金融与军事组织，阿拉伯文献经叙利亚与西班牙流入欧洲大学。",
-      "figures": [{ "name": "乌尔班二世", "role": "教宗" }, { "name": "萨拉丁", "role": "阿尤布王朝苏丹" }],
-      "counterparts": ["cn-movable-type"],
+      "figures": [
+        {
+          "name": "乌尔班二世",
+          "role": "教宗"
+        },
+        {
+          "name": "萨拉丁",
+          "role": "阿尤布王朝苏丹"
+        }
+      ],
+      "counterparts": [
+        "cn-movable-type"
+      ],
       "sources": [
-        { "title": "十字军东征", "url": "https://zh.wikipedia.org/wiki/十字军东征", "publisher": "维基百科" },
-        { "title": "First Crusade", "url": "https://en.wikipedia.org/wiki/First_Crusade", "publisher": "Wikipedia" }
+        {
+          "title": "十字军东征",
+          "url": "https://zh.wikipedia.org/wiki/十字军东征",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "First Crusade",
+          "url": "https://en.wikipedia.org/wiki/First_Crusade",
+          "publisher": "Wikipedia"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -75,23 +137,45 @@
     {
       "id": "world-magna-carta",
       "track": "world",
-      "epochId": "e5",
+      "epochId": "w3",
       "start": 1215,
       "end": 1215,
       "title": "《大宪章》",
       "subtitle": "王权第一次被写在纸上",
       "era": "英格兰 · 约翰王",
       "region": "不列颠",
-      "themes": ["律法", "政略"],
+      "themes": [
+        "律法",
+        "政略"
+      ],
       "summary": "贵族在兰尼米德草地逼迫约翰王签署《大宪章》，规定国王征税须经协商、自由人非经合法审判不得被拘禁。它当时是一份贵族与王权妥协的文件，后来被反复重释为限制权力的原型。",
       "background": "约翰王在对法战争中丧失诺曼底，又为收复失地加征重税，与教会和贵族的冲突同时爆发。男爵们武装进逼伦敦。",
       "course": "1215 年 6 月签署的宪章共 63 条，核心是税收同意权、自由人审判权、教会自由与城市特权。教宗英诺森三世随即宣布其无效，约翰王次年去世，宪章在幼主亨利三世时期被多次重新颁布。",
       "impact": "17 世纪柯克与议会派把《大宪章》解释为公民自由的渊源，其第 39 条进入英美正当程序传统。真实的 1215 年文本保护的是贵族，被后人读成了所有人的权利。",
-      "figures": [{ "name": "约翰王", "role": "英格兰国王" }, { "name": "爱德华·柯克", "role": "17 世纪法学家" }],
-      "counterparts": ["cn-jiaozi"],
+      "figures": [
+        {
+          "name": "约翰王",
+          "role": "英格兰国王"
+        },
+        {
+          "name": "爱德华·柯克",
+          "role": "17 世纪法学家"
+        }
+      ],
+      "counterparts": [
+        "cn-jiaozi"
+      ],
       "sources": [
-        { "title": "大宪章", "url": "https://zh.wikipedia.org/wiki/大宪章", "publisher": "维基百科" },
-        { "title": "Magna Carta", "url": "https://en.wikipedia.org/wiki/Magna_Carta", "publisher": "Wikipedia" }
+        {
+          "title": "大宪章",
+          "url": "https://zh.wikipedia.org/wiki/大宪章",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "Magna Carta",
+          "url": "https://en.wikipedia.org/wiki/Magna_Carta",
+          "publisher": "Wikipedia"
+        }
       ],
       "verified": true,
       "disputed": false

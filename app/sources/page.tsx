@@ -1,4 +1,4 @@
-import { epochs, events, stats } from "@/lib/content";
+import { events, routes, stats } from "@/lib/content";
 import { shortYear } from "@/lib/format";
 
 export const metadata = { title: "馆藏通则：来源与口径" };
@@ -23,7 +23,7 @@ export default function SourcesPage() {
       <h1 style={{ fontSize: "var(--text-headline-xl)", marginTop: "0.5rem" }}>馆藏通则：来源与口径</h1>
       <p style={{ color: "var(--color-ink-variant)", marginTop: "0.8rem", fontSize: "var(--text-body-lg)", lineHeight: 1.95 }}>
         本馆为个人研学项目，不是学术出版物。每一条事件都标注来源，凡涉学界不同说法者单独标「存异说」。
-        当前收录 {stats.events} 条（中国 {stats.cn} / 世界 {stats.world}），跨 {stats.epochs} 个纪元，
+        当前收录 {stats.events} 条（中国 {stats.cn} / 世界 {stats.world}），华夏 {stats.epochsCn} 卷 · 域外 {stats.epochsWorld} 卷，
         时间范围 {shortYear(stats.earliest)} — {shortYear(stats.latest)}。
       </p>
 
@@ -32,6 +32,7 @@ export default function SourcesPage() {
           一、编纂口径
         </h2>
         <ul style={{ marginTop: "0.8rem", paddingLeft: "1.1rem", color: "var(--color-ink-variant)", lineHeight: 1.95, fontSize: "var(--text-body-sm)" }}>
+          <li>路线：中国史与世界史各自独立成卷（华夏 c1–c7、域外 w1–w6），默认不混排；需要比较时用「对照视图」。</li>
           <li>年代：公元前用负数记法呈现（如 BC 221），不设公元 0 年；事件取学界通行的起止年，跨年事件给出区间。</li>
           <li>表述：以中国大陆通行教材与通史口径为主，遇中外学界分歧（如怛罗斯之战与造纸术西传的关系）并列说法并标注。</li>
           <li>地理：使用「历史地理范围」描述，不以后世国界倒推古代政权疆域。</li>
@@ -82,9 +83,9 @@ export default function SourcesPage() {
           四、卷目版本
         </h2>
         <ul style={{ marginTop: "0.8rem", paddingLeft: "1.1rem", color: "var(--color-ink-variant)", lineHeight: 1.95, fontSize: "var(--text-body-sm)" }}>
-          {epochs.map((ep) => (
+          {[...routes.cn.epochs, ...routes.world.epochs].map((ep) => (
             <li key={ep.id}>
-              {ep.label} · {ep.name}（{shortYear(ep.cnSpan.from)} — {shortYear(ep.cnSpan.to)}）
+              {ep.id.startsWith("c") ? "华夏" : "域外"} · {ep.label} · {ep.name}（{shortYear(ep.span.from)} — {shortYear(ep.span.to)}）
             </li>
           ))}
         </ul>

@@ -3,23 +3,45 @@
     {
       "id": "cn-silkroad",
       "track": "cn",
-      "epochId": "e3",
+      "epochId": "c2",
       "start": -138,
       "end": -126,
       "title": "张骞凿空西域",
       "subtitle": "一条商路被政治打开",
       "era": "西汉 · 汉武帝",
       "region": "河西走廊至中亚",
-      "themes": ["商路", "征伐"],
+      "themes": [
+        "商路",
+        "征伐"
+      ],
       "summary": "张骞奉汉武帝之命出使大月氏，欲结盟夹击匈奴，被匈奴扣留十余年，辗转归国时已人去政移。军事目的落空，却带回了西域三十余国的山川、物产与道路情报，汉朝由此开始经营河西走廊。",
       "background": "汉初对匈奴长期和亲纳贡。武帝即位后国力充盈，决意转为主动出击，先派张骞西行寻找被匈奴逐走的大月氏。",
       "course": "前138 年张骞出陇西，途中两度为匈奴所扣，前126 年方归长安，随行者百余人仅存二人。前119 年再使乌孙，副使分赴大宛、康居、安息，汉与西域诸国自此互派使节。前60 年设西域都护府。",
       "impact": "丝绸之路并非一条由商人自发走通的路，而是帝国安全需求的副产品。此后丝绸、漆器西去，葡萄、苜蓿、良马东来，佛教也沿同一通道进入中国。",
-      "figures": [{ "name": "张骞", "role": "博望侯" }, { "name": "刘彻", "role": "汉武帝" }],
-      "counterparts": ["world-rome-principate"],
+      "figures": [
+        {
+          "name": "张骞",
+          "role": "博望侯"
+        },
+        {
+          "name": "刘彻",
+          "role": "汉武帝"
+        }
+      ],
+      "counterparts": [
+        "world-rome-principate"
+      ],
       "sources": [
-        { "title": "张骞", "url": "https://zh.wikipedia.org/wiki/张骞", "publisher": "维基百科" },
-        { "title": "史记·大宛列传", "url": "https://zh.wikisource.org/wiki/史記/卷123", "publisher": "维基文库" }
+        {
+          "title": "张骞",
+          "url": "https://zh.wikipedia.org/wiki/张骞",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "史记·大宛列传",
+          "url": "https://zh.wikisource.org/wiki/史記/卷123",
+          "publisher": "维基文库"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -27,23 +49,45 @@
     {
       "id": "world-rome-principate",
       "track": "world",
-      "epochId": "e3",
+      "epochId": "w2",
       "start": -27,
       "end": 14,
       "title": "奥古斯都创立元首制",
       "subtitle": "共和外壳下的君主制",
       "era": "罗马帝国",
       "region": "地中海",
-      "themes": ["政略", "制度"],
+      "themes": [
+        "政略",
+        "制度"
+      ],
       "summary": "屋大维在亚克兴海战击败安东尼后，于前27 年归还权力、接受「奥古斯都」尊号，事实上把共和国的官职与军权集于一身。罗马从此由共和国转为元首制，进入两百年相对稳定的「罗马和平」。",
       "background": "凯撒遇刺后，共和国已无力调和元老院与军团之间的矛盾。内战二十年后，所有人都需要一个能终止流血的强人，但没有人愿意公开称王。",
       "course": "屋大维保留元老院与公民大会的形式，自己握有终身保民官权、行省总督权与军团指挥权；设近卫军、改革税制与货币、以军团驻防固定边疆。他自称「第一公民」（princeps）。",
       "impact": "元首制解决了「帝国规模已超出城邦共和制度承载力」的难题，也留下了合法性含糊的隐患：三世纪危机的根源之一正是这套没有明确继承规则的体制。",
-      "figures": [{ "name": "屋大维", "role": "奥古斯都" }, { "name": "安东尼", "role": "政敌" }],
-      "counterparts": ["cn-silkroad"],
+      "figures": [
+        {
+          "name": "屋大维",
+          "role": "奥古斯都"
+        },
+        {
+          "name": "安东尼",
+          "role": "政敌"
+        }
+      ],
+      "counterparts": [
+        "cn-silkroad"
+      ],
       "sources": [
-        { "title": "奥古斯都", "url": "https://zh.wikipedia.org/wiki/奥古斯都", "publisher": "维基百科" },
-        { "title": "Roman Principate", "url": "https://en.wikipedia.org/wiki/Principate", "publisher": "Wikipedia" }
+        {
+          "title": "奥古斯都",
+          "url": "https://zh.wikipedia.org/wiki/奥古斯都",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "Roman Principate",
+          "url": "https://en.wikipedia.org/wiki/Principate",
+          "publisher": "Wikipedia"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -51,23 +95,41 @@
     {
       "id": "cn-paper",
       "track": "cn",
-      "epochId": "e3",
+      "epochId": "c2",
       "start": 105,
       "end": 105,
       "title": "蔡伦改进造纸术",
       "subtitle": "知识的成本被压低",
       "era": "东汉 · 和帝",
       "region": "洛阳",
-      "themes": ["科技", "文化"],
+      "themes": [
+        "科技",
+        "文化"
+      ],
       "summary": "尚方令蔡伦以树皮、麻头、破布、旧渔网为原料造纸，奏报朝廷后推行天下，世称「蔡侯纸」。纸取代简帛，使书写材料的成本下降一个数量级，为后来印刷术的出现准备了物质前提。",
       "background": "汉代文书主要用竹简木牍与缣帛：简牍笨重，缣帛昂贵。西汉已有早期麻纸出土，但质地粗劣，未进入日常书写。",
       "course": "《后汉书·蔡伦传》记其「用树肤、麻头及敝布、鱼网以为纸」，元兴元年（105）奏上，帝善其能。敦煌、居延等地出土的汉代纸片，印证了工艺在西北边塞的扩散。",
       "impact": "纸在 8 世纪经怛罗斯之战后的工匠西传传入阿拉伯世界，12 世纪进入欧洲，最终取代羊皮纸。它是少数由中国发明、彻底改写全球知识传播成本的技术。",
-      "figures": [{ "name": "蔡伦", "role": "尚方令" }],
-      "counterparts": ["world-rome-peak"],
+      "figures": [
+        {
+          "name": "蔡伦",
+          "role": "尚方令"
+        }
+      ],
+      "counterparts": [
+        "world-rome-peak"
+      ],
       "sources": [
-        { "title": "造纸术", "url": "https://zh.wikipedia.org/wiki/造纸术", "publisher": "维基百科" },
-        { "title": "后汉书·蔡伦传", "url": "https://zh.wikisource.org/wiki/後漢書/卷78", "publisher": "维基文库" }
+        {
+          "title": "造纸术",
+          "url": "https://zh.wikipedia.org/wiki/造纸术",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "后汉书·蔡伦传",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷78",
+          "publisher": "维基文库"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -75,23 +137,45 @@
     {
       "id": "world-rome-peak",
       "track": "world",
-      "epochId": "e3",
+      "epochId": "w2",
       "start": 98,
       "end": 117,
       "title": "图拉真与帝国极盛",
       "subtitle": "罗马版图的最大半径",
       "era": "罗马帝国 · 安敦尼王朝前夜",
       "region": "地中海至两河",
-      "themes": ["征伐", "工程"],
+      "themes": [
+        "征伐",
+        "工程"
+      ],
       "summary": "图拉真征服达契亚、 吞并阿拉伯佩特拉、东进至波斯湾，罗马版图在他去世时达到最大。他用达契亚的黄金修广场、道路与引水渠，也把帝国的财政建立在征服红利之上。",
       "background": "弗拉维王朝结束后，涅尔瓦以「过继」方式指定图拉真为继承人，开创了五位「好皇帝」相继的安敦尼王朝，元首制在此期达到治理效率的顶点。",
       "course": "101–106 年两次达契亚战争，图拉真柱以螺旋浮雕记录战事；114–117 年东征消灭亚美尼亚与美索不达米亚的缓冲国，兵锋抵波斯湾。117 年病逝于途中，继任者哈德良随即放弃东方新省。",
       "impact": "极盛同时也暴露了极限：帝国已无法靠一个元首与一套城邦式行政覆盖如此辽阔的疆域。哈德良转而修长城、固边疆，标志罗马从扩张转入防守。",
-      "figures": [{ "name": "图拉真", "role": "罗马皇帝" }, { "name": "哈德良", "role": "继任者" }],
-      "counterparts": ["cn-paper"],
+      "figures": [
+        {
+          "name": "图拉真",
+          "role": "罗马皇帝"
+        },
+        {
+          "name": "哈德良",
+          "role": "继任者"
+        }
+      ],
+      "counterparts": [
+        "cn-paper"
+      ],
       "sources": [
-        { "title": "图拉真", "url": "https://zh.wikipedia.org/wiki/图拉真", "publisher": "维基百科" },
-        { "title": "Trajan", "url": "https://en.wikipedia.org/wiki/Trajan", "publisher": "Wikipedia" }
+        {
+          "title": "图拉真",
+          "url": "https://zh.wikipedia.org/wiki/图拉真",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "Trajan",
+          "url": "https://en.wikipedia.org/wiki/Trajan",
+          "publisher": "Wikipedia"
+        }
       ],
       "verified": true,
       "disputed": false

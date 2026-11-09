@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import ArchiveClient, { type ArchiveItem } from "@/components/ArchiveClient";
-import { epochById, epochs, events, themeCounts } from "@/lib/content";
+import { epochById, events, routes, themeCounts } from "@/lib/content";
 
 export const metadata = { title: "典籍与故事索引" };
 
@@ -27,7 +27,10 @@ export default function ArchivePage() {
     <Suspense fallback={<div className="wrap" style={{ paddingBlock: "var(--spacing-2xl)" }}>正在展开索引卷…</div>}>
       <ArchiveClient
         items={items}
-        epochOptions={epochs.map((e) => ({ id: e.id, name: e.name }))}
+        epochOptions={[
+          ...routes.cn.epochs.map((e) => ({ id: e.id, name: `华夏 · ${e.name}` })),
+          ...routes.world.epochs.map((e) => ({ id: e.id, name: `域外 · ${e.name}` })),
+        ]}
         themeOptions={themeCounts()}
       />
     </Suspense>

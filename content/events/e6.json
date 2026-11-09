@@ -3,23 +3,45 @@
     {
       "id": "cn-zhenghe",
       "track": "cn",
-      "epochId": "e6",
+      "epochId": "c6",
       "start": 1405,
       "end": 1433,
       "title": "郑和七下西洋",
       "subtitle": "一次主动开始又主动结束的远航",
       "era": "明 · 永乐至宣德",
       "region": "南海至东非",
-      "themes": ["商贸", "征伐"],
+      "themes": [
+        "商贸",
+        "征伐"
+      ],
       "summary": "1405 至 1433 年，郑和率两百余艘宝船七次远航，抵达占城、满剌加、锡兰、忽鲁谟斯与东非沿岸，最远处或至麻林地。船队以朝贡与册封为主，不以殖民与贸易利润为目的，宣德后再未重启。",
       "background": "永乐帝以「靖难」夺位，需要通过对外的盛大仪式确立合法性，同时打击沿海私商与潜在的敌对势力。明初国力与造船业足以支撑远洋。",
       "course": "首次出航有宝船六十二艘、人员两万七千余人。船队沿既定航线访问三十余国，调解满剌加与暹罗的冲突，带回长颈鹿（被视为麒麟）与各国使节。1433 年后因北边压力与财政争论停罢，宝船图籍亦被销毁。",
       "impact": "这次远航证明了中国具备远洋能力，也证明它没有走向殖民的动机结构。八十七年后哥伦布以三艘小船出航，背后是不同的资金逻辑与国家竞争，这才是两条路线分岔的地方。",
-      "figures": [{ "name": "郑和", "role": "正使太监" }, { "name": "朱棣", "role": "永乐帝" }],
-      "counterparts": ["world-columbus"],
+      "figures": [
+        {
+          "name": "郑和",
+          "role": "正使太监"
+        },
+        {
+          "name": "朱棣",
+          "role": "永乐帝"
+        }
+      ],
+      "counterparts": [
+        "world-columbus"
+      ],
       "sources": [
-        { "title": "郑和下西洋", "url": "https://zh.wikipedia.org/wiki/郑和下西洋", "publisher": "维基百科" },
-        { "title": "明史·郑和传", "url": "https://zh.wikisource.org/wiki/明史/卷304", "publisher": "维基文库" }
+        {
+          "title": "郑和下西洋",
+          "url": "https://zh.wikipedia.org/wiki/郑和下西洋",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "明史·郑和传",
+          "url": "https://zh.wikisource.org/wiki/明史/卷304",
+          "publisher": "维基文库"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -27,23 +49,45 @@
     {
       "id": "world-columbus",
       "track": "world",
-      "epochId": "e6",
+      "epochId": "w4",
       "start": 1492,
       "end": 1492,
       "title": "哥伦布抵达美洲",
       "subtitle": "一次算错了地球周长",
       "era": "大航海时代",
       "region": "大西洋",
-      "themes": ["商路", "征伐"],
+      "themes": [
+        "商路",
+        "征伐"
+      ],
       "summary": "哥伦布相信向西可抵亚洲，把地球周长估小了约四分之一，意外撞上巴哈马群岛。此后欧洲与美洲进入不可逆的接触，物种、人口、疾病与白银在两个半球之间大规模交换。",
       "background": "奥斯曼控制东地中海后，欧洲通往亚洲的陆路成本上升。葡萄牙沿非洲南岸摸索，西班牙则押注向西的直线方案。",
       "course": "1492 年 8 月三船九十人自帕洛斯出航，10 月 12 日抵圣萨尔瓦多岛，此后三次航行到达大安的列斯与南美北岸。他至死认为自己到达的是亚洲，西班牙王室则很快意识到这是「新世界」。",
       "impact": "「哥伦布大交换」带来玉米、马铃薯、辣椒的全球扩散，也带来天花与征服。美洲白银经马尼拉流入中国，直接参与塑造了明清的赋税与物价体系——这是中外历史第一次真正连成一体。",
-      "figures": [{ "name": "哥伦布", "role": "航海家" }, { "name": "伊莎贝拉一世", "role": "卡斯蒂利亚女王" }],
-      "counterparts": ["cn-zhenghe"],
+      "figures": [
+        {
+          "name": "哥伦布",
+          "role": "航海家"
+        },
+        {
+          "name": "伊莎贝拉一世",
+          "role": "卡斯蒂利亚女王"
+        }
+      ],
+      "counterparts": [
+        "cn-zhenghe"
+      ],
       "sources": [
-        { "title": "克里斯托弗·哥伦布", "url": "https://zh.wikipedia.org/wiki/克里斯托弗·哥伦布", "publisher": "维基百科" },
-        { "title": "Columbian exchange", "url": "https://en.wikipedia.org/wiki/Columbian_exchange", "publisher": "Wikipedia" }
+        {
+          "title": "克里斯托弗·哥伦布",
+          "url": "https://zh.wikipedia.org/wiki/克里斯托弗·哥伦布",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "Columbian exchange",
+          "url": "https://en.wikipedia.org/wiki/Columbian_exchange",
+          "publisher": "Wikipedia"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -51,23 +95,45 @@
     {
       "id": "world-newton",
       "track": "world",
-      "epochId": "e6",
+      "epochId": "w5",
       "start": 1687,
       "end": 1687,
       "title": "牛顿《自然哲学的数学原理》",
       "subtitle": "天空与地面服从同一套定律",
       "era": "科学革命",
       "region": "英格兰",
-      "themes": ["科技", "哲学"],
+      "themes": [
+        "科技",
+        "哲学"
+      ],
       "summary": "1687 年牛顿出版《原理》，用三条运动定律与万有引力把苹果落地与行星绕日统一在同一个数学框架里。这是人类第一次用少数方程解释可见宇宙的规律。",
       "background": "哥白尼、开普勒与伽利略已把天体问题变成几何与观测问题，但「为什么行星沿椭圆运行」仍缺一个统一的力。皇家学会的资助与哈雷的推动促成了出版。",
       "course": "全书以定义、公理与命题的几何体例写成，推导出开普勒三定律、潮汐成因与岁差。第二版加入「我不构造假说」的方法论声明，确立「用数学描述、不作形而上学断言」的研究范式。",
       "impact": "牛顿力学成为此后两百年的科学标准，直到相对论与量子力学划出边界。它也改变了知识的权威来源：从经典与古人，转为可重复的实验与可推导的数学。",
-      "figures": [{ "name": "艾萨克·牛顿", "role": "数学家、物理学家" }, { "name": "埃德蒙·哈雷", "role": "资助与推动出版" }],
-      "counterparts": ["cn-kangxi-calendar"],
+      "figures": [
+        {
+          "name": "艾萨克·牛顿",
+          "role": "数学家、物理学家"
+        },
+        {
+          "name": "埃德蒙·哈雷",
+          "role": "资助与推动出版"
+        }
+      ],
+      "counterparts": [
+        "cn-kangxi-calendar"
+      ],
       "sources": [
-        { "title": "自然哲学的数学原理", "url": "https://zh.wikipedia.org/wiki/自然哲学的数学原理", "publisher": "维基百科" },
-        { "title": "Philosophiæ Naturalis Principia Mathematica", "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica", "publisher": "Wikipedia" }
+        {
+          "title": "自然哲学的数学原理",
+          "url": "https://zh.wikipedia.org/wiki/自然哲学的数学原理",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "Philosophiæ Naturalis Principia Mathematica",
+          "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+          "publisher": "Wikipedia"
+        }
       ],
       "verified": true,
       "disputed": false
@@ -75,23 +141,45 @@
     {
       "id": "cn-kangxi-calendar",
       "track": "cn",
-      "epochId": "e6",
+      "epochId": "c6",
       "start": 1669,
       "end": 1722,
       "title": "康熙历狱与西学入宫",
       "subtitle": "历法之争背后的知识边界",
       "era": "清 · 康熙",
       "region": "北京",
-      "themes": ["科技", "宗教"],
+      "themes": [
+        "科技",
+        "宗教"
+      ],
       "summary": "耶稣会士以南怀仁的西洋历法在「历法之争」中胜出，接掌钦天监。康熙本人学习几何、代数与天文，命人测绘《皇舆全览图》。西学进入宫廷，却始终停在皇帝与少数匠人之间。",
       "background": "明末徐光启与利玛窦合译《几何原本》，引入西洋历法。清初杨光先以「宁可使中夏无好历法，不可使中夏有西洋人」攻击汤若望，酿成历狱。",
       "course": "1669 年康熙为汤若望平反，以南怀仁掌钦天监，用实测检验中西历法的精度。1708–1718 年组织全国三角测量，绘成《皇舆全览图》，是当时世界规模最大的实测地图。",
       "impact": "同期欧洲正在把科学变成公开的、可争论的公共知识，清朝的西学则是宫廷内部的技艺。这一差别不在智力，而在知识生产的制度：有没有学会、期刊、大学与市场。",
-      "figures": [{ "name": "爱新觉罗·玄烨", "role": "康熙帝" }, { "name": "南怀仁", "role": "耶稣会士、钦天监监正" }],
-      "counterparts": ["world-newton"],
+      "figures": [
+        {
+          "name": "爱新觉罗·玄烨",
+          "role": "康熙帝"
+        },
+        {
+          "name": "南怀仁",
+          "role": "耶稣会士、钦天监监正"
+        }
+      ],
+      "counterparts": [
+        "world-newton"
+      ],
       "sources": [
-        { "title": "南怀仁", "url": "https://zh.wikipedia.org/wiki/南怀仁", "publisher": "维基百科" },
-        { "title": "皇舆全览图", "url": "https://zh.wikipedia.org/wiki/皇舆全览图", "publisher": "维基百科" }
+        {
+          "title": "南怀仁",
+          "url": "https://zh.wikipedia.org/wiki/南怀仁",
+          "publisher": "维基百科"
+        },
+        {
+          "title": "皇舆全览图",
+          "url": "https://zh.wikipedia.org/wiki/皇舆全览图",
+          "publisher": "维基百科"
+        }
       ],
       "verified": true,
       "disputed": false

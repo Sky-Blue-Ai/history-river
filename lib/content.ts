@@ -41,11 +41,17 @@ export interface Epoch {
   label: string;
   name: string;
   slug: string;
-  cnSpan: { from: number; to: number };
-  worldSpan: { from: number; to: number };
+  span: { from: number; to: number };
   oneLiner: string;
   keywords: string[];
   chapter: string;
+}
+
+export interface EpochSet {
+  track: Track;
+  label: string;
+  sub: string;
+  epochs: Epoch[];
 }
 
 export interface Dimension {
@@ -55,7 +61,9 @@ export interface Dimension {
 }
 
 export interface Comparison {
-  epochId: string;
+  id: string;
+  cnEpochId: string;
+  worldEpochId: string;
   left: { title: string; place: string; polity: string };
   right: { title: string; place: string; polity: string };
   dimensions: Dimension[];
@@ -64,14 +72,16 @@ export interface Comparison {
 }
 
 interface Content {
-  epochs: Epoch[];
+  epochsCn: EpochSet;
+  epochsWorld: EpochSet;
   events: HEvent[];
   comparisons: Comparison[];
   stats: {
     events: number;
     cn: number;
     world: number;
-    epochs: number;
+    epochsCn: number;
+    epochsWorld: number;
     comparisons: number;
     earliest: number;
     latest: number;
@@ -80,35 +90,65 @@ interface Content {
 
 const content = raw as unknown as Content;
 
-export const epochs = content.epochs;
+/** 两条路线，各自独立的纪元体系，默认不混排 */
+export const routes: Record<Track, EpochSet> = {
+  cn: content.epochsCn,
+  world: content.epochsWorld,
+};
+
 export const events = content.events;
 export const comparisons = content.comparisons;
 export const stats = content.stats;
 
+export const epochById = new Map<string, Epoch>(
+  [...routes.cn.epochs, ...routes.world.epochs].map((e) => [e.id, e])
+);
+
 export const eventById = new Map(events.map((e) => [e.id, e]));
-export const epochById = new Map(epochs.map((e) => [e.id, e]));
-export const comparisonByEpoch = new Map(comparisons.map((c) => [c.epochId, c]));
 
-export const eventsByTrack = (track: Track) => events.filter((e) => e.track === track);
-export const eventsOfEpoch = (epochId: string) => events.filter((e) => e.epochId === epochId);
+export const epochsOf = (track: Track): Epoch[] => routes[track].epochs;
+export const routeLabel = (track: Track) => routes[track].label;
+export const routeSub = (track: Track) => routes[track].sub;
 
-/** 主题统计：给「史学透镜」用，全部由数据算出，不写死 */
-export function themeCounts(): { theme: string; count: number }[] {
+export const eventsOfTrack = (track: Track) =>
+  events.filter((e) => e.track === track).sort((a, b) => a.start - b.start);
+
+export const eventsOfEpoch = (epochId: string) =>
+  events.filter((e) => e.epochId === epochId).sort((a, b) => a.start - b.start);
+
+/** 主题统计：可按轨道分别算，路线页不串味 */
+export function themeCounts(track?: Track): { theme: string; count: number }[] {
   const map = new Map<string, number>();
-  for (const e of events) for (const t of e.themes) map.set(t, (map.get(t) ?? 0) + 1);
+  for (const e of events) {
+    if (track && e.track !== track) continue;
+    for (const t of e.themes) map.set(t, (map.get(t) ?? 0) + 1);
+  }
   return [...map.entries()]
     .map(([theme, count]) => ({ theme, count }))
     .sort((a, b) => b.count - a.count || a.theme.localeCompare(b.theme, "zh"));
 }
 
-/** 每条事件的「同期对照」对象；双向关系在门禁里已保证 */
+export const comparisonById = (id: string) => comparisons.find((c) => c.id === id);
+export const comparisonsOfEpoch = (epochId: string) =>
+  comparisons.filter((c) => c.cnEpochId === epochId || c.worldEpochId === epochId);
+
 export function counterpartsOf(e: HEvent): HEvent[] {
   return e.counterparts.map((id) => eventById.get(id)).filter((x): x is HEvent => Boolean(x));
 }
 
-/** 按时间排序的相邻事件，用于详情页翻页 */
+/** 同轨道内相邻事件，用于详情页翻页 */
 export function neighbours(e: HEvent): { prev?: HEvent; next?: HEvent } {
-  const sorted = [...events].sort((a, b) => a.start - b.start || a.id.localeCompare(b.id));
+  const sorted = eventsOfTrack(e.track);
   const i = sorted.findIndex((x) => x.id === e.id);
   return { prev: sorted[i - 1], next: sorted[i + 1] };
 }
+
+/** 纪元在所属路线中的前一个 / 后一个纪元 */
+export function epochNeighbours(epochId: string): { prev?: Epoch; next?: Epoch } {
+  const track: Track = epochId.startsWith("c") ? "cn" : "world";
+  const list = epochsOf(track);
+  const i = list.findIndex((e) => e.id === epochId);
+  return { prev: list[i - 1], next: list[i + 1] };
+}
+
+export const trackOfEpoch = (epochId: string): Track => (epochId.startsWith("c") ? "cn" : "world");
