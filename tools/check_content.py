@@ -120,6 +120,12 @@ def main() -> int:
                 errors.append(f"{where}: counterparts 指向不存在的 {cp}")
             elif eid not in other.get("counterparts", []):
                 errors.append(f"{where}: 对照关系不是双向的（{cp} 未反向指向 {eid}）")
+        for sec in e.get("sections") or []:
+            if not str(sec.get("title", "")).strip() or len(str(sec.get("body", ""))) < 40:
+                errors.append(f"{where}: sections 需要 title 且 body ≥ 40 字")
+        for node in e.get("timeline") or []:
+            if not isinstance(node.get("year"), int) or not str(node.get("text", "")).strip():
+                errors.append(f"{where}: timeline 节点需要整数 year 与 text")
         sources = e.get("sources") or []
         if not any(s.get("url", "").startswith("http") for s in sources):
             errors.append(f"{where}: 至少需要一个带 http(s) url 的来源")

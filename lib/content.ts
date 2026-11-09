@@ -13,6 +13,16 @@ export interface Figure {
   role?: string;
 }
 
+export interface EventSection {
+  title: string;
+  body: string;
+}
+
+export interface TimelineNode {
+  year: number;
+  text: string;
+}
+
 export interface HEvent {
   id: string;
   track: Track;
@@ -29,6 +39,8 @@ export interface HEvent {
   course: string;
   impact: string;
   figures: Figure[];
+  sections?: EventSection[];
+  timeline?: TimelineNode[];
   counterparts: string[];
   sources: Source[];
   verified: boolean;

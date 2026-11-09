@@ -1,0 +1,243 @@
+{
+  "stage": [
+    {
+      "stage": "s1",
+      "stageName": "史前与文明之初",
+      "topic": "西周",
+      "eventId": "cn-zhou-fengjian",
+      "status": "done"
+    },
+    {
+      "stage": "s1",
+      "stageName": "史前与文明之初",
+      "topic": "夏文化·二里头",
+      "eventId": "cn-erlitou",
+      "status": "todo"
+    },
+    {
+      "stage": "s1",
+      "stageName": "史前与文明之初",
+      "topic": "商代甲骨",
+      "eventId": "cn-shang-oracle",
+      "status": "done"
+    },
+    {
+      "stage": "s1",
+      "stageName": "史前与文明之初",
+      "topic": "最初文明",
+      "eventId": "world-giza",
+      "status": "done"
+    },
+    {
+      "stage": "s1",
+      "stageName": "史前与文明之初",
+      "topic": "汉谟拉比",
+      "eventId": "world-hammurabi",
+      "status": "done"
+    },
+    {
+      "stage": "s1",
+      "stageName": "史前与文明之初",
+      "topic": "印度河文明",
+      "eventId": "world-indus",
+      "status": "todo"
+    },
+    {
+      "stage": "s2",
+      "stageName": "古典时代：轴心突破",
+      "topic": "孔子",
+      "eventId": "cn-confucius",
+      "status": "done"
+    },
+    {
+      "stage": "s2",
+      "stageName": "古典时代：轴心突破",
+      "topic": "秦统一",
+      "eventId": "cn-qin-unify",
+      "status": "done"
+    },
+    {
+      "stage": "s2",
+      "stageName": "古典时代：轴心突破",
+      "topic": "魏晋民族融合",
+      "eventId": "cn-wei-jin-fusion",
+      "status": "todo"
+    },
+    {
+      "stage": "s2",
+      "stageName": "古典时代：轴心突破",
+      "topic": "雅典民主",
+      "eventId": "world-athens",
+      "status": "done"
+    },
+    {
+      "stage": "s2",
+      "stageName": "古典时代：轴心突破",
+      "topic": "亚历山大",
+      "eventId": "world-alexander",
+      "status": "done"
+    },
+    {
+      "stage": "s2",
+      "stageName": "古典时代：轴心突破",
+      "topic": "罗马法",
+      "eventId": "world-roman-law",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "stageName": "中古时代：欧亚互动",
+      "topic": "隋唐科举",
+      "eventId": "cn-sui-tang-keju",
+      "status": "todo"
+    },
+    {
+      "stage": "s3",
+      "stageName": "中古时代：欧亚互动",
+      "topic": "宋元经济",
+      "eventId": "cn-song-economy",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "stageName": "中古时代：欧亚互动",
+      "topic": "元朝站赤",
+      "eventId": "cn-yuan-unification",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "stageName": "中古时代：欧亚互动",
+      "topic": "伊斯兰黄金时代",
+      "eventId": "world-baghdad",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "stageName": "中古时代：欧亚互动",
+      "topic": "十字军",
+      "eventId": "world-crusade",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "stageName": "中古时代：欧亚互动",
+      "topic": "蒙古西征",
+      "eventId": "world-mongol",
+      "status": "done"
+    },
+    {
+      "stage": "s4",
+      "stageName": "近代早期：分流酝酿",
+      "topic": "白银与一条鞭",
+      "eventId": "cn-silver-inflow",
+      "status": "done"
+    },
+    {
+      "stage": "s4",
+      "stageName": "近代早期：分流酝酿",
+      "topic": "康雍乾疆域",
+      "eventId": "cn-qing-frontier",
+      "status": "todo"
+    },
+    {
+      "stage": "s4",
+      "stageName": "近代早期：分流酝酿",
+      "topic": "西学入宫",
+      "eventId": "cn-kangxi-calendar",
+      "status": "done"
+    },
+    {
+      "stage": "s4",
+      "stageName": "近代早期：分流酝酿",
+      "topic": "哥伦布",
+      "eventId": "world-columbus",
+      "status": "done"
+    },
+    {
+      "stage": "s4",
+      "stageName": "近代早期：分流酝酿",
+      "topic": "牛顿",
+      "eventId": "world-newton",
+      "status": "done"
+    },
+    {
+      "stage": "s4",
+      "stageName": "近代早期：分流酝酿",
+      "topic": "大分流争论",
+      "eventId": "world-great-divergence",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "stageName": "近代：西方主导的世界体系",
+      "topic": "鸦片战争",
+      "eventId": "cn-opium-war",
+      "status": "done"
+    },
+    {
+      "stage": "s5",
+      "stageName": "近代：西方主导的世界体系",
+      "topic": "洋务运动",
+      "eventId": "cn-self-strengthening",
+      "status": "done"
+    },
+    {
+      "stage": "s5",
+      "stageName": "近代：西方主导的世界体系",
+      "topic": "戊戌变法",
+      "eventId": "cn-wuxu",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "stageName": "近代：西方主导的世界体系",
+      "topic": "辛亥",
+      "eventId": "cn-xinhai",
+      "status": "done"
+    },
+    {
+      "stage": "s5",
+      "stageName": "近代：西方主导的世界体系",
+      "topic": "工业革命",
+      "eventId": "world-industrial",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "stageName": "近代：西方主导的世界体系",
+      "topic": "明治维新",
+      "eventId": "world-meiji",
+      "status": "done"
+    },
+    {
+      "stage": "s6",
+      "stageName": "现代：两极、去殖民与全球化",
+      "topic": "过渡时期",
+      "eventId": "cn-1949-transition",
+      "status": "todo"
+    },
+    {
+      "stage": "s6",
+      "stageName": "现代：两极、去殖民与全球化",
+      "topic": "改革开放",
+      "eventId": "cn-reform-1980s",
+      "status": "todo"
+    },
+    {
+      "stage": "s6",
+      "stageName": "现代：两极、去殖民与全球化",
+      "topic": "冷战",
+      "eventId": "world-cold-war",
+      "status": "todo"
+    },
+    {
+      "stage": "s6",
+      "stageName": "现代：两极、去殖民与全球化",
+      "topic": "去殖民化",
+      "eventId": "world-decolonization",
+      "status": "todo"
+    }
+  ],
+  "note": "每批 3–5 条；status: todo / done / thin（有条目但需加厚）"
+}

@@ -77,6 +77,27 @@ export default async function EventPage({ params }: Params) {
           <p>{event.impact}</p>
         </section>
 
+        {(event.sections ?? []).map((sec) => (
+          <section key={sec.title}>
+            <h2>{sec.title}</h2>
+            <p>{sec.body}</p>
+          </section>
+        ))}
+
+        {event.timeline && event.timeline.length > 0 ? (
+          <section>
+            <h2>时间线</h2>
+            <ol className="ev-timeline">
+              {event.timeline.map((n) => (
+                <li key={`${n.year}-${n.text.slice(0, 8)}`}>
+                  <span className="y">{formatYear(n.year)}</span>
+                  <span className="t">{n.text}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ) : null}
+
         {event.figures.length > 0 ? (
           <section>
             <h2>风云人物</h2>
