@@ -14,7 +14,7 @@
       "epoch": "w1",
       "eventId": "world-indus",
       "topic": "印度河文明：摩亨佐-达罗与未解读的文字",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s1",
@@ -133,7 +133,7 @@
       "epoch": "c6",
       "eventId": "cn-1949",
       "topic": "1949 与过渡时期：新民主主义到社会主义",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s6",
@@ -175,7 +175,7 @@
       "epoch": "c3",
       "eventId": "cn-song-science",
       "topic": "宋代科技：火药、指南针、水运仪象台",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s2",
