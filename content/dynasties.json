@@ -1599,7 +1599,8 @@
       "eventIds": [
         "cn-zhenghe",
         "cn-silver-inflow",
-        "cn-ming-hai"
+        "cn-ming-hai",
+        "cn-ming-qing-transition"
       ]
     },
     {
@@ -1757,7 +1758,8 @@
         "cn-opium-war",
         "cn-self-strengthening",
         "cn-xinhai",
-        "cn-jiawu"
+        "cn-jiawu",
+        "cn-ming-qing-transition"
       ]
     }
   ],

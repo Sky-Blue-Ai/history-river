@@ -70,7 +70,7 @@
       "epoch": "c4",
       "eventId": "cn-ming-qing-transition",
       "topic": "明清易代：白银、灾荒与辽东战事",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s4",
@@ -119,7 +119,7 @@
       "epoch": "c5",
       "eventId": "cn-resistance",
       "topic": "抗日战争：从局部抗战到全面抗战",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s5",
@@ -147,7 +147,7 @@
       "epoch": "w6",
       "eventId": "world-coldwar",
       "topic": "冷战：两极对峙的四个阶段",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s6",

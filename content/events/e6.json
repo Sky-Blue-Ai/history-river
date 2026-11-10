@@ -121,7 +121,8 @@
         }
       ],
       "counterparts": [
-        "cn-kangxi-calendar"
+        "cn-kangxi-calendar",
+        "cn-ming-qing-transition"
       ],
       "sources": [
         {
@@ -252,7 +253,9 @@
           "text": "10 月，十四大确定经济体制改革的目标是建立社会主义市场经济体制"
         }
       ],
-      "counterparts": [],
+      "counterparts": [
+        "world-coldwar"
+      ],
       "sources": [
         {
           "title": "《中国共产党第十一届中央委员会第三次全体会议公报》（人民网·中国共产党历次全国代表大会数据库）",
@@ -273,6 +276,110 @@
           "title": "改革开放（中国大百科全书·第三版网络版）",
           "url": "https://www.zgbk.com/ecph/words?SiteID=1&Name=%E6%94%B9%E9%9D%A9%E5%BC%80%E6%94%BE",
           "publisher": "中国大百科全书出版社"
+        }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-coldwar",
+      "track": "world",
+      "epochId": "w6",
+      "start": 1947,
+      "end": 1991,
+      "title": "冷战",
+      "subtitle": "两极对峙的四十年：从铁幕到解体",
+      "era": "20 世纪后半叶",
+      "region": "全球（欧洲为主战场）",
+      "themes": [
+        "国际秩序",
+        "制度"
+      ],
+      "summary": "二战结束后，美苏把欧洲切成两个阵营：1946 年丘吉尔以铁幕形容这条分界，1947 年杜鲁门主义与马歇尔计划落地，1949 年北约成立，1955 年华约成立，欧洲分属两个军事集团。朝鲜战争与古巴导弹危机是这段对抗里最接近热战的两处，1989 年东欧剧变、1991 年苏联解体终结了两极格局。",
+      "background": "战争结束时美苏都握有最强的陆军与战胜国的政治资本，对战后安排的期待却相反：美国要开放市场与自决选举，苏联要在邻国建立缓冲带。波兰的前途是第一处谈不拢的地方；德国被分成东西两部分，柏林本身再被分区。到 1949 年，两国都已有核能力，直接冲突的成本高到不可承受，对抗于是转向代理战争、军备竞赛与阵营经济。",
+      "course": "1947 年杜鲁门主义承诺援助抵抗共产主义的国家，同年马歇尔计划开始向西欧注入资金。1949 年 4 月 4 日《北大西洋公约》签署，第五条规定对一国的武装攻击视为对全体的攻击。1950 年 6 月朝鲜战争爆发，1953 年 7 月停战协定签字；1955 年华约成立，两个军事集团在欧洲对峙。1960 年代危机再起：古巴导弹危机中肯尼迪与赫鲁晓夫险些开战，越南战争升级。",
+      "impact": "1970 年代进入缓和，对抗转入限制战略武器谈判与势力范围的默契。1989 年东欧各国政权相继崩溃，柏林墙倒塌；1991 年苏联解体，冷战以一方消失的方式结束，北约则从 1949 年的集体防御同盟变成覆盖全欧的安全架构基石。四十多年没有打成全面战争，核威慑、代理战争与阵营经济却成了国际政治的常规。",
+      "figures": [
+        {
+          "name": "丘吉尔",
+          "role": "1946 年在富尔顿演说中以铁幕形容欧洲的分界"
+        },
+        {
+          "name": "杜鲁门",
+          "role": "1947 年提出杜鲁门主义，承诺援助抵抗共产主义的国家"
+        },
+        {
+          "name": "斯大林",
+          "role": "苏联领导人，在东欧建立苏联控制的缓冲带"
+        },
+        {
+          "name": "肯尼迪",
+          "role": "古巴导弹危机时期的美国总统"
+        }
+      ],
+      "sections": [
+        {
+          "title": "铁幕：一条线怎么变成两个阵营",
+          "body": "1946 年丘吉尔用铁幕形容从波罗的海到亚得里亚海的分界。1947 年杜鲁门主义与马歇尔计划把经济援助变成阵营工具，1949 年北约、1955 年华约相继成立，欧洲的安全被两个军事集团分掉。分界的实质不只是意识形态口号，更是驻军、货币与贸易方向：西欧进美元区，东欧进经互会。"
+        },
+        {
+          "title": "核武器把对抗推到代理战争",
+          "body": "到 1949 年美苏都拥有核武器，全面战争的成本高到双方都不敢碰，冲突于是被推到边缘：1950 年朝鲜战争打了三年，以停战协定而非和约收场；1962 年古巴导弹危机，肯尼迪与赫鲁晓夫在加勒比海对峙，最后双方各自退让，危机没有变成战争。核威慑的逻辑从此写进每一次危机处理。"
+        },
+        {
+          "title": "1989 与 1991：格局的终点",
+          "body": "1989 年东欧各国政权相继崩溃，柏林墙倒塌，两极结构失去了西侧的对立面；1991 年苏联解体，冷战以一方消失的方式结束。北约没有随之解散，反而在 1991 年之后把中东欧国家纳入，成为覆盖全欧的安全架构基石——1949 年的第五条集体防御条款，就这样被沿用到了另一个时代。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1947,
+          "text": "杜鲁门主义出台；马歇尔计划开始向西欧提供重建资金"
+        },
+        {
+          "year": 1949,
+          "text": "4 月 4 日《北大西洋公约》签署；美苏两国此时都已拥有核武器"
+        },
+        {
+          "year": 1950,
+          "text": "6 月朝鲜战争爆发，冷战第一次以热战形式出现"
+        },
+        {
+          "year": 1955,
+          "text": "华沙条约组织成立，欧洲分属两个军事集团"
+        },
+        {
+          "year": 1989,
+          "text": "东欧各国政权相继崩溃，柏林墙倒塌"
+        },
+        {
+          "year": 1991,
+          "text": "苏联解体，两极格局终结"
+        }
+      ],
+      "counterparts": [
+        "cn-reform"
+      ],
+      "sources": [
+        {
+          "title": "What Were the Consequences of WWII?（World History Encyclopedia）",
+          "url": "https://www.worldhistory.org/article/2660/what-were-the-consequences-of-wwii/",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "title": "Korean War: How the Cold War Became a Hot War（World History Encyclopedia）",
+          "url": "https://www.worldhistory.org/Korean_War",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "title": "Map of Europe After World War II, 1945–1989（World History Encyclopedia）",
+          "url": "https://www.worldhistory.org/image/20145/map-of-europe-after-world-war-ii-1945-to-c-1989/",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "title": "A short history of NATO（NATO History）",
+          "url": "https://www.nato.int/cps/en/natohq/declassified_139339.htm",
+          "publisher": "NATO"
         }
       ],
       "verified": true,
