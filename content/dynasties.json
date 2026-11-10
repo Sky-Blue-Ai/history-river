@@ -231,7 +231,8 @@
     }
    ],
    "eventIds": [
-    "cn-confucius"
+    "cn-confucius",
+    "cn-shang-yang"
    ]
   },
   {
@@ -469,7 +470,8 @@
     }
    ],
    "eventIds": [
-    "cn-silkroad"
+    "cn-silkroad",
+    "cn-salt-iron"
    ]
   },
   {
@@ -1006,7 +1008,8 @@
    ],
    "eventIds": [
     "cn-xuanzang",
-    "cn-talaros"
+    "cn-talaros",
+    "cn-tang-keju"
    ]
   },
   {
