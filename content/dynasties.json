@@ -45,7 +45,9 @@
      "publisher": "中国大百科全书出版社"
     }
    ],
-   "eventIds": []
+   "eventIds": [
+    "cn-erlitou"
+   ]
   },
   {
    "id": "shang",
@@ -621,7 +623,8 @@
     }
    ],
    "eventIds": [
-    "cn-paper"
+    "cn-paper",
+    "cn-danggu"
    ]
   },
   {
@@ -1401,7 +1404,8 @@
     }
    ],
    "eventIds": [
-    "cn-yuan-unification"
+    "cn-yuan-unification",
+    "cn-yuan-xingsheng"
    ]
   },
   {
