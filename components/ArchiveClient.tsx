@@ -142,7 +142,7 @@ export default function ArchiveClient({
               href={href(`/event/${e.id}`)}
               style={{
                 display: "grid",
-                gridTemplateColumns: "7.5rem minmax(0, 1fr) auto",
+                gridTemplateColumns: "9rem minmax(0, 1fr) auto",
                 gap: "var(--spacing-gutter)",
                 alignItems: "baseline",
                 padding: "0.85rem 0.2rem",
@@ -156,6 +156,7 @@ export default function ArchiveClient({
                   letterSpacing: "0.08em",
                   color: e.track === "cn" ? "var(--color-track-cn)" : "var(--color-track-world)",
                   fontVariantNumeric: "tabular-nums",
+                  whiteSpace: "nowrap",
                 }}
               >
                 {spanText(e.start, e.end)}

@@ -748,6 +748,23 @@ p { margin: 0; }
   .stage-lines > div { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
 }
 
+
+/* ---------- 返回条 ---------- */
+.backbar { border-bottom: 1px solid var(--color-line); background: color-mix(in srgb, var(--color-surface) 60%, var(--color-canvas)); }
+.backbar-inner { display: flex; align-items: center; gap: 0.5rem; padding-block: 0.4rem; }
+.back-btn {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  font: inherit; font-size: var(--text-label-md); letter-spacing: 0.04em;
+  color: var(--color-ink); background: transparent;
+  border: 1px solid var(--color-line-strong); border-radius: var(--radius-xs);
+  padding: 0.2rem 0.5rem; cursor: pointer;
+}
+.back-btn:hover { border-color: var(--color-bronze); color: var(--color-vermilion); }
+.back-sep { color: var(--color-line-strong); font-size: 0.75rem; }
+.back-parent { font-size: var(--text-label-md); color: var(--color-ink-muted); }
+.back-parent:hover { color: var(--color-vermilion); }
+@media (max-width: 520px) { .back-parent { font-size: 0.6875rem; } }
+
 /* ---------- 窄屏 ---------- */
 @media (max-width: 1100px) {
   .hero { grid-template-columns: minmax(0, 1fr); }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import SiteNav from "@/components/SiteNav";
+import BackBar from "@/components/BackButton";
 import SiteFooter from "@/components/SiteFooter";
 import { BASE } from "@/lib/format";
 import "./globals.css";
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="zh-CN">
       <body>
         <SiteNav />
+        <BackBar />
         {children}
         <SiteFooter />
       </body>
