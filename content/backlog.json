@@ -28,7 +28,7 @@
       "epoch": "c2",
       "eventId": "cn-sima-qian",
       "topic": "司马迁与《史记》：纪传体如何书写历史",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s2",
@@ -126,7 +126,7 @@
       "epoch": "w5",
       "eventId": "world-ww1",
       "topic": "第一次世界大战：帝国秩序的自我毁灭",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s6",
@@ -210,7 +210,7 @@
       "epoch": "w4",
       "eventId": "world-scientific-rev",
       "topic": "科学革命：从哥白尼到牛顿的方法转变",
-      "status": "todo"
+      "status": "done"
     }
   ]
 }

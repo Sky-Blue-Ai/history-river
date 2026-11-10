@@ -122,7 +122,8 @@
       ],
       "counterparts": [
         "cn-kangxi-calendar",
-        "cn-ming-qing-transition"
+        "cn-ming-qing-transition",
+        "world-scientific-rev"
       ],
       "sources": [
         {
@@ -168,7 +169,8 @@
         }
       ],
       "counterparts": [
-        "world-newton"
+        "world-newton",
+        "world-scientific-rev"
       ],
       "sources": [
         {
@@ -380,6 +382,105 @@
           "title": "A short history of NATO（NATO History）",
           "url": "https://www.nato.int/cps/en/natohq/declassified_139339.htm",
           "publisher": "NATO"
+        }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-scientific-rev",
+      "track": "world",
+      "epochId": "w4",
+      "start": 1543,
+      "end": 1687,
+      "title": "科学革命",
+      "subtitle": "从「拯救现象」到用数学检验事实",
+      "era": "欧洲 · 16—17 世纪",
+      "region": "波兰、丹麦、意大利、英格兰",
+      "themes": [
+        "科学",
+        "思想"
+      ],
+      "summary": "1543 年哥白尼刊《天球运行论》，把太阳置于中心、地球自转并绕日。第谷以自制仪器积累二十余年高精度观测，开普勒据其数据于 1609 年得出椭圆轨道；伽利略用望远镜看到月面山谷、木星卫星与金星相位。1687 年牛顿《自然哲学的数学原理》以万有引力把天上与地上的运动合成一套力学。",
+      "background": "中世纪欧洲的天文学以托勒密的本轮均轮体系为正统：圆是完美的形状，地球居宇宙中心，权威取自亚里士多德与教会注疏。印刷术降低了书籍成本，航海与历法改革对精密星表提出实际需求，君主愿意资助天文学家，观测数据第一次能大规模积累、比对与复核。",
+      "course": "1543 年《天球运行论》出版，日心说与地心说并行流传；1572 年第谷记录仙后座新星，1576 年在汶岛建天文堡，二十余年积累观测。1609 年开普勒刊《新天文学》，以椭圆取代正圆；1610 年伽利略《星际信使》公布月面山谷与木星四卫星；1616 年《天球运行论》被列为禁书；1687 年牛顿《原理》出版。",
+      "impact": "新方法可归为三条：以观测和实验核对假说、用数学表达规律、把结果公开供同行复核。它先在天文与力学上奏效，随后扩展到解剖、生理、化学与博物学。17 世纪下半叶科学院与期刊出现，知识生产从个人手稿变成可累积的公共事业，18 世纪的启蒙与工业技术都建立在这套方法之上。",
+      "figures": [
+        {
+          "name": "哥白尼",
+          "role": "波兰天文学家，1543 年刊《天球运行论》"
+        },
+        {
+          "name": "第谷",
+          "role": "丹麦天文学家，1576 年在汶岛建天文堡"
+        },
+        {
+          "name": "开普勒",
+          "role": "以第谷数据得出行星椭圆轨道"
+        },
+        {
+          "name": "伽利略",
+          "role": "用望远镜观测月面、木星卫星与金星相位"
+        },
+        {
+          "name": "牛顿",
+          "role": "1687 年《自然哲学的数学原理》提出万有引力"
+        }
+      ],
+      "sections": [
+        {
+          "title": "托勒密的账为什么算不平",
+          "body": "本轮均轮体系能大致「拯救现象」，用圆圈的组合凑出行星的顺行与逆行，但误差随时间累积，历法与节令越算越偏。航海需要能定位的星表，教会需要准确的复活节日期，两股需求都指向同一件事：先有更好的观测数据，再谈模型。"
+        },
+        {
+          "title": "第谷的数据，开普勒的椭圆",
+          "body": "第谷在汶岛自制六分仪与大象限仪，二十余年不间断记录行星位置，精度远超前人。他去世后开普勒接手这批数据，试图用正圆轨道拟合火星而始终差八弧分，最终放弃正圆，1609 年在《新天文学》中给出椭圆轨道与面积定律。"
+        },
+        {
+          "title": "牛顿把天上地下合成一本账",
+          "body": "1668 年牛顿造出反射望远镜，以凹面镜避开透镜色差；1687 年《自然哲学的数学原理》以三条运动定律与万有引力，把落体、潮汐、月行与行星轨道纳入同一套计算。此后先算后测、以测校算成为自然哲学的标准流程，也被视为科学革命的收束。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1543,
+          "text": "哥白尼《天球运行论》出版，提出地球自转并绕日"
+        },
+        {
+          "year": 1572,
+          "text": "第谷记录仙后座新星，动摇「天不变」的旧说"
+        },
+        {
+          "year": 1576,
+          "text": "第谷在汶岛建天文堡，开始二十余年的系统观测"
+        },
+        {
+          "year": 1609,
+          "text": "开普勒《新天文学》给出椭圆轨道与面积定律"
+        },
+        {
+          "year": 1610,
+          "text": "伽利略《星际信使》公布月面山谷与木星四颗卫星"
+        },
+        {
+          "year": 1687,
+          "text": "牛顿《自然哲学的数学原理》出版，万有引力统一天地运动"
+        }
+      ],
+      "counterparts": [
+        "world-newton",
+        "cn-kangxi-calendar"
+      ],
+      "sources": [
+        {
+          "title": "Scientific Revolution",
+          "url": "https://www.worldhistory.org/Scientific_Revolution/",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "title": "Astronomy in the Scientific Revolution",
+          "url": "https://www.worldhistory.org/article/2306/astronomy-in-the-scientific-revolution/",
+          "publisher": "World History Encyclopedia"
         }
       ],
       "verified": true,
