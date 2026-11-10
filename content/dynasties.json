@@ -1598,7 +1598,8 @@
       ],
       "eventIds": [
         "cn-zhenghe",
-        "cn-silver-inflow"
+        "cn-silver-inflow",
+        "cn-ming-hai"
       ]
     },
     {
@@ -1755,7 +1756,8 @@
         "cn-kangxi-calendar",
         "cn-opium-war",
         "cn-self-strengthening",
-        "cn-xinhai"
+        "cn-xinhai",
+        "cn-jiawu"
       ]
     }
   ],

@@ -1,216 +1,216 @@
 {
- "note": "10 轮 × 3 条（每轮取不同 stage 各 1 条）；status: todo / done / blocked",
- "rounds": 10,
- "items": [
-  {
-   "stage": "s1",
-   "epoch": "c1",
-   "eventId": "cn-erlitou",
-   "topic": "二里头与夏文化：宫殿、青铜作坊与早期国家",
-   "status": "done"
-  },
-  {
-   "stage": "s1",
-   "epoch": "w1",
-   "eventId": "world-indus",
-   "topic": "印度河文明：摩亨佐-达罗与未解读的文字",
-   "status": "todo"
-  },
-  {
-   "stage": "s1",
-   "epoch": "c1",
-   "eventId": "cn-shang-bronze",
-   "topic": "殷墟与商代青铜礼器：从甲骨到礼器",
-   "status": "done"
-  },
-  {
-   "stage": "s2",
-   "epoch": "c2",
-   "eventId": "cn-sima-qian",
-   "topic": "司马迁与《史记》：纪传体如何书写历史",
-   "status": "todo"
-  },
-  {
-   "stage": "s2",
-   "epoch": "w2",
-   "eventId": "world-rome-road",
-   "topic": "罗马道路与行省：一张统治 5000 万人的路网",
-   "status": "todo"
-  },
-  {
-   "stage": "s2",
-   "epoch": "c2",
-   "eventId": "cn-wei-jin-migration",
-   "topic": "永嘉南渡与衣冠南渡：人口南迁的结构性后果",
-   "status": "done"
-  },
-  {
-   "stage": "s3",
-   "epoch": "c3",
-   "eventId": "cn-tang-changan",
-   "topic": "长安西市：一座国际都市的日常",
-   "status": "todo"
-  },
-  {
-   "stage": "s3",
-   "epoch": "c3",
-   "eventId": "cn-song-quanzhou",
-   "topic": "泉州港与市舶司：宋元海贸的第一港",
-   "status": "done"
-  },
-  {
-   "stage": "s3",
-   "epoch": "w3",
-   "eventId": "world-byzantium",
-   "topic": "拜占庭：一个延续千年的帝国如何维系",
-   "status": "todo"
-  },
-  {
-   "stage": "s4",
-   "epoch": "c4",
-   "eventId": "cn-ming-qing-transition",
-   "topic": "明清易代：白银、灾荒与辽东战事",
-   "status": "todo"
-  },
-  {
-   "stage": "s4",
-   "epoch": "c4",
-   "eventId": "cn-kangqian",
-   "topic": "康雍乾的疆域整合：盟旗、伯克与驻藏大臣",
-   "status": "todo"
-  },
-  {
-   "stage": "s4",
-   "epoch": "w4",
-   "eventId": "world-reformation",
-   "topic": "宗教改革：印刷术如何让异端活下来",
-   "status": "todo"
-  },
-  {
-   "stage": "s5",
-   "epoch": "c5",
-   "eventId": "cn-jiawu",
-   "topic": "甲午战争：装备代差与体制代差",
-   "status": "todo"
-  },
-  {
-   "stage": "s5",
-   "epoch": "c5",
-   "eventId": "cn-newculture",
-   "topic": "新文化运动：从器物到观念的第三次回应",
-   "status": "todo"
-  },
-  {
-   "stage": "s5",
-   "epoch": "w5",
-   "eventId": "world-industry",
-   "topic": "工业革命：蒸汽、煤与工厂制度",
-   "status": "todo"
-  },
-  {
-   "stage": "s5",
-   "epoch": "w5",
-   "eventId": "world-imperialism",
-   "topic": "瓜分非洲：1884 柏林会议之后",
-   "status": "todo"
-  },
-  {
-   "stage": "s5",
-   "epoch": "c5",
-   "eventId": "cn-resistance",
-   "topic": "抗日战争：从局部抗战到全面抗战",
-   "status": "todo"
-  },
-  {
-   "stage": "s5",
-   "epoch": "w5",
-   "eventId": "world-ww1",
-   "topic": "第一次世界大战：帝国秩序的自我毁灭",
-   "status": "todo"
-  },
-  {
-   "stage": "s6",
-   "epoch": "c6",
-   "eventId": "cn-1949",
-   "topic": "1949 与过渡时期：新民主主义到社会主义",
-   "status": "todo"
-  },
-  {
-   "stage": "s6",
-   "epoch": "c6",
-   "eventId": "cn-reform",
-   "topic": "改革开放：从农村到城市的三步",
-   "status": "todo"
-  },
-  {
-   "stage": "s6",
-   "epoch": "w6",
-   "eventId": "world-coldwar",
-   "topic": "冷战：两极对峙的四个阶段",
-   "status": "todo"
-  },
-  {
-   "stage": "s6",
-   "epoch": "w6",
-   "eventId": "world-decolonization",
-   "topic": "去殖民化：联合国席位表的变化",
-   "status": "todo"
-  },
-  {
-   "stage": "s6",
-   "epoch": "w6",
-   "eventId": "world-globalization",
-   "topic": "全球化与多极化：信息革命之后",
-   "status": "todo"
-  },
-  {
-   "stage": "s4",
-   "epoch": "c4",
-   "eventId": "cn-ming-hai",
-   "topic": "明代海禁与月港开禁：走私、倭患与白银",
-   "status": "todo"
-  },
-  {
-   "stage": "s3",
-   "epoch": "c3",
-   "eventId": "cn-song-science",
-   "topic": "宋代科技：火药、指南针、水运仪象台",
-   "status": "todo"
-  },
-  {
-   "stage": "s2",
-   "epoch": "w2",
-   "eventId": "world-maurya",
-   "topic": "孔雀王朝与阿育王：佛教如何变成世界宗教",
-   "status": "todo"
-  },
-  {
-   "stage": "s1",
-   "epoch": "w1",
-   "eventId": "world-egypt-nk",
-   "topic": "新王国埃及：帝国、青铜与字母的雏形",
-   "status": "todo"
-  },
-  {
-   "stage": "s3",
-   "epoch": "w3",
-   "eventId": "world-mongol-empire",
-   "topic": "蒙古帝国的治理：站赤之外的制度",
-   "status": "todo"
-  },
-  {
-   "stage": "s5",
-   "epoch": "c5",
-   "eventId": "cn-lihongzhang",
-   "topic": "李鸿章与北洋：一个人的洋务困局",
-   "status": "todo"
-  },
-  {
-   "stage": "s4",
-   "epoch": "w4",
-   "eventId": "world-scientific-rev",
-   "topic": "科学革命：从哥白尼到牛顿的方法转变",
-   "status": "todo"
-  }
- ]
+  "note": "10 轮 × 3 条（每轮取不同 stage 各 1 条）；status: todo / done / blocked",
+  "rounds": 10,
+  "items": [
+    {
+      "stage": "s1",
+      "epoch": "c1",
+      "eventId": "cn-erlitou",
+      "topic": "二里头与夏文化：宫殿、青铜作坊与早期国家",
+      "status": "done"
+    },
+    {
+      "stage": "s1",
+      "epoch": "w1",
+      "eventId": "world-indus",
+      "topic": "印度河文明：摩亨佐-达罗与未解读的文字",
+      "status": "todo"
+    },
+    {
+      "stage": "s1",
+      "epoch": "c1",
+      "eventId": "cn-shang-bronze",
+      "topic": "殷墟与商代青铜礼器：从甲骨到礼器",
+      "status": "done"
+    },
+    {
+      "stage": "s2",
+      "epoch": "c2",
+      "eventId": "cn-sima-qian",
+      "topic": "司马迁与《史记》：纪传体如何书写历史",
+      "status": "todo"
+    },
+    {
+      "stage": "s2",
+      "epoch": "w2",
+      "eventId": "world-rome-road",
+      "topic": "罗马道路与行省：一张统治 5000 万人的路网",
+      "status": "todo"
+    },
+    {
+      "stage": "s2",
+      "epoch": "c2",
+      "eventId": "cn-wei-jin-migration",
+      "topic": "永嘉南渡与衣冠南渡：人口南迁的结构性后果",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "epoch": "c3",
+      "eventId": "cn-tang-changan",
+      "topic": "长安西市：一座国际都市的日常",
+      "status": "todo"
+    },
+    {
+      "stage": "s3",
+      "epoch": "c3",
+      "eventId": "cn-song-quanzhou",
+      "topic": "泉州港与市舶司：宋元海贸的第一港",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "epoch": "w3",
+      "eventId": "world-byzantium",
+      "topic": "拜占庭：一个延续千年的帝国如何维系",
+      "status": "todo"
+    },
+    {
+      "stage": "s4",
+      "epoch": "c4",
+      "eventId": "cn-ming-qing-transition",
+      "topic": "明清易代：白银、灾荒与辽东战事",
+      "status": "todo"
+    },
+    {
+      "stage": "s4",
+      "epoch": "c4",
+      "eventId": "cn-kangqian",
+      "topic": "康雍乾的疆域整合：盟旗、伯克与驻藏大臣",
+      "status": "todo"
+    },
+    {
+      "stage": "s4",
+      "epoch": "w4",
+      "eventId": "world-reformation",
+      "topic": "宗教改革：印刷术如何让异端活下来",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "epoch": "c5",
+      "eventId": "cn-jiawu",
+      "topic": "甲午战争：装备代差与体制代差",
+      "status": "done"
+    },
+    {
+      "stage": "s5",
+      "epoch": "c5",
+      "eventId": "cn-newculture",
+      "topic": "新文化运动：从器物到观念的第三次回应",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "epoch": "w5",
+      "eventId": "world-industry",
+      "topic": "工业革命：蒸汽、煤与工厂制度",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "epoch": "w5",
+      "eventId": "world-imperialism",
+      "topic": "瓜分非洲：1884 柏林会议之后",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "epoch": "c5",
+      "eventId": "cn-resistance",
+      "topic": "抗日战争：从局部抗战到全面抗战",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "epoch": "w5",
+      "eventId": "world-ww1",
+      "topic": "第一次世界大战：帝国秩序的自我毁灭",
+      "status": "todo"
+    },
+    {
+      "stage": "s6",
+      "epoch": "c6",
+      "eventId": "cn-1949",
+      "topic": "1949 与过渡时期：新民主主义到社会主义",
+      "status": "todo"
+    },
+    {
+      "stage": "s6",
+      "epoch": "c6",
+      "eventId": "cn-reform",
+      "topic": "改革开放：从农村到城市的三步",
+      "status": "done"
+    },
+    {
+      "stage": "s6",
+      "epoch": "w6",
+      "eventId": "world-coldwar",
+      "topic": "冷战：两极对峙的四个阶段",
+      "status": "todo"
+    },
+    {
+      "stage": "s6",
+      "epoch": "w6",
+      "eventId": "world-decolonization",
+      "topic": "去殖民化：联合国席位表的变化",
+      "status": "todo"
+    },
+    {
+      "stage": "s6",
+      "epoch": "w6",
+      "eventId": "world-globalization",
+      "topic": "全球化与多极化：信息革命之后",
+      "status": "todo"
+    },
+    {
+      "stage": "s4",
+      "epoch": "c4",
+      "eventId": "cn-ming-hai",
+      "topic": "明代海禁与月港开禁：走私、倭患与白银",
+      "status": "done"
+    },
+    {
+      "stage": "s3",
+      "epoch": "c3",
+      "eventId": "cn-song-science",
+      "topic": "宋代科技：火药、指南针、水运仪象台",
+      "status": "todo"
+    },
+    {
+      "stage": "s2",
+      "epoch": "w2",
+      "eventId": "world-maurya",
+      "topic": "孔雀王朝与阿育王：佛教如何变成世界宗教",
+      "status": "todo"
+    },
+    {
+      "stage": "s1",
+      "epoch": "w1",
+      "eventId": "world-egypt-nk",
+      "topic": "新王国埃及：帝国、青铜与字母的雏形",
+      "status": "todo"
+    },
+    {
+      "stage": "s3",
+      "epoch": "w3",
+      "eventId": "world-mongol-empire",
+      "topic": "蒙古帝国的治理：站赤之外的制度",
+      "status": "todo"
+    },
+    {
+      "stage": "s5",
+      "epoch": "c5",
+      "eventId": "cn-lihongzhang",
+      "topic": "李鸿章与北洋：一个人的洋务困局",
+      "status": "todo"
+    },
+    {
+      "stage": "s4",
+      "epoch": "w4",
+      "eventId": "world-scientific-rev",
+      "topic": "科学革命：从哥白尼到牛顿的方法转变",
+      "status": "todo"
+    }
+  ]
 }
