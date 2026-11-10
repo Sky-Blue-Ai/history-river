@@ -765,6 +765,54 @@ p { margin: 0; }
 .back-parent:hover { color: var(--color-vermilion); }
 @media (max-width: 520px) { .back-parent { font-size: 0.6875rem; } }
 
+
+/* ---------- 朝代板块 ---------- */
+.dyn-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); gap: var(--spacing-gutter); margin-top: var(--spacing-lg); }
+.dyn-card { display: flex; flex-direction: column; gap: 0.5rem; padding: var(--spacing-lg); background: var(--color-surface); border: 1px solid var(--color-line); border-top: 2px solid var(--color-track-cn); border-radius: var(--radius-lg); }
+.dyn-card:hover { border-color: var(--color-line-strong); box-shadow: var(--shadow-raised); }
+.dyn-top { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem; }
+.dyn-name { font-family: var(--font-serif); font-size: var(--text-headline-md); font-weight: 600; letter-spacing: 0.06em; }
+.dyn-sum { font-size: var(--text-body-sm); color: var(--color-ink-variant); line-height: 1.8; flex: 1; }
+.dyn-meta { display: flex; gap: 0.9rem; font-size: var(--text-label-sm); color: var(--color-ink-muted); border-top: 1px solid var(--color-line); padding-top: 0.55rem; letter-spacing: 0.04em; }
+
+.dyn-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 0.75rem 1.5rem; margin-top: var(--spacing-lg); padding: 1rem 1.1rem; background: var(--color-surface); border: 1px solid var(--color-line); border-radius: var(--radius-lg); }
+.dyn-facts > div { display: grid; gap: 0.2rem; }
+.dyn-facts .k { font-size: var(--text-label-sm); letter-spacing: 0.1em; color: var(--color-bronze); }
+.dyn-facts .v { font-size: var(--text-body-sm); color: var(--color-ink); }
+
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--color-line); padding-bottom: 0.5rem; margin-bottom: var(--spacing-md); }
+.sec-head h2 { font-size: var(--text-headline-lg); }
+
+.ruler-table { border: 1px solid var(--color-line); border-radius: var(--radius-lg); overflow: hidden; background: var(--color-surface); }
+.rt-head { display: grid; grid-template-columns: 2.6rem 8.5rem 7rem 9.5rem minmax(0, 1fr); gap: 0.75rem; padding: 0.6rem 1rem; background: var(--color-surface-sunken); border-bottom: 1px solid var(--color-line); font-size: var(--text-label-sm); letter-spacing: 0.08em; color: var(--color-ink-muted); }
+.rt-row { display: grid; grid-template-columns: 2.6rem 8.5rem 7rem 9.5rem minmax(0, 1fr); gap: 0.75rem; padding: 0.65rem 1rem; border-top: 1px solid var(--color-line); align-items: baseline; }
+.rt-row:first-of-type { border-top: 0; }
+.rt-row:hover { background: var(--color-canvas); }
+.rt-n { font-size: 0.6875rem; color: var(--color-ink-muted); font-variant-numeric: tabular-nums; }
+.rt-title { font-family: var(--font-serif); font-size: 0.95rem; }
+.rt-name { font-size: var(--text-body-sm); color: var(--color-ink-variant); }
+.rt-years { font-size: 0.6875rem; color: var(--color-bronze); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.rt-note { font-size: var(--text-body-sm); color: var(--color-ink-variant); line-height: 1.8; }
+
+.polity-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.polity-list li { padding: 0.7rem 0.9rem; background: var(--color-surface); border: 1px solid var(--color-line); border-radius: var(--radius-md); font-size: var(--text-body-sm); color: var(--color-ink-variant); line-height: 1.85; }
+
+.people-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.people-list li { display: grid; grid-template-columns: 8.5rem 9rem minmax(0, 1fr); gap: 1rem; padding-block: 0.7rem; border-top: 1px dashed var(--color-line); align-items: baseline; }
+.people-list li:first-child { border-top: 0; }
+.people-list .pn { font-family: var(--font-serif); font-size: 1rem; }
+.people-list .pr { font-size: var(--text-label-md); color: var(--color-bronze); letter-spacing: 0.04em; }
+.people-list .pd { font-size: var(--text-body-sm); color: var(--color-ink-variant); line-height: 1.85; }
+
+@media (max-width: 860px) {
+  .rt-head { display: none; }
+  .rt-row { grid-template-columns: 2rem 1fr; gap: 0.35rem 0.75rem; }
+  .rt-row .rt-name, .rt-row .rt-years, .rt-row .rt-note { grid-column: 2; }
+  .rt-row .rt-years { color: var(--color-bronze); }
+  .people-list li { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
+  .rt-row .rt-title { font-size: 1rem; }
+}
+
 /* ---------- 窄屏 ---------- */
 @media (max-width: 1100px) {
   .hero { grid-template-columns: minmax(0, 1fr); }

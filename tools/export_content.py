@@ -31,6 +31,7 @@ def main() -> int:
         die("内容校验未通过，拒绝导出（产物保持上一次的已核验版本）")
 
     stages = json.loads((CONTENT / "stages.json").read_text(encoding="utf-8"))
+    dynasties = json.loads((CONTENT / "dynasties.json").read_text(encoding="utf-8"))
     epochs_cn = json.loads((CONTENT / "epochs.cn.json").read_text(encoding="utf-8"))
     epochs_world = json.loads((CONTENT / "epochs.world.json").read_text(encoding="utf-8"))
     events = []
@@ -71,6 +72,7 @@ def main() -> int:
     events.sort(key=lambda e: (e["start"], e["track"] != "cn"))
     payload = {
         "stages": stages,
+        "dynasties": dynasties,
         "epochsCn": epochs_cn,
         "epochsWorld": epochs_world,
         "events": events,
@@ -83,6 +85,8 @@ def main() -> int:
             "epochsWorld": len(epochs_world["epochs"]),
             "comparisons": len(comps),
             "stages": len(stages["stages"]),
+            "dynasties": len(dynasties["dynasties"]),
+            "rulers": sum(len(x.get("rulers", [])) for x in dynasties["dynasties"]),
             "earliest": min(e["start"] for e in events),
             "latest": max(e.get("end", e["start"]) for e in events),
         },

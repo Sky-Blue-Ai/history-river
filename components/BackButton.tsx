@@ -20,6 +20,7 @@ export default function BackBar() {
         : { href: "/cn", label: "华夏编年" };
     }
     if (path.startsWith("/stage/")) return { href: "/overview", label: "总览分期" };
+    if (path.startsWith("/dynasty/")) return { href: "/dynasties", label: "朝代索引" };
     if (path.startsWith("/timeline/")) return { href: "/timeline", label: "编年长卷" };
     if (path.startsWith("/archive")) return { href: "/", label: "两条路线" };
     if (path.startsWith("/compare")) return { href: "/", label: "两条路线" };

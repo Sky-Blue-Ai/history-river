@@ -113,6 +113,8 @@ interface Content {
     epochsCn: number;
     epochsWorld: number;
     stages: number;
+    dynasties: number;
+    rulers: number;
     comparisons: number;
     earliest: number;
     latest: number;

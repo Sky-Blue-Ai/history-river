@@ -80,6 +80,14 @@ export default function RouteHome({ track }: { track: Track }) {
         </div>
       </section>
 
+      {track === "cn" ? (
+        <div className="wrap" style={{ paddingTop: "var(--spacing-md)" }}>
+          <a className="btn ghost" href={href("/dynasties")}>
+            按朝代读：{stats.dynasties} 个板块 · {stats.rulers} 位君主 →
+          </a>
+        </div>
+      ) : null}
+
       <nav className="wrap" aria-label={`${routeLabel(track)}卷目`}>
         <div className="epochs">
           {eps.map((ep) => (

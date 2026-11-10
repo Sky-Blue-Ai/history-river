@@ -163,6 +163,55 @@ def main() -> int:
             if not d.get("left", "").strip() or not d.get("right", "").strip():
                 errors.append(f"comparisons:{c.get('id')}: 维度 {d.get('name')!r} 左右栏不全")
 
+    # ---- 朝代板块 ----
+    dyn = json.loads((CONTENT / "dynasties.json").read_text(encoding="utf-8"))["dynasties"]
+    seen_dyn = set()
+    ev_ids = {e["id"] for e in events}
+    for d in dyn:
+        did = d.get("id")
+        where = f"dynasty:{did}"
+        if did in seen_dyn:
+            errors.append(f"{where}: id 重复")
+        seen_dyn.add(did)
+        span = d.get("span") or {}
+        lo, hi = span.get("from"), span.get("to")
+        if not isinstance(lo, int) or not isinstance(hi, int) or lo >= hi:
+            errors.append(f"{where}: span 必须是整数且 from < to")
+            continue
+        for field in ("name", "summary", "capital", "founder", "endReason"):
+            if not str(d.get(field, "")).strip():
+                errors.append(f"{where}: 缺 {field}")
+        last = None
+        for i, r in enumerate(d.get("rulers") or [], 1):
+            if len(r) != 5:
+                errors.append(f"{where}: 第 {i} 位君主字段数不是 5")
+                continue
+            title, name, rf, rt, note = r
+            if not (lo <= rf <= rt <= hi):
+                errors.append(f"{where}: 君主 {title}{name} 在位 {rf}-{rt} 超出 {lo}-{hi}")
+            if last is not None and rf < last - 1:
+                errors.append(f"{where}: 君主 {title}{name} 起始 {rf} 早于前一位结束 {last}")
+            last = rt
+            if len(note) < 6:
+                errors.append(f"{where}: 君主 {title}{name} 事迹过短")
+        if not d.get("rulers") and not d.get("polities"):
+            errors.append(f"{where}: 既无君主表也无政权说明")
+        for eid in d.get("eventIds") or []:
+            if eid not in ev_ids:
+                errors.append(f"{where}: eventIds 指向不存在的 {eid}")
+            elif next(e for e in events if e["id"] == eid)["track"] != "cn":
+                errors.append(f"{where}: eventIds 里 {eid} 不是中国史条目")
+        if len(d.get("people") or []) < 3:
+            errors.append(f"{where}: 人物至少 3 位")
+
+    ordered = sorted(
+        [x for x in dyn if isinstance(x.get("span", {}).get("from"), int)],
+        key=lambda x: x["span"]["from"],
+    )
+    for a, b in zip(ordered, ordered[1:]):
+        if b["span"]["from"] < a["span"]["to"] and not (a.get("concurrent") or b.get("concurrent")):
+            errors.append(f"dynasty: {a['id']} 与 {b['id']} 时间重叠且未标 concurrent")
+
     verified = sum(1 for e in events if e.get("verified"))
     print(f"事件 {len(events)} 条（已核验 {verified}）· 华夏纪元 {len(conn_ids)} · 域外纪元 {len(wall_ids)} · 对照 {len(comps)} 组")
     for w in warnings:

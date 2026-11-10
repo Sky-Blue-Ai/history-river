@@ -8,6 +8,7 @@ const TABS = [
   { path: "/overview", label: "总览分期" },
   { path: "/cn", label: "华夏编年" },
   { path: "/world", label: "域外编年" },
+  { path: "/dynasties", label: "朝代" },
   { path: "/timeline", label: "编年长卷" },
   { path: "/archive", label: "典籍与故事" },
   { path: "/compare", label: "对照视图" },
@@ -25,6 +26,7 @@ export default function SiteNav() {
     if (tabPath === "/timeline") return path.startsWith("/timeline");
     if (tabPath === "/overview") return path.startsWith("/overview") || path.startsWith("/stage");
     if (tabPath === "/cn") return path === "/cn" || path.startsWith("/epoch/c");
+    if (tabPath === "/dynasties") return path.startsWith("/dynasties") || path.startsWith("/dynasty/");
     if (tabPath === "/world") return path === "/world" || path.startsWith("/epoch/w");
     return path.startsWith(tabPath);
   };
