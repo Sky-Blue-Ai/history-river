@@ -257,7 +257,8 @@
         }
       ],
       "counterparts": [
-        "world-meiji"
+        "world-meiji",
+        "world-industry"
       ],
       "sources": [
         {
@@ -269,6 +270,110 @@
           "title": "《清史稿》原文与目录（识典古籍）",
           "url": "https://www.shidianguji.com/book/LS0025",
           "publisher": "识典古籍"
+        }
+      ],
+      "verified": true,
+      "disputed": false
+    },
+    {
+      "id": "world-industry",
+      "track": "world",
+      "epochId": "w5",
+      "start": 1760,
+      "end": 1840,
+      "title": "工业革命",
+      "subtitle": "蒸汽、煤与工厂制度",
+      "era": "十八世纪中叶至十九世纪中叶",
+      "region": "英国，后及欧洲大陆与北美",
+      "themes": [
+        "技术",
+        "经济"
+      ],
+      "summary": "十八世纪中叶起，英国用煤、蒸汽机与工厂把手工工场改成机器生产。珍妮机与瓦特蒸汽机把纺纱从家庭搬进厂房，1825 年斯托克顿到达灵顿的铁路第一次用蒸汽机车载客运货。到 1835 年约四分之三的棉纺厂靠蒸汽驱动——这不是一个瞬间，而是九十年的结构改变。",
+      "background": "为什么是英国？经济史家艾伦指出两个条件：1750 年英国劳动力价格是法国、意大利的 1.7 倍，用机器替人算得过账；英国煤价远低于欧洲大陆，蒸汽机的燃料便宜。海外殖民地提供市场，印度棉布的低价又逼着英国纺织业先动手术。",
+      "course": "1764 年哈格里夫斯的珍妮纺纱机一次带动多个纱锭，1769 年瓦特取得分离冷凝器的专利，1785 年卡特赖特的动力织机投产。1800 年英国已有两千五百余台蒸汽机，多在矿井与棉纺厂；1825 年斯托克顿—达灵顿铁路通车。工厂把工时、纪律与童工一起制度化。",
+      "impact": "产出与人口同时增长，英国成了世界工厂，曼彻斯特的棉布反销印度。熟练工失去议价能力，卢德派把织机当敌人砸毁，政府派兵镇压；议会后来才立法限制童工与工时。煤烟、贫民窟与阶级意识，成为此后两百年工业社会的常驻问题。",
+      "figures": [
+        {
+          "name": "詹姆斯·瓦特",
+          "role": "改良蒸汽机，1769 年取得专利"
+        },
+        {
+          "name": "理查德·阿克莱特",
+          "role": "水力纺纱机与工厂制的推行者"
+        },
+        {
+          "name": "埃德蒙·卡特赖特",
+          "role": "1785 年造出动力织机"
+        },
+        {
+          "name": "罗伯特·艾伦",
+          "role": "以要素价格解释工业革命的经济史家"
+        }
+      ],
+      "sections": [
+        {
+          "title": "先算价格，再谈天才",
+          "body": "艾伦的解释不靠孤立的发明，而靠价格：英国工资高、煤价低，机器替代人工的账才算得过来。瓦特蒸汽机的意义也在这里——分离冷凝器的原理前人已有，他把燃料消耗降到纽科门机的四分之一，机器才从矿井里的水泵变成任何地方都能用的动力。"
+        },
+        {
+          "title": "纺织是突破口",
+          "body": "珍妮机让一个工人同时看住多个纱锭，水力纺纱机提高了纱的强度，卡特赖特的织机把织布也交给机器。1789 年蒸汽动力织机进入工厂，到 1835 年约四分之三的棉纺厂用上蒸汽。机器制造机器——蒸汽机驱动金属加工，加工出更精密的汽缸，这是工业革命自我加速的机制。"
+        },
+        {
+          "title": "工厂制度与它的对手",
+          "body": "工厂把生产集中到一处，按钟点开工，工序被拆成可以计件的动作，监工记录迟到与损坏。熟练织工不再是独立的手艺人，议价能力随之消失；砸机器的卢德派被当成叛乱镇压，工会与工厂法都是在同一冲突里慢慢长出来的。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1764,
+          "text": "哈格里夫斯造出珍妮纺纱机"
+        },
+        {
+          "year": 1769,
+          "text": "瓦特取得分离冷凝器蒸汽机专利"
+        },
+        {
+          "year": 1785,
+          "text": "卡特赖特动力织机投入生产"
+        },
+        {
+          "year": 1800,
+          "text": "英国蒸汽机超过两千五百台"
+        },
+        {
+          "year": 1825,
+          "text": "斯托克顿—达灵顿铁路通车"
+        },
+        {
+          "year": 1835,
+          "text": "约四分之三的棉纺厂改用蒸汽动力"
+        }
+      ],
+      "counterparts": [
+        "cn-self-strengthening"
+      ],
+      "sources": [
+        {
+          "title": "British Industrial Revolution",
+          "url": "https://www.worldhistory.org/British_Industrial_Revolution/",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "title": "The Steam Engine in the British Industrial Revolution",
+          "url": "https://www.worldhistory.org/article/2166/the-steam-engine-in-the-british-industrial-revolut/",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "title": "The Textile Industry in the British Industrial Revolution",
+          "url": "https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "title": "工业革命（中国百科）",
+          "url": "https://www.zgbk.com/ecph/words?SiteID=1&Name=%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD",
+          "publisher": "中国大百科全书出版社"
         }
       ],
       "verified": true,

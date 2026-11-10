@@ -105,7 +105,7 @@
       "epoch": "w5",
       "eventId": "world-industry",
       "topic": "工业革命：蒸汽、煤与工厂制度",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s5",
@@ -189,14 +189,14 @@
       "epoch": "w1",
       "eventId": "world-egypt-nk",
       "topic": "新王国埃及：帝国、青铜与字母的雏形",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s3",
       "epoch": "w3",
       "eventId": "world-mongol-empire",
       "topic": "蒙古帝国的治理：站赤之外的制度",
-      "status": "todo"
+      "status": "done"
     },
     {
       "stage": "s5",
