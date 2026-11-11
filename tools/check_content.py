@@ -152,9 +152,9 @@ def main() -> int:
         w_ep = next((e for e in world_epochs["epochs"] if e["id"] == wid), None)
         if cn_ep and w_ep and cn_ep.get("stageId") != w_ep.get("stageId"):
             errors.append(f"comparisons:{c.get('id')}: 两条线不在同一阶段（{cn_ep.get('stageId')} vs {w_ep.get('stageId')}）")
-        key = (cid, wid)
+        key = c.get("id")
         if key in seen_epochs:
-            errors.append(f"comparisons:{c.get('id')}: 同一纪元对重复 {key}")
+            errors.append(f"comparisons:{key}: id 重复")
         seen_epochs.add(key)
         dims = c.get("dimensions") or []
         if len(dims) != 4:

@@ -20,6 +20,9 @@ export default function DynastiesPage() {
         夏商周与春秋战国、魏晋南北朝按「时期」处理，君主表以政权说明代替。
       </p>
       <p className="label" style={{ marginTop: "0.5rem" }}>{dynastiesNote}</p>
+      <div style={{ marginTop: "var(--spacing-md)" }}>
+        <a className="btn ghost" href={href("/mapping")}>并排看：朝代 × 世界同期映射表 →</a>
+      </div>
 
       <div className="dyn-grid">
         {dynasties.map((d) => {

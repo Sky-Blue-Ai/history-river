@@ -106,7 +106,7 @@ export default function OverviewPage() {
           </span>
           <span className="ebc-verdict">阶段是骨架，条目会按阶段逐步补满；空卷会明确标「待补」，不拿假数据凑数。</span>
         </span>
-        <a href={href("/cn")}>从华夏卷一读起 →</a>
+        <a href={href("/mapping")}>朝代 × 世界同期映射 →</a>
       </div>
     </div>
   );

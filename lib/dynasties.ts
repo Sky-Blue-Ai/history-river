@@ -23,6 +23,7 @@ export interface Dynasty {
   founder: string;
   endReason: string;
   keywords: string[];
+  worldNote?: string;
   summary: string;
   concurrent?: boolean;
   rulers: [string, string, number, number, string][];

@@ -47,7 +47,8 @@
    ],
    "eventIds": [
     "cn-erlitou"
-   ]
+   ],
+   "worldNote": "埃及古王国、两河早王朝同期（前 2070—前 1600）"
   },
   {
    "id": "shang",
@@ -108,7 +109,8 @@
    "eventIds": [
     "cn-shang-oracle",
     "cn-shang-bronze"
-   ]
+   ],
+   "worldNote": "埃及新王国、亚述兴起、迈锡尼文明（前 1600—前 1046）"
   },
   {
    "id": "zhou-west",
@@ -168,7 +170,8 @@
    ],
    "eventIds": [
     "cn-zhou-fengjian"
-   ]
+   ],
+   "worldNote": "新亚述帝国、腓尼基字母、希腊黑暗时代（前 1046—前 771）"
   },
   {
    "id": "chunqiu-zhanguo",
@@ -236,7 +239,8 @@
    "eventIds": [
     "cn-confucius",
     "cn-shang-yang"
-   ]
+   ],
+   "worldNote": "希腊城邦与波斯帝国、印度列国时代、轴心时代（前 770—前 221）"
   },
   {
    "id": "qin",
@@ -312,7 +316,8 @@
    "eventIds": [
     "cn-qin-unify",
     "cn-qin-administration"
-   ]
+   ],
+   "worldNote": "罗马共和国扩张、印度孔雀王朝（前 221—前 206）"
   },
   {
    "id": "han-west",
@@ -476,7 +481,8 @@
     "cn-silkroad",
     "cn-salt-iron",
     "cn-sima-qian"
-   ]
+   ],
+   "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
   {
    "id": "han-east",
@@ -627,7 +633,8 @@
    "eventIds": [
     "cn-paper",
     "cn-danggu"
-   ]
+   ],
+   "worldNote": "罗马帝国盛期、贵霜与萨珊波斯、佛教东传（25—220）"
   },
   {
    "id": "wei-jin",
@@ -701,7 +708,8 @@
    "eventIds": [
     "cn-xiaowen-reform",
     "cn-wei-jin-migration"
-   ]
+   ],
+   "worldNote": "罗马三世纪危机与帝国分裂、萨珊波斯、笈多王朝（220—581）"
   },
   {
    "id": "sui",
@@ -776,7 +784,8 @@
    ],
    "eventIds": [
     "cn-grand-canal"
-   ]
+   ],
+   "worldNote": "拜占庭查士丁尼、萨珊波斯、突厥汗国（581—618）"
   },
   {
    "id": "tang",
@@ -1017,7 +1026,8 @@
     "cn-talaros",
     "cn-tang-keju",
     "cn-tang-changan"
-   ]
+   ],
+   "worldNote": "拜占庭、阿拉伯帝国（阿拔斯）、法兰克加洛林（618—907）"
   },
   {
    "id": "song-north",
@@ -1147,7 +1157,8 @@
     "cn-jiaozi",
     "cn-movable-type",
     "cn-song-science"
-   ]
+   ],
+   "worldNote": "拜占庭马其顿王朝、伊斯兰黄金时代、西欧封建成型（960—1127）"
   },
   {
    "id": "song-south",
@@ -1270,7 +1281,8 @@
    "eventIds": [
     "cn-song-economy",
     "cn-song-quanzhou"
-   ]
+   ],
+   "worldNote": "十字军、蒙古帝国、西欧城市复兴与大学（1127—1279）"
   },
   {
    "id": "yuan",
@@ -1412,7 +1424,8 @@
    "eventIds": [
     "cn-yuan-unification",
     "cn-yuan-xingsheng"
-   ]
+   ],
+   "worldNote": "钦察汗国与伊利汗国、欧洲黑死病与百年战争（1271—1368）"
   },
   {
    "id": "ming",
@@ -1604,7 +1617,8 @@
     "cn-silver-inflow",
     "cn-ming-hai",
     "cn-ming-qing-transition"
-   ]
+   ],
+   "worldNote": "文艺复兴、大航海、宗教改革、奥斯曼扩张（1368—1644）"
   },
   {
    "id": "qing",
@@ -1765,7 +1779,8 @@
     "cn-ming-qing-transition",
     "cn-kangqian",
     "cn-lihongzhang"
-   ]
+   ],
+   "worldNote": "启蒙运动与工业革命、殖民帝国、两次世界大战（1616—1912）"
   }
  ],
  "note": "时间范围为通行的王朝纪年；夏商周及时期类板块的君主表以说明代替（无单一君主序列）"
