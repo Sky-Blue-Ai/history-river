@@ -84,8 +84,7 @@
    "epoch": "w4",
    "eventId": "world-reformation",
    "topic": "宗教改革：印刷术如何让异端活下来",
-   "status": "blocked",
-   "reason": "本机可读的权威来源未找到：marxists.org 与 worldhistory.org 均不可达（000/超时），zgbk 无对应条目 URL；需要开通可访问的学术库或允许引用境外站"
+   "status": "done"
   },
   {
    "stage": "s5",
@@ -162,8 +161,7 @@
    "epoch": "w6",
    "eventId": "world-globalization",
    "topic": "全球化与多极化：信息革命之后",
-   "status": "blocked",
-   "reason": "同上：中国大百科未检索到可引条目，联合国/世行页面对本机 403；需要可读来源"
+   "status": "done"
   },
   {
    "stage": "s4",
