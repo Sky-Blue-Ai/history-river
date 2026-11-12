@@ -44,6 +44,10 @@ def main() -> int:
         d = json.loads(p.read_text(encoding="utf-8"))
         evs = d.get("events", d if isinstance(d, list) else [])
         print(f"{p.name}: {len(evs)} 条")
+        for e in evs:
+            d = e.pop("dynasty", None)
+            if d:
+                DYN_MAP[e["id"]] = d
         incoming.extend(evs)
 
     existing = json.loads(INBOX.read_text(encoding="utf-8"))["events"] if INBOX.exists() else []

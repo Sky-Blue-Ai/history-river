@@ -46,7 +46,9 @@
     }
    ],
    "eventIds": [
-    "cn-erlitou"
+    "cn-erlitou",
+    "cn-xia-jie",
+    "cn-dayu-flood"
    ],
    "worldNote": "埃及古王国、两河早王朝同期（前 2070—前 1600）"
   },
@@ -109,7 +111,8 @@
    "eventIds": [
     "cn-shang-oracle",
     "cn-shang-bronze",
-    "cn-muye"
+    "cn-muye",
+    "cn-pangeng"
    ],
    "worldNote": "埃及新王国、亚述兴起、迈锡尼文明（前 1600—前 1046）"
   },
@@ -172,7 +175,8 @@
    "eventIds": [
     "cn-zhou-fengjian",
     "cn-republic-admin",
-    "cn-pingwang-east"
+    "cn-pingwang-east",
+    "cn-jingtian"
    ],
    "worldNote": "新亚述帝国、腓尼基字母、希腊黑暗时代（前 1046—前 771）"
   },
@@ -241,7 +245,13 @@
    ],
    "eventIds": [
     "cn-confucius",
-    "cn-shang-yang"
+    "cn-shang-yang",
+    "cn-chunqiu-hegemon",
+    "cn-baijia",
+    "cn-changping",
+    "cn-zichan",
+    "cn-wuyue",
+    "cn-dujiangyan"
    ],
    "worldNote": "希腊城邦与波斯帝国、印度列国时代、轴心时代（前 770—前 221）"
   },
@@ -320,7 +330,10 @@
     "cn-qin-unify",
     "cn-qin-administration",
     "cn-book-burning",
-    "cn-shaqiu"
+    "cn-shaqiu",
+    "cn-chen-sheng",
+    "cn-qin-mausoleum",
+    "cn-shuihudi"
    ],
    "worldNote": "罗马共和国扩张、印度孔雀王朝（前 221—前 206）"
   },
@@ -488,7 +501,13 @@
     "cn-sima-qian",
     "cn-wenjing",
     "cn-seven-states",
-    "cn-han-xiongnu"
+    "cn-han-xiongnu",
+    "cn-chu-han",
+    "cn-wang-mang",
+    "cn-silk-road",
+    "cn-haihun",
+    "cn-zhaoxuan",
+    "cn-zhaojun"
    ],
    "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
@@ -642,7 +661,8 @@
     "cn-paper",
     "cn-danggu",
     "cn-guangwu",
-    "cn-yellow-turban"
+    "cn-yellow-turban",
+    "cn-zhang-heng"
    ],
    "worldNote": "罗马帝国盛期、贵霜与萨珊波斯、佛教东传（25—220）"
   },
@@ -720,7 +740,14 @@
     "cn-wei-jin-migration",
     "cn-fei-shui",
     "cn-eight-princes",
-    "cn-northern-wei"
+    "cn-northern-wei",
+    "cn-fotuo",
+    "cn-yun-gang",
+    "cn-tuntian",
+    "cn-jiupin",
+    "cn-xuanxue",
+    "cn-zuchongzhi",
+    "cn-qimin-yaoshu"
    ],
    "worldNote": "罗马三世纪危机与帝国分裂、萨珊波斯、笈多王朝（220—581）"
   },
@@ -797,7 +824,8 @@
    ],
    "eventIds": [
     "cn-grand-canal",
-    "cn-kaihuang"
+    "cn-kaihuang",
+    "cn-sui-end"
    ],
    "worldNote": "拜占庭查士丁尼、萨珊波斯、突厥汗国（581—618）"
   },
@@ -1043,7 +1071,15 @@
     "cn-xuanwu-gate",
     "cn-an-lushan",
     "cn-liangshui",
-    "cn-huang-chao"
+    "cn-huang-chao",
+    "cn-zhenguan",
+    "cn-wu-zetian",
+    "cn-fanzhen",
+    "cn-chan-zong",
+    "cn-tanglv",
+    "cn-juntian",
+    "cn-qiandushi",
+    "cn-feiqian"
    ],
    "worldNote": "拜占庭、阿拉伯帝国（阿拔斯）、法兰克加洛林（618—907）"
   },
@@ -1177,7 +1213,12 @@
     "cn-song-science",
     "cn-chanyuan",
     "cn-wang-anshi",
-    "cn-jingkang"
+    "cn-jingkang",
+    "cn-five-dynasties",
+    "cn-qingli",
+    "cn-song-keju",
+    "cn-chama",
+    "cn-wazi"
    ],
    "worldNote": "拜占庭马其顿王朝、伊斯兰黄金时代、西欧封建成型（960—1127）"
   },
@@ -1303,7 +1344,8 @@
     "cn-song-economy",
     "cn-song-quanzhou",
     "cn-yue-fei",
-    "cn-xiangyang"
+    "cn-xiangyang",
+    "cn-cheng-zhu"
    ],
    "worldNote": "十字军、蒙古帝国、西欧城市复兴与大学（1127—1279）"
   },
@@ -1448,7 +1490,8 @@
     "cn-yuan-unification",
     "cn-yuan-xingsheng",
     "cn-red-scarf",
-    "cn-mongol-jin"
+    "cn-mongol-jin",
+    "cn-yuan-sea"
    ],
    "worldNote": "钦察汗国与伊利汗国、欧洲黑死病与百年战争（1271—1368）"
   },
@@ -1645,7 +1688,13 @@
     "cn-tumu",
     "cn-zhengtong",
     "cn-wanli-wars",
-    "cn-chongzhen"
+    "cn-chongzhen",
+    "cn-hongwu",
+    "cn-jingnan",
+    "cn-wokou",
+    "cn-ming-wall",
+    "cn-neige",
+    "cn-zonglu"
    ],
    "worldNote": "文艺复兴、大航海、宗教改革、奥斯曼扩张（1368—1644）"
   },
@@ -1812,7 +1861,14 @@
     "cn-zhungeer",
     "cn-taiping",
     "cn-wuxu",
-    "cn-gengzi"
+    "cn-gengzi",
+    "cn-kangxi-treaty",
+    "cn-yongzheng",
+    "cn-qianlong",
+    "cn-tusi",
+    "cn-jinping",
+    "cn-keju-qing",
+    "cn-xinzheng"
    ],
    "worldNote": "启蒙运动与工业革命、殖民帝国、两次世界大战（1616—1912）"
   }

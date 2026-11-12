@@ -1,185 +1,341 @@
 {
- "note": "中国朝代大事 10 轮 × 3 条；每轮取不同朝代",
- "rounds": 10,
+ "note": "华夏补齐：D–G 28 条 + H–K 28 条，按朝代轮转",
+ "rounds": 8,
  "items": [
   {
-   "dynasty": "shang",
-   "eventId": "cn-muye",
-   "topic": "牧野之战与商亡",
+   "dynasty": "xia",
+   "eventId": "cn-xia-jie",
+   "topic": "夏桀与鸣条之战",
    "status": "done"
   },
   {
-   "dynasty": "zhou-west",
-   "eventId": "cn-republic-admin",
-   "topic": "国人暴动与共和行政",
+   "dynasty": "chunqiu-zhanguo",
+   "eventId": "cn-chunqiu-hegemon",
+   "topic": "齐桓公称霸与管仲改革",
    "status": "done"
   },
   {
-   "dynasty": "zhou-west",
-   "eventId": "cn-pingwang-east",
-   "topic": "平王东迁与东周开始",
+   "dynasty": "chunqiu-zhanguo",
+   "eventId": "cn-baijia",
+   "topic": "百家争鸣：儒墨道法的争锋",
+   "status": "done"
+  },
+  {
+   "dynasty": "chunqiu-zhanguo",
+   "eventId": "cn-changping",
+   "topic": "长平之战",
+   "status": "done"
+  },
+  {
+   "dynasty": "qin",
+   "eventId": "cn-chen-sheng",
+   "topic": "陈胜吴广与大泽乡",
+   "status": "done"
+  },
+  {
+   "dynasty": "han-west",
+   "eventId": "cn-chu-han",
+   "topic": "楚汉相争与汉朝建立",
+   "status": "done"
+  },
+  {
+   "dynasty": "han-west",
+   "eventId": "cn-wang-mang",
+   "topic": "王莽改制与新朝",
+   "status": "done"
+  },
+  {
+   "dynasty": "han-west",
+   "eventId": "cn-silk-road",
+   "topic": "丝绸之路与西域都护",
+   "status": "done"
+  },
+  {
+   "dynasty": "han-east",
+   "eventId": "cn-zhang-heng",
+   "topic": "张衡与浑天说",
+   "status": "done"
+  },
+  {
+   "dynasty": "wei-jin",
+   "eventId": "cn-fotuo",
+   "topic": "佛教东传与鸠摩罗什译经",
+   "status": "done"
+  },
+  {
+   "dynasty": "wei-jin",
+   "eventId": "cn-yun-gang",
+   "topic": "云冈石窟与北朝造像",
    "status": "done"
   },
   {
    "dynasty": "sui",
-   "eventId": "cn-kaihuang",
-   "topic": "开皇之治与统一南北",
-   "status": "done"
-  },
-  {
-   "dynasty": "qin",
-   "eventId": "cn-book-burning",
-   "topic": "焚书坑儒与思想整肃",
-   "status": "done"
-  },
-  {
-   "dynasty": "qin",
-   "eventId": "cn-shaqiu",
-   "topic": "沙丘之变与秦二世即位",
-   "status": "done"
-  },
-  {
-   "dynasty": "han-west",
-   "eventId": "cn-wenjing",
-   "topic": "文景之治与休养生息",
-   "status": "done"
-  },
-  {
-   "dynasty": "han-west",
-   "eventId": "cn-seven-states",
-   "topic": "七国之乱与削藩",
-   "status": "done"
-  },
-  {
-   "dynasty": "han-west",
-   "eventId": "cn-han-xiongnu",
-   "topic": "汉武帝北击匈奴",
-   "status": "done"
-  },
-  {
-   "dynasty": "han-east",
-   "eventId": "cn-guangwu",
-   "topic": "光武中兴与豪族政治",
-   "status": "done"
-  },
-  {
-   "dynasty": "han-east",
-   "eventId": "cn-yellow-turban",
-   "topic": "黄巾起义",
-   "status": "done"
-  },
-  {
-   "dynasty": "wei-jin",
-   "eventId": "cn-eight-princes",
-   "topic": "八王之乱",
-   "status": "done"
-  },
-  {
-   "dynasty": "wei-jin",
-   "eventId": "cn-northern-wei",
-   "topic": "北魏统一北方与六镇",
+   "eventId": "cn-sui-end",
+   "topic": "隋末民变与瓦岗军",
    "status": "done"
   },
   {
    "dynasty": "tang",
-   "eventId": "cn-xuanwu-gate",
-   "topic": "玄武门之变",
+   "eventId": "cn-zhenguan",
+   "topic": "贞观之治与纳谏",
    "status": "done"
   },
   {
    "dynasty": "tang",
-   "eventId": "cn-an-lushan",
-   "topic": "安史之乱",
+   "eventId": "cn-wu-zetian",
+   "topic": "武则天称帝与科举扩张",
    "status": "done"
   },
   {
    "dynasty": "tang",
-   "eventId": "cn-liangshui",
-   "topic": "两税法改革",
+   "eventId": "cn-fanzhen",
+   "topic": "藩镇割据与唐廷的妥协",
    "status": "done"
   },
   {
    "dynasty": "tang",
-   "eventId": "cn-huang-chao",
-   "topic": "黄巢起义与唐亡",
+   "eventId": "cn-chan-zong",
+   "topic": "禅宗与佛教中国化",
    "status": "done"
   },
   {
    "dynasty": "song-north",
-   "eventId": "cn-chanyuan",
-   "topic": "澶渊之盟",
+   "eventId": "cn-five-dynasties",
+   "topic": "五代十国与陈桥兵变",
    "status": "done"
   },
   {
    "dynasty": "song-north",
-   "eventId": "cn-wang-anshi",
-   "topic": "王安石变法",
-   "status": "done"
-  },
-  {
-   "dynasty": "song-north",
-   "eventId": "cn-jingkang",
-   "topic": "靖康之变",
+   "eventId": "cn-qingli",
+   "topic": "庆历新政与范仲淹",
    "status": "done"
   },
   {
    "dynasty": "song-south",
-   "eventId": "cn-xiangyang",
-   "topic": "襄樊之战与南宋亡",
+   "eventId": "cn-cheng-zhu",
+   "topic": "朱熹与理学",
    "status": "done"
   },
   {
    "dynasty": "yuan",
-   "eventId": "cn-mongol-jin",
-   "topic": "蒙古灭金与元朝建立",
+   "eventId": "cn-yuan-sea",
+   "topic": "元代海运与漕运",
    "status": "done"
   },
   {
    "dynasty": "ming",
-   "eventId": "cn-zhengtong",
-   "topic": "张居正改革与考成法",
+   "eventId": "cn-hongwu",
+   "topic": "洪武建制：废相与里甲",
    "status": "done"
   },
   {
    "dynasty": "ming",
-   "eventId": "cn-wanli-wars",
-   "topic": "万历三大征",
+   "eventId": "cn-jingnan",
+   "topic": "靖难之役与迁都北京",
    "status": "done"
   },
   {
    "dynasty": "ming",
-   "eventId": "cn-chongzhen",
-   "topic": "崇祯与三饷",
+   "eventId": "cn-wokou",
+   "topic": "嘉靖倭患与戚继光",
    "status": "done"
   },
   {
    "dynasty": "qing",
-   "eventId": "cn-three-feudatories",
-   "topic": "三藩之乱",
+   "eventId": "cn-kangxi-treaty",
+   "topic": "康熙与《尼布楚条约》",
    "status": "done"
   },
   {
    "dynasty": "qing",
-   "eventId": "cn-zhungeer",
-   "topic": "平定准噶尔",
+   "eventId": "cn-yongzheng",
+   "topic": "雍正摊丁入亩与军机处",
    "status": "done"
   },
   {
    "dynasty": "qing",
-   "eventId": "cn-taiping",
-   "topic": "太平天国",
+   "eventId": "cn-qianlong",
+   "topic": "乾隆南巡与《四库全书》",
+   "status": "done"
+  },
+  {
+   "dynasty": "qin",
+   "eventId": "cn-qin-mausoleum",
+   "topic": "秦始皇陵与兵马俑",
+   "status": "done"
+  },
+  {
+   "dynasty": "han-west",
+   "eventId": "cn-haihun",
+   "topic": "海昏侯与西汉列侯制度",
+   "status": "done"
+  },
+  {
+   "dynasty": "xia",
+   "eventId": "cn-dayu-flood",
+   "topic": "大禹治水与夏的建立",
+   "status": "done"
+  },
+  {
+   "dynasty": "shang",
+   "eventId": "cn-pangeng",
+   "topic": "盘庚迁殷与商的中兴",
+   "status": "done"
+  },
+  {
+   "dynasty": "zhou-west",
+   "eventId": "cn-jingtian",
+   "topic": "井田制与西周的经济基础",
+   "status": "done"
+  },
+  {
+   "dynasty": "chunqiu-zhanguo",
+   "eventId": "cn-zichan",
+   "topic": "子产铸刑书与成文法",
+   "status": "done"
+  },
+  {
+   "dynasty": "chunqiu-zhanguo",
+   "eventId": "cn-wuyue",
+   "topic": "吴越争霸与夫差勾践",
+   "status": "done"
+  },
+  {
+   "dynasty": "chunqiu-zhanguo",
+   "eventId": "cn-dujiangyan",
+   "topic": "都江堰与李冰",
+   "status": "done"
+  },
+  {
+   "dynasty": "qin",
+   "eventId": "cn-shuihudi",
+   "topic": "睡虎地秦简与秦律",
+   "status": "done"
+  },
+  {
+   "dynasty": "han-west",
+   "eventId": "cn-zhaoxuan",
+   "topic": "昭宣中兴与霍光辅政",
+   "status": "done"
+  },
+  {
+   "dynasty": "han-west",
+   "eventId": "cn-zhaojun",
+   "topic": "昭君出塞与汉匈和亲",
+   "status": "done"
+  },
+  {
+   "dynasty": "wei-jin",
+   "eventId": "cn-tuntian",
+   "topic": "屯田制与曹操的粮草",
+   "status": "done"
+  },
+  {
+   "dynasty": "wei-jin",
+   "eventId": "cn-jiupin",
+   "topic": "九品中正制与门阀",
+   "status": "done"
+  },
+  {
+   "dynasty": "wei-jin",
+   "eventId": "cn-xuanxue",
+   "topic": "玄学与清谈",
+   "status": "done"
+  },
+  {
+   "dynasty": "wei-jin",
+   "eventId": "cn-zuchongzhi",
+   "topic": "祖冲之与圆周率",
+   "status": "done"
+  },
+  {
+   "dynasty": "wei-jin",
+   "eventId": "cn-qimin-yaoshu",
+   "topic": "贾思勰与《齐民要术》",
+   "status": "done"
+  },
+  {
+   "dynasty": "tang",
+   "eventId": "cn-tanglv",
+   "topic": "唐律疏议与律令体系",
+   "status": "done"
+  },
+  {
+   "dynasty": "tang",
+   "eventId": "cn-juntian",
+   "topic": "均田制与租庸调",
+   "status": "done"
+  },
+  {
+   "dynasty": "tang",
+   "eventId": "cn-qiandushi",
+   "topic": "遣唐使与东亚文化圈",
+   "status": "done"
+  },
+  {
+   "dynasty": "tang",
+   "eventId": "cn-feiqian",
+   "topic": "飞钱与唐代商业",
+   "status": "done"
+  },
+  {
+   "dynasty": "song-north",
+   "eventId": "cn-song-keju",
+   "topic": "宋代科举与殿试",
+   "status": "done"
+  },
+  {
+   "dynasty": "song-north",
+   "eventId": "cn-chama",
+   "topic": "茶马贸易与榷场",
+   "status": "done"
+  },
+  {
+   "dynasty": "song-north",
+   "eventId": "cn-wazi",
+   "topic": "宋代城市与瓦子",
+   "status": "done"
+  },
+  {
+   "dynasty": "ming",
+   "eventId": "cn-ming-wall",
+   "topic": "明长城与九边",
+   "status": "done"
+  },
+  {
+   "dynasty": "ming",
+   "eventId": "cn-neige",
+   "topic": "明代内阁与票拟",
+   "status": "done"
+  },
+  {
+   "dynasty": "ming",
+   "eventId": "cn-zonglu",
+   "topic": "明代藩王与宗禄",
    "status": "done"
   },
   {
    "dynasty": "qing",
-   "eventId": "cn-wuxu",
-   "topic": "戊戌变法",
+   "eventId": "cn-tusi",
+   "topic": "改土归流",
    "status": "done"
   },
   {
    "dynasty": "qing",
-   "eventId": "cn-gengzi",
-   "topic": "庚子之变与《辛丑条约》",
+   "eventId": "cn-jinping",
+   "topic": "金瓶掣签与驻藏大臣",
+   "status": "done"
+  },
+  {
+   "dynasty": "qing",
+   "eventId": "cn-keju-qing",
+   "topic": "清代科举与翰林",
+   "status": "done"
+  },
+  {
+   "dynasty": "qing",
+   "eventId": "cn-xinzheng",
+   "topic": "清末新政与预备立宪",
    "status": "done"
   }
  ]
