@@ -54,7 +54,7 @@
    "dynasty": "han-west",
    "eventId": "cn-han-xiongnu",
    "topic": "汉武帝北击匈奴",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "han-east",
@@ -66,121 +66,121 @@
    "dynasty": "han-east",
    "eventId": "cn-yellow-turban",
    "topic": "黄巾起义",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "wei-jin",
    "eventId": "cn-eight-princes",
    "topic": "八王之乱",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "wei-jin",
    "eventId": "cn-northern-wei",
    "topic": "北魏统一北方与六镇",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "tang",
    "eventId": "cn-xuanwu-gate",
    "topic": "玄武门之变",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "tang",
    "eventId": "cn-an-lushan",
    "topic": "安史之乱",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "tang",
    "eventId": "cn-liangshui",
    "topic": "两税法改革",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "tang",
    "eventId": "cn-huang-chao",
    "topic": "黄巢起义与唐亡",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "song-north",
    "eventId": "cn-chanyuan",
    "topic": "澶渊之盟",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "song-north",
    "eventId": "cn-wang-anshi",
    "topic": "王安石变法",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "song-north",
    "eventId": "cn-jingkang",
    "topic": "靖康之变",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "song-south",
    "eventId": "cn-xiangyang",
    "topic": "襄樊之战与南宋亡",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "yuan",
    "eventId": "cn-mongol-jin",
    "topic": "蒙古灭金与元朝建立",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "ming",
    "eventId": "cn-zhengtong",
    "topic": "张居正改革与考成法",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "ming",
    "eventId": "cn-wanli-wars",
    "topic": "万历三大征",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "ming",
    "eventId": "cn-chongzhen",
    "topic": "崇祯与三饷",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "qing",
    "eventId": "cn-three-feudatories",
    "topic": "三藩之乱",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "qing",
    "eventId": "cn-zhungeer",
    "topic": "平定准噶尔",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "qing",
    "eventId": "cn-taiping",
    "topic": "太平天国",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "qing",
    "eventId": "cn-wuxu",
    "topic": "戊戌变法",
-   "status": "todo"
+   "status": "done"
   },
   {
    "dynasty": "qing",
    "eventId": "cn-gengzi",
    "topic": "庚子之变与《辛丑条约》",
-   "status": "todo"
+   "status": "done"
   }
  ]
 }

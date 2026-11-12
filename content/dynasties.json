@@ -487,7 +487,8 @@
     "cn-salt-iron",
     "cn-sima-qian",
     "cn-wenjing",
-    "cn-seven-states"
+    "cn-seven-states",
+    "cn-han-xiongnu"
    ],
    "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
@@ -640,7 +641,8 @@
    "eventIds": [
     "cn-paper",
     "cn-danggu",
-    "cn-guangwu"
+    "cn-guangwu",
+    "cn-yellow-turban"
    ],
    "worldNote": "罗马帝国盛期、贵霜与萨珊波斯、佛教东传（25—220）"
   },
@@ -716,7 +718,9 @@
    "eventIds": [
     "cn-xiaowen-reform",
     "cn-wei-jin-migration",
-    "cn-fei-shui"
+    "cn-fei-shui",
+    "cn-eight-princes",
+    "cn-northern-wei"
    ],
    "worldNote": "罗马三世纪危机与帝国分裂、萨珊波斯、笈多王朝（220—581）"
   },
@@ -1035,7 +1039,11 @@
     "cn-xuanzang",
     "cn-talaros",
     "cn-tang-keju",
-    "cn-tang-changan"
+    "cn-tang-changan",
+    "cn-xuanwu-gate",
+    "cn-an-lushan",
+    "cn-liangshui",
+    "cn-huang-chao"
    ],
    "worldNote": "拜占庭、阿拉伯帝国（阿拔斯）、法兰克加洛林（618—907）"
   },
@@ -1166,7 +1174,10 @@
    "eventIds": [
     "cn-jiaozi",
     "cn-movable-type",
-    "cn-song-science"
+    "cn-song-science",
+    "cn-chanyuan",
+    "cn-wang-anshi",
+    "cn-jingkang"
    ],
    "worldNote": "拜占庭马其顿王朝、伊斯兰黄金时代、西欧封建成型（960—1127）"
   },
@@ -1291,7 +1302,8 @@
    "eventIds": [
     "cn-song-economy",
     "cn-song-quanzhou",
-    "cn-yue-fei"
+    "cn-yue-fei",
+    "cn-xiangyang"
    ],
    "worldNote": "十字军、蒙古帝国、西欧城市复兴与大学（1127—1279）"
   },
@@ -1435,7 +1447,8 @@
    "eventIds": [
     "cn-yuan-unification",
     "cn-yuan-xingsheng",
-    "cn-red-scarf"
+    "cn-red-scarf",
+    "cn-mongol-jin"
    ],
    "worldNote": "钦察汗国与伊利汗国、欧洲黑死病与百年战争（1271—1368）"
   },
@@ -1629,7 +1642,10 @@
     "cn-silver-inflow",
     "cn-ming-hai",
     "cn-ming-qing-transition",
-    "cn-tumu"
+    "cn-tumu",
+    "cn-zhengtong",
+    "cn-wanli-wars",
+    "cn-chongzhen"
    ],
    "worldNote": "文艺复兴、大航海、宗教改革、奥斯曼扩张（1368—1644）"
   },
@@ -1791,7 +1807,12 @@
     "cn-jiawu",
     "cn-ming-qing-transition",
     "cn-kangqian",
-    "cn-lihongzhang"
+    "cn-lihongzhang",
+    "cn-three-feudatories",
+    "cn-zhungeer",
+    "cn-taiping",
+    "cn-wuxu",
+    "cn-gengzi"
    ],
    "worldNote": "启蒙运动与工业革命、殖民帝国、两次世界大战（1616—1912）"
   }
