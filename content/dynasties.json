@@ -319,7 +319,8 @@
    "eventIds": [
     "cn-qin-unify",
     "cn-qin-administration",
-    "cn-book-burning"
+    "cn-book-burning",
+    "cn-shaqiu"
    ],
    "worldNote": "罗马共和国扩张、印度孔雀王朝（前 221—前 206）"
   },
@@ -485,7 +486,8 @@
     "cn-silkroad",
     "cn-salt-iron",
     "cn-sima-qian",
-    "cn-wenjing"
+    "cn-wenjing",
+    "cn-seven-states"
    ],
    "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
@@ -637,7 +639,8 @@
    ],
    "eventIds": [
     "cn-paper",
-    "cn-danggu"
+    "cn-danggu",
+    "cn-guangwu"
    ],
    "worldNote": "罗马帝国盛期、贵霜与萨珊波斯、佛教东传（25—220）"
   },
