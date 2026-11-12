@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 BOT_WALL = ("zgbk.com", "ctext.org", "baike.baidu.com", "zh.wikipedia.org", "en.wikipedia.org",
             "wikisource.org", "unesco.org", "britannica.com",
-            "worldhistory.org", "worldhistorycommons.org", "un.org", "nato.int")
+            "worldhistory.org", "worldhistorycommons.org", "un.org", "nato.int", "kaogu.cssn.cn")
 
 
 def urls() -> dict[str, list[str]]:

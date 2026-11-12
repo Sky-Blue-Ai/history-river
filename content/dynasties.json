@@ -54,7 +54,8 @@
     "cn-erlitou",
     "cn-xia-jie",
     "cn-dayu-flood",
-    "cn-taikang-shaokang"
+    "cn-taikang-shaokang",
+    "cn-xia-calendar"
    ],
    "worldNote": "埃及古王国、两河早王朝同期（前 2070—前 1600）"
   },
@@ -130,7 +131,8 @@
     "cn-muye",
     "cn-pangeng",
     "cn-wuding-fuhao",
-    "cn-shang-cowrie"
+    "cn-shang-cowrie",
+    "cn-shang-tomb"
    ],
    "worldNote": "埃及新王国、亚述兴起、迈锡尼文明（前 1600—前 1046）"
   },
@@ -784,7 +786,8 @@
     "cn-zhang-heng",
     "cn-eunuch-clique",
     "cn-banchao",
-    "cn-xiping-stone"
+    "cn-xiping-stone",
+    "cn-donghan-tomb"
    ],
    "worldNote": "罗马帝国盛期、贵霜与萨珊波斯、佛教东传（25—220）"
   },
@@ -897,7 +900,8 @@
     "cn-taoyuanming",
     "cn-southern-dynasties",
     "cn-fubing",
-    "cn-longmen"
+    "cn-longmen",
+    "cn-menfa-zhuangyuan"
    ],
    "worldNote": "罗马三世纪危机与帝国分裂、萨珊波斯、笈多王朝（220—581）"
   },
