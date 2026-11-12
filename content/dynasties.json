@@ -108,7 +108,8 @@
    ],
    "eventIds": [
     "cn-shang-oracle",
-    "cn-shang-bronze"
+    "cn-shang-bronze",
+    "cn-muye"
    ],
    "worldNote": "埃及新王国、亚述兴起、迈锡尼文明（前 1600—前 1046）"
   },
@@ -169,7 +170,8 @@
     }
    ],
    "eventIds": [
-    "cn-zhou-fengjian"
+    "cn-zhou-fengjian",
+    "cn-republic-admin"
    ],
    "worldNote": "新亚述帝国、腓尼基字母、希腊黑暗时代（前 1046—前 771）"
   },
@@ -784,7 +786,8 @@
     }
    ],
    "eventIds": [
-    "cn-grand-canal"
+    "cn-grand-canal",
+    "cn-kaihuang"
    ],
    "worldNote": "拜占庭查士丁尼、萨珊波斯、突厥汗国（581—618）"
   },
