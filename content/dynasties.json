@@ -171,7 +171,8 @@
    ],
    "eventIds": [
     "cn-zhou-fengjian",
-    "cn-republic-admin"
+    "cn-republic-admin",
+    "cn-pingwang-east"
    ],
    "worldNote": "新亚述帝国、腓尼基字母、希腊黑暗时代（前 1046—前 771）"
   },
@@ -317,7 +318,8 @@
    ],
    "eventIds": [
     "cn-qin-unify",
-    "cn-qin-administration"
+    "cn-qin-administration",
+    "cn-book-burning"
    ],
    "worldNote": "罗马共和国扩张、印度孔雀王朝（前 221—前 206）"
   },
@@ -482,7 +484,8 @@
    "eventIds": [
     "cn-silkroad",
     "cn-salt-iron",
-    "cn-sima-qian"
+    "cn-sima-qian",
+    "cn-wenjing"
    ],
    "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
