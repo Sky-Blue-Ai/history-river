@@ -53,7 +53,8 @@
    "eventIds": [
     "cn-erlitou",
     "cn-xia-jie",
-    "cn-dayu-flood"
+    "cn-dayu-flood",
+    "cn-taikang-shaokang"
    ],
    "worldNote": "埃及古王国、两河早王朝同期（前 2070—前 1600）"
   },
@@ -127,7 +128,9 @@
     "cn-shang-oracle",
     "cn-shang-bronze",
     "cn-muye",
-    "cn-pangeng"
+    "cn-pangeng",
+    "cn-wuding-fuhao",
+    "cn-shang-cowrie"
    ],
    "worldNote": "埃及新王国、亚述兴起、迈锡尼文明（前 1600—前 1046）"
   },
@@ -202,7 +205,9 @@
     "cn-republic-admin",
     "cn-pingwang-east",
     "cn-jingtian",
-    "cn-zhougong"
+    "cn-zhougong",
+    "cn-xuanwang",
+    "cn-jinwen"
    ],
    "worldNote": "新亚述帝国、腓尼基字母、希腊黑暗时代（前 1046—前 771）"
   },
@@ -311,7 +316,10 @@
     "cn-laozi",
     "cn-sunzi",
     "cn-mozi",
-    "cn-quyuan"
+    "cn-quyuan",
+    "cn-three-jin",
+    "cn-hezong",
+    "cn-hufu"
    ],
    "worldNote": "希腊城邦与波斯帝国、印度列国时代、轴心时代（前 770—前 221）"
   },
@@ -404,7 +412,9 @@
     "cn-chen-sheng",
     "cn-qin-mausoleum",
     "cn-shuihudi",
-    "cn-zhengguoqu"
+    "cn-zhengguoqu",
+    "cn-lingqu",
+    "cn-qindao"
    ],
    "worldNote": "罗马共和国扩张、印度孔雀王朝（前 221—前 206）"
   },
@@ -599,7 +609,9 @@
     "cn-haihun",
     "cn-zhaoxuan",
     "cn-zhaojun",
-    "cn-du-ru"
+    "cn-du-ru",
+    "cn-wugu",
+    "cn-daetian"
    ],
    "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
@@ -769,7 +781,10 @@
     "cn-danggu",
     "cn-guangwu",
     "cn-yellow-turban",
-    "cn-zhang-heng"
+    "cn-zhang-heng",
+    "cn-eunuch-clique",
+    "cn-banchao",
+    "cn-xiping-stone"
    ],
    "worldNote": "罗马帝国盛期、贵霜与萨珊波斯、佛教东传（25—220）"
   },
@@ -879,7 +894,10 @@
     "cn-chibi",
     "cn-zhugeliang",
     "cn-wangxizhi",
-    "cn-taoyuanming"
+    "cn-taoyuanming",
+    "cn-southern-dynasties",
+    "cn-fubing",
+    "cn-longmen"
    ],
    "worldNote": "罗马三世纪危机与帝国分裂、萨珊波斯、笈多王朝（220—581）"
   },
@@ -967,7 +985,10 @@
    "eventIds": [
     "cn-grand-canal",
     "cn-kaihuang",
-    "cn-sui-end"
+    "cn-sui-end",
+    "cn-three-departments",
+    "cn-hanjia-granary",
+    "cn-zhaozhou-bridge"
    ],
    "worldNote": "拜占庭查士丁尼、萨珊波斯、突厥汗国（581—618）"
   },
@@ -1250,7 +1271,9 @@
     "cn-kaiyuan",
     "cn-libaidufu",
     "cn-hanyu",
-    "cn-tangbo"
+    "cn-tangbo",
+    "cn-anxi",
+    "cn-ganlu"
    ],
    "worldNote": "拜占庭、阿拉伯帝国（阿拔斯）、法兰克加洛林（618—907）"
   },
@@ -1411,7 +1434,9 @@
     "cn-chama",
     "cn-wazi",
     "cn-sushi",
-    "cn-shenkuo"
+    "cn-shenkuo",
+    "cn-xixia",
+    "cn-sunrong"
    ],
    "worldNote": "拜占庭马其顿王朝、伊斯兰黄金时代、西欧封建成型（960—1127）"
   },
@@ -1548,7 +1573,10 @@
     "cn-song-quanzhou",
     "cn-yue-fei",
     "cn-xiangyang",
-    "cn-cheng-zhu"
+    "cn-cheng-zhu",
+    "cn-caishi",
+    "cn-linan-economy",
+    "cn-huizi"
    ],
    "worldNote": "十字军、蒙古帝国、西欧城市复兴与大学（1127—1279）"
   },
@@ -1706,7 +1734,9 @@
     "cn-mongol-jin",
     "cn-yuan-sea",
     "cn-guoshoujing",
-    "cn-yuanqu"
+    "cn-yuanqu",
+    "cn-four-classes",
+    "cn-cotton"
    ],
    "worldNote": "钦察汗国与伊利汗国、欧洲黑死病与百年战争（1271—1368）"
   },
@@ -1934,7 +1964,9 @@
     "cn-yangming",
     "cn-bencao",
     "cn-tiangong",
-    "cn-xuxiake"
+    "cn-xuxiake",
+    "cn-weisuo",
+    "cn-donglin"
    ],
    "worldNote": "文艺复兴、大航海、宗教改革、奥斯曼扩张（1368—1644）"
   },
@@ -2131,7 +2163,9 @@
     "cn-xinzheng",
     "cn-hongloumeng",
     "cn-linzexu",
-    "cn-zuozongtang"
+    "cn-zuozongtang",
+    "cn-cohong",
+    "cn-migration"
    ],
    "worldNote": "启蒙运动与工业革命、殖民帝国、两次世界大战（1616—1912）"
   }
