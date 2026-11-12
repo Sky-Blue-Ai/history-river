@@ -707,7 +707,8 @@
    ],
    "eventIds": [
     "cn-xiaowen-reform",
-    "cn-wei-jin-migration"
+    "cn-wei-jin-migration",
+    "cn-fei-shui"
    ],
    "worldNote": "罗马三世纪危机与帝国分裂、萨珊波斯、笈多王朝（220—581）"
   },
@@ -1280,7 +1281,8 @@
    ],
    "eventIds": [
     "cn-song-economy",
-    "cn-song-quanzhou"
+    "cn-song-quanzhou",
+    "cn-yue-fei"
    ],
    "worldNote": "十字军、蒙古帝国、西欧城市复兴与大学（1127—1279）"
   },
@@ -1423,7 +1425,8 @@
    ],
    "eventIds": [
     "cn-yuan-unification",
-    "cn-yuan-xingsheng"
+    "cn-yuan-xingsheng",
+    "cn-red-scarf"
    ],
    "worldNote": "钦察汗国与伊利汗国、欧洲黑死病与百年战争（1271—1368）"
   },
@@ -1616,7 +1619,8 @@
     "cn-zhenghe",
     "cn-silver-inflow",
     "cn-ming-hai",
-    "cn-ming-qing-transition"
+    "cn-ming-qing-transition",
+    "cn-tumu"
    ],
    "worldNote": "文艺复兴、大航海、宗教改革、奥斯曼扩张（1368—1644）"
   },
