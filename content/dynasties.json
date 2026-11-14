@@ -619,7 +619,9 @@
     "cn-du-ru",
     "cn-wugu",
     "cn-daetian",
-    "cn-lvhou"
+    "cn-lvhou",
+    "cn-han-army",
+    "cn-han-education"
    ],
    "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
@@ -1290,7 +1292,9 @@
     "cn-anxi",
     "cn-ganlu",
     "cn-yongzhen-reform",
-    "cn-niuli"
+    "cn-niuli",
+    "cn-tang-civil-service",
+    "cn-tang-temple-economy"
    ],
    "worldNote": "拜占庭、阿拉伯帝国（阿拔斯）、法兰克加洛林（618—907）"
   },
@@ -1454,7 +1458,9 @@
     "cn-shenkuo",
     "cn-xixia",
     "cn-sunrong",
-    "cn-fangla"
+    "cn-fangla",
+    "cn-song-granary",
+    "cn-song-water"
    ],
    "worldNote": "拜占庭马其顿王朝、伊斯兰黄金时代、西欧封建成型（960—1127）"
   },
@@ -1991,7 +1997,11 @@
     "cn-kuangshui",
     "cn-jiangji",
     "cn-zongzu",
-    "cn-shuyuan"
+    "cn-shuyuan",
+    "cn-ming-capital",
+    "cn-gazetteer",
+    "cn-plague-mingqing",
+    "cn-coastal-defense"
    ],
    "worldNote": "文艺复兴、大航海、宗教改革、奥斯曼扩张（1368—1644）"
   },
@@ -2202,7 +2212,15 @@
     "cn-caoyun-qing",
     "cn-quandi",
     "cn-yinqian",
-    "cn-yizhan"
+    "cn-yizhan",
+    "cn-jingshi-daxuetang",
+    "cn-maritime-customs",
+    "cn-chamber-commerce",
+    "cn-press-publishing",
+    "cn-railway-steamship",
+    "cn-western-medicine",
+    "cn-banner-livelihood",
+    "cn-mulan"
    ],
    "worldNote": "启蒙运动与工业革命、殖民帝国、两次世界大战（1616—1912）"
   }

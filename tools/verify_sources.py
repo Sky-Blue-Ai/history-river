@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import glob
 import json
+import time
 import subprocess
 import sys
 from pathlib import Path
@@ -32,20 +33,28 @@ def urls() -> dict[str, list[str]]:
     return out
 
 
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122 Safari/537.36"
+
+
 def check(u: str) -> tuple[str, str]:
     host = u.split("/")[2]
     if any(host.endswith(h) for h in BOT_WALL):
         return "bot-wall", ""
-    try:
-        r = subprocess.run(
-            ["curl", "-sL", "-o", "/dev/null", "-m", "8", "-w", "%{http_code}", u],
-            capture_output=True, text=True, timeout=12,
-        )
-        code = (r.stdout or "000").strip()
-    except Exception:
-        code = "000"
-    if code.startswith("2"):
-        return "ok", code
+    code = "000"
+    for attempt in range(2):          # 失败重试一次，避免把瞬时抖动当死链
+        try:
+            r = subprocess.run(
+                ["curl", "-sL", "-o", "/dev/null", "-m", "15", "-A", UA,
+                 "-w", "%{http_code}", u],
+                capture_output=True, text=True, timeout=25,
+            )
+            code = (r.stdout or "000").strip()
+        except Exception:
+            code = "000"
+        if code.startswith("2"):
+            return "ok", code
+        if attempt == 0:
+            time.sleep(1.5)
     if code in ("000", ""):
         return "dead", "连接失败/超时"
     return "dead", code
