@@ -209,7 +209,9 @@
     "cn-jingtian",
     "cn-zhougong",
     "cn-xuanwang",
-    "cn-jinwen"
+    "cn-jinwen",
+    "cn-zhaowang",
+    "cn-guoye"
    ],
    "worldNote": "新亚述帝国、腓尼基字母、希腊黑暗时代（前 1046—前 771）"
   },
@@ -321,7 +323,10 @@
     "cn-quyuan",
     "cn-three-jin",
     "cn-hezong",
-    "cn-hufu"
+    "cn-hufu",
+    "cn-jixia",
+    "cn-yueyi",
+    "cn-mibing"
    ],
    "worldNote": "希腊城邦与波斯帝国、印度列国时代、轴心时代（前 770—前 221）"
   },
@@ -613,7 +618,8 @@
     "cn-zhaojun",
     "cn-du-ru",
     "cn-wugu",
-    "cn-daetian"
+    "cn-daetian",
+    "cn-lvhou"
    ],
    "worldNote": "罗马共和国到元首制、安息与 Kushan、丝路开通（前 202—8）"
   },
@@ -787,7 +793,9 @@
     "cn-eunuch-clique",
     "cn-banchao",
     "cn-xiping-stone",
-    "cn-donghan-tomb"
+    "cn-donghan-tomb",
+    "cn-baima",
+    "cn-wangjing"
    ],
    "worldNote": "罗马帝国盛期、贵霜与萨珊波斯、佛教东传（25—220）"
   },
@@ -901,7 +909,10 @@
     "cn-southern-dynasties",
     "cn-fubing",
     "cn-longmen",
-    "cn-menfa-zhuangyuan"
+    "cn-menfa-zhuangyuan",
+    "cn-jin-unify",
+    "cn-houjing",
+    "cn-eastern-jin-north"
    ],
    "worldNote": "罗马三世纪危机与帝国分裂、萨珊波斯、笈多王朝（220—581）"
   },
@@ -1277,7 +1288,9 @@
     "cn-hanyu",
     "cn-tangbo",
     "cn-anxi",
-    "cn-ganlu"
+    "cn-ganlu",
+    "cn-yongzhen-reform",
+    "cn-niuli"
    ],
    "worldNote": "拜占庭、阿拉伯帝国（阿拔斯）、法兰克加洛林（618—907）"
   },
@@ -1440,7 +1453,8 @@
     "cn-sushi",
     "cn-shenkuo",
     "cn-xixia",
-    "cn-sunrong"
+    "cn-sunrong",
+    "cn-fangla"
    ],
    "worldNote": "拜占庭马其顿王朝、伊斯兰黄金时代、西欧封建成型（960—1127）"
   },
@@ -1580,7 +1594,8 @@
     "cn-cheng-zhu",
     "cn-caishi",
     "cn-linan-economy",
-    "cn-huizi"
+    "cn-huizi",
+    "cn-jingjie"
    ],
    "worldNote": "十字军、蒙古帝国、西欧城市复兴与大学（1127—1279）"
   },
@@ -1740,7 +1755,9 @@
     "cn-guoshoujing",
     "cn-yuanqu",
     "cn-four-classes",
-    "cn-cotton"
+    "cn-cotton",
+    "cn-yuandadu",
+    "cn-yuan-keju"
    ],
    "worldNote": "钦察汗国与伊利汗国、欧洲黑死病与百年战争（1271—1368）"
   },
@@ -1970,7 +1987,8 @@
     "cn-tiangong",
     "cn-xuxiake",
     "cn-weisuo",
-    "cn-donglin"
+    "cn-donglin",
+    "cn-kuangshui"
    ],
    "worldNote": "文艺复兴、大航海、宗教改革、奥斯曼扩张（1368—1644）"
   },
@@ -2169,7 +2187,16 @@
     "cn-linzexu",
     "cn-zuozongtang",
     "cn-cohong",
-    "cn-migration"
+    "cn-migration",
+    "cn-second-opium-war",
+    "cn-sino-french-war",
+    "cn-ili-crisis",
+    "cn-concessions",
+    "cn-boxer-movement",
+    "cn-tongwenguan",
+    "cn-xinhai-uprising",
+    "cn-kyakhta",
+    "cn-caoyun-qing"
    ],
    "worldNote": "启蒙运动与工业革命、殖民帝国、两次世界大战（1616—1912）"
   }
