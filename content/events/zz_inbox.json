@@ -18201,7 +18201,7 @@
   {
    "id": "cn-may-fourth",
    "track": "cn",
-   "epochId": "c6",
+   "epochId": "c5",
    "start": 1919,
    "end": 1919,
    "title": "五四运动与新思潮",
@@ -18284,7 +18284,7 @@
   {
    "id": "cn-cpc-founding",
    "track": "cn",
-   "epochId": "c6",
+   "epochId": "c5",
    "start": 1921,
    "end": 1922,
    "title": "中国共产党的成立",
@@ -18367,7 +18367,7 @@
   {
    "id": "cn-northern-expedition",
    "track": "cn",
-   "epochId": "c6",
+   "epochId": "c5",
    "start": 1926,
    "end": 1928,
    "title": "国民革命与北伐",
@@ -18686,7 +18686,7 @@
   {
    "id": "cn-nanjing-decade",
    "track": "cn",
-   "epochId": "c6",
+   "epochId": "c5",
    "start": 1927,
    "end": 1937,
    "title": "南京国民政府与十年建设",
@@ -18765,7 +18765,7 @@
   {
    "id": "cn-long-march",
    "track": "cn",
-   "epochId": "c6",
+   "epochId": "c5",
    "start": 1934,
    "end": 1936,
    "title": "长征",
@@ -18848,7 +18848,7 @@
   {
    "id": "cn-xian-incident",
    "track": "cn",
-   "epochId": "c6",
+   "epochId": "c5",
    "start": 1936,
    "end": 1937,
    "title": "西安事变与抗日民族统一战线",
