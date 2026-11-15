@@ -55,7 +55,8 @@
     "cn-xia-jie",
     "cn-dayu-flood",
     "cn-taikang-shaokang",
-    "cn-xia-calendar"
+    "cn-xia-calendar",
+    "cn-longshan-shibao"
    ],
    "worldNote": "埃及古王国、两河早王朝同期（前 2070—前 1600）"
   },
@@ -132,7 +133,8 @@
     "cn-pangeng",
     "cn-wuding-fuhao",
     "cn-shang-cowrie",
-    "cn-shang-tomb"
+    "cn-shang-tomb",
+    "cn-shang-dongyi"
    ],
    "worldNote": "埃及新王国、亚述兴起、迈锡尼文明（前 1600—前 1046）"
   },
@@ -1005,7 +1007,9 @@
     "cn-sui-end",
     "cn-three-departments",
     "cn-hanjia-granary",
-    "cn-zhaozhou-bridge"
+    "cn-zhaozhou-bridge",
+    "cn-sui-tujue",
+    "cn-sui-fubing"
    ],
    "worldNote": "拜占庭查士丁尼、萨珊波斯、突厥汗国（581—618）"
   },
@@ -1601,7 +1605,9 @@
     "cn-caishi",
     "cn-linan-economy",
     "cn-huizi",
-    "cn-jingjie"
+    "cn-jingjie",
+    "cn-yashan",
+    "cn-sichuan-shan-cheng"
    ],
    "worldNote": "十字军、蒙古帝国、西欧城市复兴与大学（1127—1279）"
   },
