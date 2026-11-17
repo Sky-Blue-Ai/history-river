@@ -1,383 +1,373 @@
 {
-  "events": [
+ "events": [
+  {
+   "id": "cn-jiaozi",
+   "track": "cn",
+   "epochId": "c3",
+   "start": 1023,
+   "end": 1024,
+   "title": "交子：世界最早的纸币",
+   "subtitle": "信用替代了铜钱",
+   "era": "北宋 · 仁宗",
+   "region": "四川",
+   "themes": [
+    "商贸",
+    "制度"
+   ],
+   "summary": "四川商人联合发行的存款凭证「交子」，在 1023 年前后被官府接管为「官交子」，成为世界最早的政府纸币。它的出现源于铁钱太重、跨区域贸易太密，纸与信用第一次取代了金属。",
+   "background": "北宋四川通行铁钱，一贯重达数公斤，大宗交易几乎无法携带。商人遂以存款凭证互相冲抵，形成民间信用票据。",
+   "course": "仁宗天圣元年（1023）设益州交子务，规定分界发行、三年一界、备有准备金，面额从一贯到十贯。此后因对西夏战争财政吃紧，朝廷超额发行，交子贬值，徽宗时改行「钱引」。",
+   "impact": "交子证明纸币可行，也证明它的失败模式：一旦发行脱离准备金与财政纪律，通胀就会吞掉信用。这一教训在此后八百年间反复重演，直到近代中央银行制度才被制度性约束。",
+   "figures": [
     {
-      "id": "cn-jiaozi",
-      "track": "cn",
-      "epochId": "c3",
-      "start": 1023,
-      "end": 1024,
-      "title": "交子：世界最早的纸币",
-      "subtitle": "信用替代了铜钱",
-      "era": "北宋 · 仁宗",
-      "region": "四川",
-      "themes": [
-        "商贸",
-        "制度"
-      ],
-      "summary": "四川商人联合发行的存款凭证「交子」，在 1023 年前后被官府接管为「官交子」，成为世界最早的政府纸币。它的出现源于铁钱太重、跨区域贸易太密，纸与信用第一次取代了金属。",
-      "background": "北宋四川通行铁钱，一贯重达数公斤，大宗交易几乎无法携带。商人遂以存款凭证互相冲抵，形成民间信用票据。",
-      "course": "仁宗天圣元年（1023）设益州交子务，规定分界发行、三年一界、备有准备金，面额从一贯到十贯。此后因对西夏战争财政吃紧，朝廷超额发行，交子贬值，徽宗时改行「钱引」。",
-      "impact": "交子证明纸币可行，也证明它的失败模式：一旦发行脱离准备金与财政纪律，通胀就会吞掉信用。这一教训在此后八百年间反复重演，直到近代中央银行制度才被制度性约束。",
-      "figures": [
-        {
-          "name": "张咏",
-          "role": "益州知州，整顿交子"
-        }
-      ],
-      "counterparts": [
-        "world-magna-carta"
-      ],
-      "sources": [
-        {
-          "title": "交子",
-          "url": "https://zh.wikipedia.org/wiki/交子",
-          "publisher": "维基百科"
-        },
-        {
-          "title": "宋史·食货志",
-          "url": "https://zh.wikisource.org/wiki/宋史/卷181",
-          "publisher": "维基文库"
-        }
-      ],
-      "verified": true,
-      "disputed": false
-    },
-    {
-      "id": "cn-movable-type",
-      "track": "cn",
-      "epochId": "c3",
-      "start": 1045,
-      "end": 1048,
-      "title": "毕昇胶泥活字",
-      "subtitle": "被记录却未被普及的发明",
-      "era": "北宋 · 庆历",
-      "region": "杭州一带",
-      "themes": [
-        "科技",
-        "文化"
-      ],
-      "summary": "平民工匠毕昇用胶泥刻字、火烧成硬块，按韵排字、铁板敷药固定，制成可重复使用的活字。沈括在《梦溪笔谈》中记下这套工艺，但宋代出版仍以雕版为主，活字未成主流。",
-      "background": "宋代科举与城市文化带来空前的书籍需求，雕版印刷在成都、杭州、建阳形成产业。雕版一版一用，改字即废版，成本压在长篇与重印上。",
-      "course": "毕昇的方法包含制字、排版、固版、拆版、按韵贮字五个环节，技术上完全可行。制约在于汉字字数庞大：常用字数千，一套活字需反复检字，反而不如雕版经济。",
-      "impact": "活字在汉字文化圈长期让位于雕版，直到晚清西方铅活字与机器印刷传入才彻底改变。技术是否被采用，取决于文字系统与市场规模，而不只取决于它是否「更先进」。",
-      "figures": [
-        {
-          "name": "毕昇",
-          "role": "工匠"
-        },
-        {
-          "name": "沈括",
-          "role": "记录者"
-        }
-      ],
-      "counterparts": [
-        "world-crusade"
-      ],
-      "sources": [
-        {
-          "title": "毕昇",
-          "url": "https://zh.wikipedia.org/wiki/毕昇",
-          "publisher": "维基百科"
-        },
-        {
-          "title": "梦溪笔谈·技艺",
-          "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷18",
-          "publisher": "维基文库"
-        }
-      ],
-      "verified": true,
-      "disputed": false
-    },
-    {
-      "id": "world-crusade",
-      "track": "world",
-      "epochId": "w3",
-      "start": 1096,
-      "end": 1099,
-      "title": "第一次十字军东征",
-      "subtitle": "以信仰之名的远征战",
-      "era": "中世纪欧洲",
-      "region": "欧洲至黎凡特",
-      "themes": [
-        "征伐",
-        "宗教"
-      ],
-      "summary": "1096 年，西欧骑士在「收复圣墓」的号召下东征，三年后攻陷耶路撒冷并屠杀城中居民，建立耶路撒冷王国等十字军国家。这场持续近两百年的运动，意外地把欧洲重新接入了地中海的贸易与知识网络。",
-      "background": "塞尔柱突厥扩张使朝圣路线受阻，拜占庭皇帝向教皇求援。教宗乌尔班二世在克莱蒙宗教会议上把援助东方与「赎罪」结合，赋予远征宗教正当性。",
-      "course": "数万骑士与平民分路东进，1099 年 7 月攻破耶路撒冷。此后建立埃德萨、安条克、耶路撒冷等拉丁国家，依赖意大利城邦的海运补给。1187 年萨拉丁收复耶路撒冷，1291 年阿卡陷落，十字军国家终结。",
-      "impact": "十字军未永久改变近东政治，却重塑了欧洲：威尼斯与热那亚借运输崛起，骑士团成为跨国金融与军事组织，阿拉伯文献经叙利亚与西班牙流入欧洲大学。",
-      "figures": [
-        {
-          "name": "乌尔班二世",
-          "role": "教宗"
-        },
-        {
-          "name": "萨拉丁",
-          "role": "阿尤布王朝苏丹"
-        }
-      ],
-      "counterparts": [
-        "cn-movable-type"
-      ],
-      "sources": [
-        {
-          "title": "十字军东征",
-          "url": "https://zh.wikipedia.org/wiki/十字军东征",
-          "publisher": "维基百科"
-        },
-        {
-          "title": "First Crusade",
-          "url": "https://en.wikipedia.org/wiki/First_Crusade",
-          "publisher": "Wikipedia"
-        }
-      ],
-      "verified": true,
-      "disputed": false
-    },
-    {
-      "id": "world-magna-carta",
-      "track": "world",
-      "epochId": "w3",
-      "start": 1215,
-      "end": 1215,
-      "title": "《大宪章》",
-      "subtitle": "王权第一次被写在纸上",
-      "era": "英格兰 · 约翰王",
-      "region": "不列颠",
-      "themes": [
-        "律法",
-        "政略"
-      ],
-      "summary": "贵族在兰尼米德草地逼迫约翰王签署《大宪章》，规定国王征税须经协商、自由人非经合法审判不得被拘禁。它当时是一份贵族与王权妥协的文件，后来被反复重释为限制权力的原型。",
-      "background": "约翰王在对法战争中丧失诺曼底，又为收复失地加征重税，与教会和贵族的冲突同时爆发。男爵们武装进逼伦敦。",
-      "course": "1215 年 6 月签署的宪章共 63 条，核心是税收同意权、自由人审判权、教会自由与城市特权。教宗英诺森三世随即宣布其无效，约翰王次年去世，宪章在幼主亨利三世时期被多次重新颁布。",
-      "impact": "17 世纪柯克与议会派把《大宪章》解释为公民自由的渊源，其第 39 条进入英美正当程序传统。真实的 1215 年文本保护的是贵族，被后人读成了所有人的权利。",
-      "figures": [
-        {
-          "name": "约翰王",
-          "role": "英格兰国王"
-        },
-        {
-          "name": "爱德华·柯克",
-          "role": "17 世纪法学家"
-        }
-      ],
-      "counterparts": [
-        "cn-jiaozi"
-      ],
-      "sources": [
-        {
-          "title": "大宪章",
-          "url": "https://zh.wikipedia.org/wiki/大宪章",
-          "publisher": "维基百科"
-        },
-        {
-          "title": "Magna Carta",
-          "url": "https://en.wikipedia.org/wiki/Magna_Carta",
-          "publisher": "Wikipedia"
-        }
-      ],
-      "verified": true,
-      "disputed": false
-    },
-    {
-      "id": "cn-self-strengthening",
-      "track": "cn",
-      "epochId": "c5",
-      "start": 1861,
-      "end": 1895,
-      "title": "洋务运动",
-      "subtitle": "从器物入手，改到制度边界",
-      "era": "清 · 咸丰至光绪",
-      "region": "沿海与长江中下游",
-      "themes": [
-        "自强",
-        "工业"
-      ],
-      "summary": "1861 年设总理各国事务衙门，随后以「自强」「求富」为号的洋务运动展开：办江南制造总局、福州船政局、轮船招商局、开平矿务局，设同文馆、派幼童留美，建北洋水师。1895 年甲午战败，三十年成果被一场战争检验。",
-      "background": "第二次鸦片战争与太平天国同时冲击清廷；奕䜣、曾国藩、李鸿章、左宗棠等主张「师夷长技」，以官办军工起步，逐步扩展到民用与教育。",
-      "course": "1861 总理衙门；1865 江南制造总局；1866 福州船政局；1872 轮船招商局与首批留美幼童；1878 开平矿务局；1888 北洋水师成军；1895 甲午战败、《马关条约》。",
-      "impact": "中国第一次成体系地引入机器工业、新式学堂与近代外交机构；但「中体西用」把学习限制在器物层，官督商办的所有权与激励问题、海军经费与体制掣肘，最终在甲午一战中集中暴露。",
-      "figures": [
-        {
-          "name": "奕䜣",
-          "role": "总理衙门领班"
-        },
-        {
-          "name": "曾国藩",
-          "role": "两江总督"
-        },
-        {
-          "name": "李鸿章",
-          "role": "直隶总督、北洋大臣"
-        },
-        {
-          "name": "左宗棠",
-          "role": "闽浙总督"
-        }
-      ],
-      "sections": [
-        {
-          "title": "办了什么",
-          "body": "四类：军工（江南制造总局、福州船政局、金陵机器局）、民用（轮船招商局、开平矿务局、上海机器织布局）、交通通信（电报、铁路、邮政）、教育（京师同文馆、上海广方言馆、福州船政学堂、留美幼童）。"
-        },
-        {
-          "title": "为什么止步于器物",
-          "body": "「中体西用」把西方的技术限定为工具，制度与观念不随之调整；企业多为官督商办，官府握决策权、商人担风险；人才以科举为正途，技术官僚缺乏独立地位。与同期明治日本「废藩置县＋征兵＋学制＋殖产兴业」的整体改造形成对照。"
-        },
-        {
-          "title": "账本",
-          "body": "北洋水师 1888 年成军后未再添置新舰，1891 年起海军经费被挪作他用；日本则举国债购入吉野等新式快船。甲午黄海与威海两战，装备代差与体制代差同时发作。"
-        }
-      ],
-      "timeline": [
-        {
-          "year": 1861,
-          "text": "总理各国事务衙门设立，洋务运动启动"
-        },
-        {
-          "year": 1865,
-          "text": "江南制造总局在上海创办"
-        },
-        {
-          "year": 1872,
-          "text": "轮船招商局成立；首批幼童赴美留学"
-        },
-        {
-          "year": 1888,
-          "text": "北洋水师正式成军"
-        },
-        {
-          "year": 1894,
-          "text": "甲午战争爆发"
-        },
-        {
-          "year": 1895,
-          "text": "《马关条约》签订，洋务运动宣告失败"
-        }
-      ],
-      "counterparts": [
-        "world-meiji",
-        "world-industry"
-      ],
-      "sources": [
-        {
-          "title": "洋务运动（中国大百科全书·第三版网络版）",
-          "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=124016&Type=bkzyb&SubID=99943",
-          "publisher": "中国大百科全书出版社"
-        },
-        {
-          "title": "《清史稿》原文与目录（识典古籍）",
-          "url": "https://www.shidianguji.com/book/LS0025",
-          "publisher": "识典古籍"
-        }
-      ],
-      "verified": true,
-      "disputed": false
-    },
-    {
-      "id": "world-industry",
-      "track": "world",
-      "epochId": "w5",
-      "start": 1760,
-      "end": 1840,
-      "title": "工业革命",
-      "subtitle": "蒸汽、煤与工厂制度",
-      "era": "十八世纪中叶至十九世纪中叶",
-      "region": "英国，后及欧洲大陆与北美",
-      "themes": [
-        "技术",
-        "经济"
-      ],
-      "summary": "十八世纪中叶起，英国用煤、蒸汽机与工厂把手工工场改成机器生产。珍妮机与瓦特蒸汽机把纺纱从家庭搬进厂房，1825 年斯托克顿到达灵顿的铁路第一次用蒸汽机车载客运货。到 1835 年约四分之三的棉纺厂靠蒸汽驱动——这不是一个瞬间，而是九十年的结构改变。",
-      "background": "为什么是英国？经济史家艾伦指出两个条件：1750 年英国劳动力价格是法国、意大利的 1.7 倍，用机器替人算得过账；英国煤价远低于欧洲大陆，蒸汽机的燃料便宜。海外殖民地提供市场，印度棉布的低价又逼着英国纺织业先动手术。",
-      "course": "1764 年哈格里夫斯的珍妮纺纱机一次带动多个纱锭，1769 年瓦特取得分离冷凝器的专利，1785 年卡特赖特的动力织机投产。1800 年英国已有两千五百余台蒸汽机，多在矿井与棉纺厂；1825 年斯托克顿—达灵顿铁路通车。工厂把工时、纪律与童工一起制度化。",
-      "impact": "产出与人口同时增长，英国成了世界工厂，曼彻斯特的棉布反销印度。熟练工失去议价能力，卢德派把织机当敌人砸毁，政府派兵镇压；议会后来才立法限制童工与工时。煤烟、贫民窟与阶级意识，成为此后两百年工业社会的常驻问题。",
-      "figures": [
-        {
-          "name": "詹姆斯·瓦特",
-          "role": "改良蒸汽机，1769 年取得专利"
-        },
-        {
-          "name": "理查德·阿克莱特",
-          "role": "水力纺纱机与工厂制的推行者"
-        },
-        {
-          "name": "埃德蒙·卡特赖特",
-          "role": "1785 年造出动力织机"
-        },
-        {
-          "name": "罗伯特·艾伦",
-          "role": "以要素价格解释工业革命的经济史家"
-        }
-      ],
-      "sections": [
-        {
-          "title": "先算价格，再谈天才",
-          "body": "艾伦的解释不靠孤立的发明，而靠价格：英国工资高、煤价低，机器替代人工的账才算得过来。瓦特蒸汽机的意义也在这里——分离冷凝器的原理前人已有，他把燃料消耗降到纽科门机的四分之一，机器才从矿井里的水泵变成任何地方都能用的动力。"
-        },
-        {
-          "title": "纺织是突破口",
-          "body": "珍妮机让一个工人同时看住多个纱锭，水力纺纱机提高了纱的强度，卡特赖特的织机把织布也交给机器。1789 年蒸汽动力织机进入工厂，到 1835 年约四分之三的棉纺厂用上蒸汽。机器制造机器——蒸汽机驱动金属加工，加工出更精密的汽缸，这是工业革命自我加速的机制。"
-        },
-        {
-          "title": "工厂制度与它的对手",
-          "body": "工厂把生产集中到一处，按钟点开工，工序被拆成可以计件的动作，监工记录迟到与损坏。熟练织工不再是独立的手艺人，议价能力随之消失；砸机器的卢德派被当成叛乱镇压，工会与工厂法都是在同一冲突里慢慢长出来的。"
-        }
-      ],
-      "timeline": [
-        {
-          "year": 1764,
-          "text": "哈格里夫斯造出珍妮纺纱机"
-        },
-        {
-          "year": 1769,
-          "text": "瓦特取得分离冷凝器蒸汽机专利"
-        },
-        {
-          "year": 1785,
-          "text": "卡特赖特动力织机投入生产"
-        },
-        {
-          "year": 1800,
-          "text": "英国蒸汽机超过两千五百台"
-        },
-        {
-          "year": 1825,
-          "text": "斯托克顿—达灵顿铁路通车"
-        },
-        {
-          "year": 1835,
-          "text": "约四分之三的棉纺厂改用蒸汽动力"
-        }
-      ],
-      "counterparts": [
-        "cn-self-strengthening"
-      ],
-      "sources": [
-        {
-          "title": "British Industrial Revolution",
-          "url": "https://www.worldhistory.org/British_Industrial_Revolution/",
-          "publisher": "World History Encyclopedia"
-        },
-        {
-          "title": "The Steam Engine in the British Industrial Revolution",
-          "url": "https://www.worldhistory.org/article/2166/the-steam-engine-in-the-british-industrial-revolut/",
-          "publisher": "World History Encyclopedia"
-        },
-        {
-          "title": "The Textile Industry in the British Industrial Revolution",
-          "url": "https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/",
-          "publisher": "World History Encyclopedia"
-        },
-        {
-          "title": "工业革命（中国百科）",
-          "url": "https://www.zgbk.com/ecph/words?SiteID=1&Name=%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD",
-          "publisher": "中国大百科全书出版社"
-        }
-      ],
-      "verified": true,
-      "disputed": false
+     "name": "张咏",
+     "role": "益州知州，整顿交子"
     }
-  ]
+   ],
+   "counterparts": [
+    "world-magna-carta"
+   ],
+   "sources": [
+    {
+     "title": "《宋史》卷一百八十一·食货下三（会子、楮币）",
+     "url": "https://www.shidianguji.com/book/LS0020/chapter/LS0020_479",
+     "publisher": "识典古籍"
+    }
+   ],
+   "verified": true,
+   "disputed": false
+  },
+  {
+   "id": "cn-movable-type",
+   "track": "cn",
+   "epochId": "c3",
+   "start": 1045,
+   "end": 1048,
+   "title": "毕昇胶泥活字",
+   "subtitle": "被记录却未被普及的发明",
+   "era": "北宋 · 庆历",
+   "region": "杭州一带",
+   "themes": [
+    "科技",
+    "文化"
+   ],
+   "summary": "平民工匠毕昇用胶泥刻字、火烧成硬块，按韵排字、铁板敷药固定，制成可重复使用的活字。沈括在《梦溪笔谈》中记下这套工艺，但宋代出版仍以雕版为主，活字未成主流。",
+   "background": "宋代科举与城市文化带来空前的书籍需求，雕版印刷在成都、杭州、建阳形成产业。雕版一版一用，改字即废版，成本压在长篇与重印上。",
+   "course": "毕昇的方法包含制字、排版、固版、拆版、按韵贮字五个环节，技术上完全可行。制约在于汉字字数庞大：常用字数千，一套活字需反复检字，反而不如雕版经济。",
+   "impact": "活字在汉字文化圈长期让位于雕版，直到晚清西方铅活字与机器印刷传入才彻底改变。技术是否被采用，取决于文字系统与市场规模，而不只取决于它是否「更先进」。",
+   "figures": [
+    {
+     "name": "毕昇",
+     "role": "工匠"
+    },
+    {
+     "name": "沈括",
+     "role": "记录者"
+    }
+   ],
+   "counterparts": [
+    "world-crusade"
+   ],
+   "sources": [
+    {
+     "title": "《梦溪笔谈》卷十八·技艺（活板）",
+     "url": "https://www.shidianguji.com/book/SBCK364/chapter/SBCK364_36",
+     "publisher": "识典古籍"
+    }
+   ],
+   "verified": true,
+   "disputed": false
+  },
+  {
+   "id": "world-crusade",
+   "track": "world",
+   "epochId": "w3",
+   "start": 1096,
+   "end": 1099,
+   "title": "第一次十字军东征",
+   "subtitle": "以信仰之名的远征战",
+   "era": "中世纪欧洲",
+   "region": "欧洲至黎凡特",
+   "themes": [
+    "征伐",
+    "宗教"
+   ],
+   "summary": "1096 年，西欧骑士在「收复圣墓」的号召下东征，三年后攻陷耶路撒冷并屠杀城中居民，建立耶路撒冷王国等十字军国家。这场持续近两百年的运动，意外地把欧洲重新接入了地中海的贸易与知识网络。",
+   "background": "塞尔柱突厥扩张使朝圣路线受阻，拜占庭皇帝向教皇求援。教宗乌尔班二世在克莱蒙宗教会议上把援助东方与「赎罪」结合，赋予远征宗教正当性。",
+   "course": "数万骑士与平民分路东进，1099 年 7 月攻破耶路撒冷。此后建立埃德萨、安条克、耶路撒冷等拉丁国家，依赖意大利城邦的海运补给。1187 年萨拉丁收复耶路撒冷，1291 年阿卡陷落，十字军国家终结。",
+   "impact": "十字军未永久改变近东政治，却重塑了欧洲：威尼斯与热那亚借运输崛起，骑士团成为跨国金融与军事组织，阿拉伯文献经叙利亚与西班牙流入欧洲大学。",
+   "figures": [
+    {
+     "name": "乌尔班二世",
+     "role": "教宗"
+    },
+    {
+     "name": "萨拉丁",
+     "role": "阿尤布王朝苏丹"
+    }
+   ],
+   "counterparts": [
+    "cn-movable-type"
+   ],
+   "sources": [
+    {
+     "title": "13.3 Patriarch and Papacy: The Church and the Call to Crusade",
+     "url": "https://openstax.org/books/world-history-volume-1/pages/13-3-patriarch-and-papacy-the-church-and-the-call-to-crusade",
+     "publisher": "OpenStax《World History Volume 1, to 1500》"
+    },
+    {
+     "title": "13.4 The Crusading Movement",
+     "url": "https://openstax.org/books/world-history-volume-1/pages/13-4-the-crusading-movement",
+     "publisher": "OpenStax《World History Volume 1, to 1500》"
+    }
+   ],
+   "verified": true,
+   "disputed": false
+  },
+  {
+   "id": "world-magna-carta",
+   "track": "world",
+   "epochId": "w3",
+   "start": 1215,
+   "end": 1215,
+   "title": "《大宪章》",
+   "subtitle": "王权第一次被写在纸上",
+   "era": "英格兰 · 约翰王",
+   "region": "不列颠",
+   "themes": [
+    "律法",
+    "政略"
+   ],
+   "summary": "贵族在兰尼米德草地逼迫约翰王签署《大宪章》，规定国王征税须经协商、自由人非经合法审判不得被拘禁。它当时是一份贵族与王权妥协的文件，后来被反复重释为限制权力的原型。",
+   "background": "约翰王在对法战争中丧失诺曼底，又为收复失地加征重税，与教会和贵族的冲突同时爆发。男爵们武装进逼伦敦。",
+   "course": "1215 年 6 月签署的宪章共 63 条，核心是税收同意权、自由人审判权、教会自由与城市特权。教宗英诺森三世随即宣布其无效，约翰王次年去世，宪章在幼主亨利三世时期被多次重新颁布。",
+   "impact": "17 世纪柯克与议会派把《大宪章》解释为公民自由的渊源，其第 39 条进入英美正当程序传统。真实的 1215 年文本保护的是贵族，被后人读成了所有人的权利。",
+   "figures": [
+    {
+     "name": "约翰王",
+     "role": "英格兰国王"
+    },
+    {
+     "name": "爱德华·柯克",
+     "role": "17 世纪法学家"
+    }
+   ],
+   "counterparts": [
+    "cn-jiaozi"
+   ],
+   "sources": [
+    {
+     "title": "Magna Carta 1214–1225（教学资源，含 16 件原始文件）",
+     "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/magna-carta-1214-1225/",
+     "publisher": "The National Archives (UK)"
+    },
+    {
+     "title": "Magna Carta（1297 年确认本展陈）",
+     "url": "https://www.archives.gov/exhibits/featured-documents/magna-carta",
+     "publisher": "U.S. National Archives"
+    }
+   ],
+   "verified": true,
+   "disputed": false
+  },
+  {
+   "id": "cn-self-strengthening",
+   "track": "cn",
+   "epochId": "c5",
+   "start": 1861,
+   "end": 1895,
+   "title": "洋务运动",
+   "subtitle": "从器物入手，改到制度边界",
+   "era": "清 · 咸丰至光绪",
+   "region": "沿海与长江中下游",
+   "themes": [
+    "自强",
+    "工业"
+   ],
+   "summary": "1861 年设总理各国事务衙门，随后以「自强」「求富」为号的洋务运动展开：办江南制造总局、福州船政局、轮船招商局、开平矿务局，设同文馆、派幼童留美，建北洋水师。1895 年甲午战败，三十年成果被一场战争检验。",
+   "background": "第二次鸦片战争与太平天国同时冲击清廷；奕䜣、曾国藩、李鸿章、左宗棠等主张「师夷长技」，以官办军工起步，逐步扩展到民用与教育。",
+   "course": "1861 总理衙门；1865 江南制造总局；1866 福州船政局；1872 轮船招商局与首批留美幼童；1878 开平矿务局；1888 北洋水师成军；1895 甲午战败、《马关条约》。",
+   "impact": "中国第一次成体系地引入机器工业、新式学堂与近代外交机构；但「中体西用」把学习限制在器物层，官督商办的所有权与激励问题、海军经费与体制掣肘，最终在甲午一战中集中暴露。",
+   "figures": [
+    {
+     "name": "奕䜣",
+     "role": "总理衙门领班"
+    },
+    {
+     "name": "曾国藩",
+     "role": "两江总督"
+    },
+    {
+     "name": "李鸿章",
+     "role": "直隶总督、北洋大臣"
+    },
+    {
+     "name": "左宗棠",
+     "role": "闽浙总督"
+    }
+   ],
+   "sections": [
+    {
+     "title": "办了什么",
+     "body": "四类：军工（江南制造总局、福州船政局、金陵机器局）、民用（轮船招商局、开平矿务局、上海机器织布局）、交通通信（电报、铁路、邮政）、教育（京师同文馆、上海广方言馆、福州船政学堂、留美幼童）。"
+    },
+    {
+     "title": "为什么止步于器物",
+     "body": "「中体西用」把西方的技术限定为工具，制度与观念不随之调整；企业多为官督商办，官府握决策权、商人担风险；人才以科举为正途，技术官僚缺乏独立地位。与同期明治日本「废藩置县＋征兵＋学制＋殖产兴业」的整体改造形成对照。"
+    },
+    {
+     "title": "账本",
+     "body": "北洋水师 1888 年成军后未再添置新舰，1891 年起海军经费被挪作他用；日本则举国债购入吉野等新式快船。甲午黄海与威海两战，装备代差与体制代差同时发作。"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 1861,
+     "text": "总理各国事务衙门设立，洋务运动启动"
+    },
+    {
+     "year": 1865,
+     "text": "江南制造总局在上海创办"
+    },
+    {
+     "year": 1872,
+     "text": "轮船招商局成立；首批幼童赴美留学"
+    },
+    {
+     "year": 1888,
+     "text": "北洋水师正式成军"
+    },
+    {
+     "year": 1894,
+     "text": "甲午战争爆发"
+    },
+    {
+     "year": 1895,
+     "text": "《马关条约》签订，洋务运动宣告失败"
+    }
+   ],
+   "counterparts": [
+    "world-meiji",
+    "world-industry"
+   ],
+   "sources": [
+    {
+     "title": "洋务运动（中国大百科全书·第三版网络版）",
+     "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=124016&Type=bkzyb&SubID=99943",
+     "publisher": "中国大百科全书出版社"
+    },
+    {
+     "title": "《清史稿》原文与目录（识典古籍）",
+     "url": "https://www.shidianguji.com/book/LS0025",
+     "publisher": "识典古籍"
+    }
+   ],
+   "verified": true,
+   "disputed": false
+  },
+  {
+   "id": "world-industry",
+   "track": "world",
+   "epochId": "w5",
+   "start": 1760,
+   "end": 1840,
+   "title": "工业革命",
+   "subtitle": "蒸汽、煤与工厂制度",
+   "era": "十八世纪中叶至十九世纪中叶",
+   "region": "英国，后及欧洲大陆与北美",
+   "themes": [
+    "技术",
+    "经济"
+   ],
+   "summary": "十八世纪中叶起，英国用煤、蒸汽机与工厂把手工工场改成机器生产。珍妮机与瓦特蒸汽机把纺纱从家庭搬进厂房，1825 年斯托克顿到达灵顿的铁路第一次用蒸汽机车载客运货。到 1835 年约四分之三的棉纺厂靠蒸汽驱动——这不是一个瞬间，而是九十年的结构改变。",
+   "background": "为什么是英国？经济史家艾伦指出两个条件：1750 年英国劳动力价格是法国、意大利的 1.7 倍，用机器替人算得过账；英国煤价远低于欧洲大陆，蒸汽机的燃料便宜。海外殖民地提供市场，印度棉布的低价又逼着英国纺织业先动手术。",
+   "course": "1764 年哈格里夫斯的珍妮纺纱机一次带动多个纱锭，1769 年瓦特取得分离冷凝器的专利，1785 年卡特赖特的动力织机投产。1800 年英国已有两千五百余台蒸汽机，多在矿井与棉纺厂；1825 年斯托克顿—达灵顿铁路通车。工厂把工时、纪律与童工一起制度化。",
+   "impact": "产出与人口同时增长，英国成了世界工厂，曼彻斯特的棉布反销印度。熟练工失去议价能力，卢德派把织机当敌人砸毁，政府派兵镇压；议会后来才立法限制童工与工时。煤烟、贫民窟与阶级意识，成为此后两百年工业社会的常驻问题。",
+   "figures": [
+    {
+     "name": "詹姆斯·瓦特",
+     "role": "改良蒸汽机，1769 年取得专利"
+    },
+    {
+     "name": "理查德·阿克莱特",
+     "role": "水力纺纱机与工厂制的推行者"
+    },
+    {
+     "name": "埃德蒙·卡特赖特",
+     "role": "1785 年造出动力织机"
+    },
+    {
+     "name": "罗伯特·艾伦",
+     "role": "以要素价格解释工业革命的经济史家"
+    }
+   ],
+   "sections": [
+    {
+     "title": "先算价格，再谈天才",
+     "body": "艾伦的解释不靠孤立的发明，而靠价格：英国工资高、煤价低，机器替代人工的账才算得过来。瓦特蒸汽机的意义也在这里——分离冷凝器的原理前人已有，他把燃料消耗降到纽科门机的四分之一，机器才从矿井里的水泵变成任何地方都能用的动力。"
+    },
+    {
+     "title": "纺织是突破口",
+     "body": "珍妮机让一个工人同时看住多个纱锭，水力纺纱机提高了纱的强度，卡特赖特的织机把织布也交给机器。1789 年蒸汽动力织机进入工厂，到 1835 年约四分之三的棉纺厂用上蒸汽。机器制造机器——蒸汽机驱动金属加工，加工出更精密的汽缸，这是工业革命自我加速的机制。"
+    },
+    {
+     "title": "工厂制度与它的对手",
+     "body": "工厂把生产集中到一处，按钟点开工，工序被拆成可以计件的动作，监工记录迟到与损坏。熟练织工不再是独立的手艺人，议价能力随之消失；砸机器的卢德派被当成叛乱镇压，工会与工厂法都是在同一冲突里慢慢长出来的。"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 1764,
+     "text": "哈格里夫斯造出珍妮纺纱机"
+    },
+    {
+     "year": 1769,
+     "text": "瓦特取得分离冷凝器蒸汽机专利"
+    },
+    {
+     "year": 1785,
+     "text": "卡特赖特动力织机投入生产"
+    },
+    {
+     "year": 1800,
+     "text": "英国蒸汽机超过两千五百台"
+    },
+    {
+     "year": 1825,
+     "text": "斯托克顿—达灵顿铁路通车"
+    },
+    {
+     "year": 1835,
+     "text": "约四分之三的棉纺厂改用蒸汽动力"
+    }
+   ],
+   "counterparts": [
+    "cn-self-strengthening"
+   ],
+   "sources": [
+    {
+     "title": "British Industrial Revolution",
+     "url": "https://www.worldhistory.org/British_Industrial_Revolution/",
+     "publisher": "World History Encyclopedia"
+    },
+    {
+     "title": "The Steam Engine in the British Industrial Revolution",
+     "url": "https://www.worldhistory.org/article/2166/the-steam-engine-in-the-british-industrial-revolut/",
+     "publisher": "World History Encyclopedia"
+    },
+    {
+     "title": "The Textile Industry in the British Industrial Revolution",
+     "url": "https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/",
+     "publisher": "World History Encyclopedia"
+    },
+    {
+     "title": "工业革命（中国百科）",
+     "url": "https://www.zgbk.com/ecph/words?SiteID=1&Name=%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD",
+     "publisher": "中国大百科全书出版社"
+    }
+   ],
+   "verified": true,
+   "disputed": false
+  }
+ ]
 }
